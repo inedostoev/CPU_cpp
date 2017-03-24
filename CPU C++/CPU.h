@@ -3,37 +3,66 @@
 
 typedef double Data_t;
 
-class CPU: public Stack
+enum REGISTERS {
+	REGISTERS_QUANTITY = 4
+};
+
+enum {
+	MAX_ALLOW_SCAN_STRING = 10,
+	MAX_ALLOW_FUNC_ARGS = 3,
+};
+
+enum CPU_CMDS{
+#define CPUCMDS
+#define CPUCMD(cmdname, args, code)									\
+	CPU_##cmdname,
+#include "CPU_CMD.txt"
+#undef CMUCMD
+#undef CMUCMDS
+	CPU_DEFAULT
+};
+
+class CPU : private Stack
 {
 public:
-	CPU::CPU(int cap) : Stack(cap) {
-		Data_t ax_ = -666;
-		Data_t bx_ = -666;
-		Data_t cx_ = -666;
-		Data_t dx_ = -666;
-		commands_ = (int *)malloc(10 * sizeof(int));
-		ip_ = 0;
-		max_ip = 1;
-	}
-	~CPU();
-	void		out();
-	void		in();
-	void		push(Data_t *x);
-	void		pop(Data_t *x);
-	void		convector(FILE *stream);
+				CPU::CPU(size_t cap) : Stack(cap) {
+					binFile_	 =		NULL;
+					binFileSize_ =		0;
+					cmdLenght_	 =		0;
+					cmdQt_       =		0;
+					ip_          =		0;
+					for (int i = 0; i < REGISTERS_QUANTITY; i++) {
+						registers_[i] = 0;
+					}
+					for (int i = 0; i < MAX_ALLOW_FUNC_ARGS; i++) {
+						masArgs_[i] = 0;
+					}
+					for (int i = 0; i < MAX_ALLOW_FUNC_ARGS; i++) {
+						masArgs_[i] = false;
+					}
+				}
+				~CPU();
+	FILE		*binFile_;
+	void		readProgram();
+	void		cpuDump(FILE* stream) const;
 private:
-	void		resize_mas(int max);
-	void		add();
-	void		sub();
-	void		mal();
-	void		div();
-	void		hlt(int max);
-	Data_t		ax_;
-	Data_t		bx_;
-	Data_t		cx_;
-	Data_t		dx_;
-	int			*commands_;
+	char		*programString_;
+	int			binFileSize_;
+	char		*scanString_;
+	int			cmdLenght_;
+	int			cmdQt_;
 	int			ip_;
-	int			max_ip;
+	
+	Data_t		registers_[REGISTERS_QUANTITY];
+	Data_t		masArgs_[MAX_ALLOW_FUNC_ARGS];
+	bool		masRegOrNum_[MAX_ALLOW_FUNC_ARGS];
+
+	void		getFileSize();
+	void		countCmd();
+	CPU_CMDS	getCmdNum();
+	int			getCmdArgQt(CPU_CMDS cmdCode);
+	void		analysisArg(int numArg);
+	void		deleteSymbol();
+	void		executeCmd(CPU_CMDS cmdCode);
 };
 
