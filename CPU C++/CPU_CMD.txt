@@ -1,0 +1,53 @@
+#ifdef CPUCMDS
+
+CPUCMD(NOP,		0,		{})
+
+CPUCMD(ADDS,	0,		Stack::push(Stack::pop() + Stack::pop());)
+
+CPUCMD(SUBS,	0,		arg = Stack::pop();
+						Stack::push(arg - Stack::pop());)
+
+CPUCMD(MALS,	0,		Stack::push(Stack::pop() * Stack::pop());)
+
+CPUCMD(DIVS,	0,		arg = Stack::pop();
+						Stack::push(arg / Stack::pop());)
+
+CPUCMD(ADD,		2,		{})
+
+CPUCMD(SUB,		2,		{})
+
+CPUCMD(MAL,		2,		{})
+
+CPUCMD(DIV,		2,		{})	
+
+CPUCMD(IN,		0,		printf("#Print number");
+						scanf("%lg", &arg);
+						Stack::push(arg);)
+
+CPUCMD(OUT,		0,		printf("%lg\n", Stack::pop());)
+
+CPUCMD(PUSH,	1,		if (masRegOrNum_[0] == true) {
+							arg = registers_[(int)masArgs_[0]];
+							Stack::push(arg);
+						}
+						else Stack::push(masArgs_[0]);)
+
+CPUCMD(POP,		1,		registers_[(int)masArgs_[0]] = Stack::pop();)	
+
+CPUCMD(HLT,		0,		ip_ = cmdQt_;)
+
+CPUCMD(JMP,		1,		{})				//?		
+
+CPUCMD(JA,		3,		{})
+
+CPUCMD(JAE,		3,		{})
+
+CPUCMD(JB,		3,		{})
+
+CPUCMD(JBE,		3,		{})
+
+CPUCMD(JE,		3,		{})
+
+CPUCMD(JNE,		3,		{})
+
+#endif
