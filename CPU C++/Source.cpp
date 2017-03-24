@@ -3,20 +3,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "CPU.h"
-#include "Stack.h"	
-#include "CPU.cpp"
-#include "Stack.cpp"
-
-using namespace std;
 
 int main()
 {
-	CPU s(5);
-	FILE*  str;
-	str = fopen("commands.txt", "r");
-	s.convector(str);
-		
-	fclose(str);
+	CPU cpu(6);
+	cpu.binFile_ = fopen("binFile.txt", "rb");
+	cpu.readProgram();
+
+	cpu.cpuDump(stdout);
+	FILE*  stream = fopen("dump.txt", "a");
+	cpu.cpuDump(stream);
+	fclose(stream);
+	
+	cpu.~CPU();
 	system("PAUSE");
 	return 0;
 }
