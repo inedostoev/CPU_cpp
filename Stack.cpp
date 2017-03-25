@@ -1,8 +1,7 @@
 #include "Stack.h"                                           
 
-Stack::Stack(size_t cap) :
-	data_		((StackData_t *)calloc(cap, sizeof(StackData_t))),
-	capacity_	(cap),
+Stack::Stack() :
+	capacity_	(init_size),
 	size_		(0)
 {
 	for (int i = 0; i < capacity_; i++) {
@@ -15,19 +14,13 @@ Stack::~Stack()
 	for (int i = 0; i < capacity_; i++) {
 		data_[i] = -666;
 	}
-	*data_ = NULL;
 	capacity_ = -666;
 	size_ = -666;
 }
 
 void Stack::push(double value) {
-	if (size_ >= (capacity_ - 2)) {
-		capacity_ = capacity_ + 10;
-		data_ = (StackData_t *)realloc(data_, capacity_ * sizeof(StackData_t));
-		if (data_ == NULL) printf("Can't allocate memory\n");
-		for (int i = (capacity_ - 10); i < capacity_;i++) {
-			data_[i] = -666;
-		}
+	if (capacity_ == size_) {
+		assert(!"Error: stack overflow");
 	}
 	data_[size_++] = value;
 }
@@ -35,11 +28,6 @@ void Stack::push(double value) {
 bool Stack::Ok() const {
 	return ((data_ && capacity_ && size_ < capacity_) || (!data_ && !capacity_ && !size_));
 }
-
-//#define DUMP(file,Stack_name); {						\
-//		assert(strlen(#Stack_name) < MAX_LENGTH);       \
-//		Stack_name.dump(file,#Stack_name);              \
-//	}
 
 void Stack::dump(FILE* stream, char name[MAX_LENGTH]) const {
 	fprintf(stream, "Stack '%s' ", name);
@@ -50,13 +38,13 @@ void Stack::dump(FILE* stream, char name[MAX_LENGTH]) const {
 	fprintf(stream, "    data_[%p]\n", data_);
 	fprintf(stream, "\t{\n");
 	for (int i = 0; i < size_; i++) {
-		fprintf(stream, "\t* [%i] %lg\n", i, data_[i]);
+		fprintf(stream, "\t* [%4i] %lg\n", i, data_[i]);
 	}
 	for (int i = size_; i < capacity_; i++) {
-		if (data_[i] == -666) {
-			fprintf(stream, "\t  [%i] %lg  POISON!\n", i, data_[i]);
+		if (data_[i] + 666 < 0.001) {
+			fprintf(stream, "\t  [%2i] %lg  POISON!\n", i, data_[i]);
 		}
-		else fprintf(stream, "\t  [%i] %lg\n", i, data_[i]);
+		else fprintf(stream, "\t  [%2i] %lg\n", i, data_[i]);
 	}
 	fprintf(stream, "\t}\n");
 	fprintf(stream, "    }\n");

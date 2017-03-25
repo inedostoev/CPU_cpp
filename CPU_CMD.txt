@@ -2,15 +2,15 @@
 
 CPUCMD(NOP,		0,		{})
 
-CPUCMD(ADDS,	0,		Stack::push(Stack::pop() + Stack::pop());)
+CPUCMD(ADDS,	0,		stack_.push(stack_.pop() + stack_.pop());)
 
-CPUCMD(SUBS,	0,		arg = Stack::pop();
-						Stack::push(arg - Stack::pop());)
+CPUCMD(SUBS,	0,		arg = stack_.pop();
+						stack_.push(arg - stack_.pop());)
 
-CPUCMD(MALS,	0,		Stack::push(Stack::pop() * Stack::pop());)
+CPUCMD(MALS,	0,		stack_.push(stack_.pop() * stack_.pop());)
 
-CPUCMD(DIVS,	0,		arg = Stack::pop();
-						Stack::push(arg / Stack::pop());)
+CPUCMD(DIVS,	0,		arg = stack_.pop();
+						stack_.push(arg / stack_.pop());)
 
 CPUCMD(ADD,		2,		{})
 
@@ -22,17 +22,17 @@ CPUCMD(DIV,		2,		{})
 
 CPUCMD(IN,		0,		printf("#Print number");
 						scanf("%lg", &arg);
-						Stack::push(arg);)
+						stack_.push(arg);)
 
-CPUCMD(OUT,		0,		printf("%lg\n", Stack::pop());)
+CPUCMD(OUT,		0,		printf("%lg\n", stack_.pop());)
 
 CPUCMD(PUSH,	1,		if (masRegOrNum_[0] == true) {
 							arg = registers_[(int)masArgs_[0]];
-							Stack::push(arg);
+							stack_.push(arg);
 						}
-						else Stack::push(masArgs_[0]);)
+						else stack_.push(masArgs_[0]);)
 
-CPUCMD(POP,		1,		registers_[(int)masArgs_[0]] = Stack::pop();)	
+CPUCMD(POP,		1,		registers_[(int)masArgs_[0]] = stack_.pop();)	
 
 CPUCMD(HLT,		0,		ip_ = cmdQt_;)
 

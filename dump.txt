@@ -1,0 +1,7782 @@
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 6
+    size_ = 0
+    data_[0x60400000dfd0]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffe484d0100]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	  [6] -666  POISON!
+	  [7] -666  POISON!
+	  [8] -666  POISON!
+	  [9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	  [64] -666  POISON!
+	  [65] -666  POISON!
+	  [66] -666  POISON!
+	  [67] -666  POISON!
+	  [68] -666  POISON!
+	  [69] -666  POISON!
+	  [70] -666  POISON!
+	  [71] -666  POISON!
+	  [72] -666  POISON!
+	  [73] -666  POISON!
+	  [74] -666  POISON!
+	  [75] -666  POISON!
+	  [76] -666  POISON!
+	  [77] -666  POISON!
+	  [78] -666  POISON!
+	  [79] -666  POISON!
+	  [80] -666  POISON!
+	  [81] -666  POISON!
+	  [82] -666  POISON!
+	  [83] -666  POISON!
+	  [84] -666  POISON!
+	  [85] -666  POISON!
+	  [86] -666  POISON!
+	  [87] -666  POISON!
+	  [88] -666  POISON!
+	  [89] -666  POISON!
+	  [90] -666  POISON!
+	  [91] -666  POISON!
+	  [92] -666  POISON!
+	  [93] -666  POISON!
+	  [94] -666  POISON!
+	  [95] -666  POISON!
+	  [96] -666  POISON!
+	  [97] -666  POISON!
+	  [98] -666  POISON!
+	  [99] -666  POISON!
+	  [100] -666  POISON!
+	  [101] -666  POISON!
+	  [102] -666  POISON!
+	  [103] -666  POISON!
+	  [104] -666  POISON!
+	  [105] -666  POISON!
+	  [106] -666  POISON!
+	  [107] -666  POISON!
+	  [108] -666  POISON!
+	  [109] -666  POISON!
+	  [110] -666  POISON!
+	  [111] -666  POISON!
+	  [112] -666  POISON!
+	  [113] -666  POISON!
+	  [114] -666  POISON!
+	  [115] -666  POISON!
+	  [116] -666  POISON!
+	  [117] -666  POISON!
+	  [118] -666  POISON!
+	  [119] -666  POISON!
+	  [120] -666  POISON!
+	  [121] -666  POISON!
+	  [122] -666  POISON!
+	  [123] -666  POISON!
+	  [124] -666  POISON!
+	  [125] -666  POISON!
+	  [126] -666  POISON!
+	  [127] -666  POISON!
+	  [128] -666  POISON!
+	  [129] -666  POISON!
+	  [130] -666  POISON!
+	  [131] -666  POISON!
+	  [132] -666  POISON!
+	  [133] -666  POISON!
+	  [134] -666  POISON!
+	  [135] -666  POISON!
+	  [136] -666  POISON!
+	  [137] -666  POISON!
+	  [138] -666  POISON!
+	  [139] -666  POISON!
+	  [140] -666  POISON!
+	  [141] -666  POISON!
+	  [142] -666  POISON!
+	  [143] -666  POISON!
+	  [144] -666  POISON!
+	  [145] -666  POISON!
+	  [146] -666  POISON!
+	  [147] -666  POISON!
+	  [148] -666  POISON!
+	  [149] -666  POISON!
+	  [150] -666  POISON!
+	  [151] -666  POISON!
+	  [152] -666  POISON!
+	  [153] -666  POISON!
+	  [154] -666  POISON!
+	  [155] -666  POISON!
+	  [156] -666  POISON!
+	  [157] -666  POISON!
+	  [158] -666  POISON!
+	  [159] -666  POISON!
+	  [160] -666  POISON!
+	  [161] -666  POISON!
+	  [162] -666  POISON!
+	  [163] -666  POISON!
+	  [164] -666  POISON!
+	  [165] -666  POISON!
+	  [166] -666  POISON!
+	  [167] -666  POISON!
+	  [168] -666  POISON!
+	  [169] -666  POISON!
+	  [170] -666  POISON!
+	  [171] -666  POISON!
+	  [172] -666  POISON!
+	  [173] -666  POISON!
+	  [174] -666  POISON!
+	  [175] -666  POISON!
+	  [176] -666  POISON!
+	  [177] -666  POISON!
+	  [178] -666  POISON!
+	  [179] -666  POISON!
+	  [180] -666  POISON!
+	  [181] -666  POISON!
+	  [182] -666  POISON!
+	  [183] -666  POISON!
+	  [184] -666  POISON!
+	  [185] -666  POISON!
+	  [186] -666  POISON!
+	  [187] -666  POISON!
+	  [188] -666  POISON!
+	  [189] -666  POISON!
+	  [190] -666  POISON!
+	  [191] -666  POISON!
+	  [192] -666  POISON!
+	  [193] -666  POISON!
+	  [194] -666  POISON!
+	  [195] -666  POISON!
+	  [196] -666  POISON!
+	  [197] -666  POISON!
+	  [198] -666  POISON!
+	  [199] -666  POISON!
+	  [200] -666  POISON!
+	  [201] -666  POISON!
+	  [202] -666  POISON!
+	  [203] -666  POISON!
+	  [204] -666  POISON!
+	  [205] -666  POISON!
+	  [206] -666  POISON!
+	  [207] -666  POISON!
+	  [208] -666  POISON!
+	  [209] -666  POISON!
+	  [210] -666  POISON!
+	  [211] -666  POISON!
+	  [212] -666  POISON!
+	  [213] -666  POISON!
+	  [214] -666  POISON!
+	  [215] -666  POISON!
+	  [216] -666  POISON!
+	  [217] -666  POISON!
+	  [218] -666  POISON!
+	  [219] -666  POISON!
+	  [220] -666  POISON!
+	  [221] -666  POISON!
+	  [222] -666  POISON!
+	  [223] -666  POISON!
+	  [224] -666  POISON!
+	  [225] -666  POISON!
+	  [226] -666  POISON!
+	  [227] -666  POISON!
+	  [228] -666  POISON!
+	  [229] -666  POISON!
+	  [230] -666  POISON!
+	  [231] -666  POISON!
+	  [232] -666  POISON!
+	  [233] -666  POISON!
+	  [234] -666  POISON!
+	  [235] -666  POISON!
+	  [236] -666  POISON!
+	  [237] -666  POISON!
+	  [238] -666  POISON!
+	  [239] -666  POISON!
+	  [240] -666  POISON!
+	  [241] -666  POISON!
+	  [242] -666  POISON!
+	  [243] -666  POISON!
+	  [244] -666  POISON!
+	  [245] -666  POISON!
+	  [246] -666  POISON!
+	  [247] -666  POISON!
+	  [248] -666  POISON!
+	  [249] -666  POISON!
+	  [250] -666  POISON!
+	  [251] -666  POISON!
+	  [252] -666  POISON!
+	  [253] -666  POISON!
+	  [254] -666  POISON!
+	  [255] -666  POISON!
+	  [256] -666  POISON!
+	  [257] -666  POISON!
+	  [258] -666  POISON!
+	  [259] -666  POISON!
+	  [260] -666  POISON!
+	  [261] -666  POISON!
+	  [262] -666  POISON!
+	  [263] -666  POISON!
+	  [264] -666  POISON!
+	  [265] -666  POISON!
+	  [266] -666  POISON!
+	  [267] -666  POISON!
+	  [268] -666  POISON!
+	  [269] -666  POISON!
+	  [270] -666  POISON!
+	  [271] -666  POISON!
+	  [272] -666  POISON!
+	  [273] -666  POISON!
+	  [274] -666  POISON!
+	  [275] -666  POISON!
+	  [276] -666  POISON!
+	  [277] -666  POISON!
+	  [278] -666  POISON!
+	  [279] -666  POISON!
+	  [280] -666  POISON!
+	  [281] -666  POISON!
+	  [282] -666  POISON!
+	  [283] -666  POISON!
+	  [284] -666  POISON!
+	  [285] -666  POISON!
+	  [286] -666  POISON!
+	  [287] -666  POISON!
+	  [288] -666  POISON!
+	  [289] -666  POISON!
+	  [290] -666  POISON!
+	  [291] -666  POISON!
+	  [292] -666  POISON!
+	  [293] -666  POISON!
+	  [294] -666  POISON!
+	  [295] -666  POISON!
+	  [296] -666  POISON!
+	  [297] -666  POISON!
+	  [298] -666  POISON!
+	  [299] -666  POISON!
+	  [300] -666  POISON!
+	  [301] -666  POISON!
+	  [302] -666  POISON!
+	  [303] -666  POISON!
+	  [304] -666  POISON!
+	  [305] -666  POISON!
+	  [306] -666  POISON!
+	  [307] -666  POISON!
+	  [308] -666  POISON!
+	  [309] -666  POISON!
+	  [310] -666  POISON!
+	  [311] -666  POISON!
+	  [312] -666  POISON!
+	  [313] -666  POISON!
+	  [314] -666  POISON!
+	  [315] -666  POISON!
+	  [316] -666  POISON!
+	  [317] -666  POISON!
+	  [318] -666  POISON!
+	  [319] -666  POISON!
+	  [320] -666  POISON!
+	  [321] -666  POISON!
+	  [322] -666  POISON!
+	  [323] -666  POISON!
+	  [324] -666  POISON!
+	  [325] -666  POISON!
+	  [326] -666  POISON!
+	  [327] -666  POISON!
+	  [328] -666  POISON!
+	  [329] -666  POISON!
+	  [330] -666  POISON!
+	  [331] -666  POISON!
+	  [332] -666  POISON!
+	  [333] -666  POISON!
+	  [334] -666  POISON!
+	  [335] -666  POISON!
+	  [336] -666  POISON!
+	  [337] -666  POISON!
+	  [338] -666  POISON!
+	  [339] -666  POISON!
+	  [340] -666  POISON!
+	  [341] -666  POISON!
+	  [342] -666  POISON!
+	  [343] -666  POISON!
+	  [344] -666  POISON!
+	  [345] -666  POISON!
+	  [346] -666  POISON!
+	  [347] -666  POISON!
+	  [348] -666  POISON!
+	  [349] -666  POISON!
+	  [350] -666  POISON!
+	  [351] -666  POISON!
+	  [352] -666  POISON!
+	  [353] -666  POISON!
+	  [354] -666  POISON!
+	  [355] -666  POISON!
+	  [356] -666  POISON!
+	  [357] -666  POISON!
+	  [358] -666  POISON!
+	  [359] -666  POISON!
+	  [360] -666  POISON!
+	  [361] -666  POISON!
+	  [362] -666  POISON!
+	  [363] -666  POISON!
+	  [364] -666  POISON!
+	  [365] -666  POISON!
+	  [366] -666  POISON!
+	  [367] -666  POISON!
+	  [368] -666  POISON!
+	  [369] -666  POISON!
+	  [370] -666  POISON!
+	  [371] -666  POISON!
+	  [372] -666  POISON!
+	  [373] -666  POISON!
+	  [374] -666  POISON!
+	  [375] -666  POISON!
+	  [376] -666  POISON!
+	  [377] -666  POISON!
+	  [378] -666  POISON!
+	  [379] -666  POISON!
+	  [380] -666  POISON!
+	  [381] -666  POISON!
+	  [382] -666  POISON!
+	  [383] -666  POISON!
+	  [384] -666  POISON!
+	  [385] -666  POISON!
+	  [386] -666  POISON!
+	  [387] -666  POISON!
+	  [388] -666  POISON!
+	  [389] -666  POISON!
+	  [390] -666  POISON!
+	  [391] -666  POISON!
+	  [392] -666  POISON!
+	  [393] -666  POISON!
+	  [394] -666  POISON!
+	  [395] -666  POISON!
+	  [396] -666  POISON!
+	  [397] -666  POISON!
+	  [398] -666  POISON!
+	  [399] -666  POISON!
+	  [400] -666  POISON!
+	  [401] -666  POISON!
+	  [402] -666  POISON!
+	  [403] -666  POISON!
+	  [404] -666  POISON!
+	  [405] -666  POISON!
+	  [406] -666  POISON!
+	  [407] -666  POISON!
+	  [408] -666  POISON!
+	  [409] -666  POISON!
+	  [410] -666  POISON!
+	  [411] -666  POISON!
+	  [412] -666  POISON!
+	  [413] -666  POISON!
+	  [414] -666  POISON!
+	  [415] -666  POISON!
+	  [416] -666  POISON!
+	  [417] -666  POISON!
+	  [418] -666  POISON!
+	  [419] -666  POISON!
+	  [420] -666  POISON!
+	  [421] -666  POISON!
+	  [422] -666  POISON!
+	  [423] -666  POISON!
+	  [424] -666  POISON!
+	  [425] -666  POISON!
+	  [426] -666  POISON!
+	  [427] -666  POISON!
+	  [428] -666  POISON!
+	  [429] -666  POISON!
+	  [430] -666  POISON!
+	  [431] -666  POISON!
+	  [432] -666  POISON!
+	  [433] -666  POISON!
+	  [434] -666  POISON!
+	  [435] -666  POISON!
+	  [436] -666  POISON!
+	  [437] -666  POISON!
+	  [438] -666  POISON!
+	  [439] -666  POISON!
+	  [440] -666  POISON!
+	  [441] -666  POISON!
+	  [442] -666  POISON!
+	  [443] -666  POISON!
+	  [444] -666  POISON!
+	  [445] -666  POISON!
+	  [446] -666  POISON!
+	  [447] -666  POISON!
+	  [448] -666  POISON!
+	  [449] -666  POISON!
+	  [450] -666  POISON!
+	  [451] -666  POISON!
+	  [452] -666  POISON!
+	  [453] -666  POISON!
+	  [454] -666  POISON!
+	  [455] -666  POISON!
+	  [456] -666  POISON!
+	  [457] -666  POISON!
+	  [458] -666  POISON!
+	  [459] -666  POISON!
+	  [460] -666  POISON!
+	  [461] -666  POISON!
+	  [462] -666  POISON!
+	  [463] -666  POISON!
+	  [464] -666  POISON!
+	  [465] -666  POISON!
+	  [466] -666  POISON!
+	  [467] -666  POISON!
+	  [468] -666  POISON!
+	  [469] -666  POISON!
+	  [470] -666  POISON!
+	  [471] -666  POISON!
+	  [472] -666  POISON!
+	  [473] -666  POISON!
+	  [474] -666  POISON!
+	  [475] -666  POISON!
+	  [476] -666  POISON!
+	  [477] -666  POISON!
+	  [478] -666  POISON!
+	  [479] -666  POISON!
+	  [480] -666  POISON!
+	  [481] -666  POISON!
+	  [482] -666  POISON!
+	  [483] -666  POISON!
+	  [484] -666  POISON!
+	  [485] -666  POISON!
+	  [486] -666  POISON!
+	  [487] -666  POISON!
+	  [488] -666  POISON!
+	  [489] -666  POISON!
+	  [490] -666  POISON!
+	  [491] -666  POISON!
+	  [492] -666  POISON!
+	  [493] -666  POISON!
+	  [494] -666  POISON!
+	  [495] -666  POISON!
+	  [496] -666  POISON!
+	  [497] -666  POISON!
+	  [498] -666  POISON!
+	  [499] -666  POISON!
+	  [500] -666  POISON!
+	  [501] -666  POISON!
+	  [502] -666  POISON!
+	  [503] -666  POISON!
+	  [504] -666  POISON!
+	  [505] -666  POISON!
+	  [506] -666  POISON!
+	  [507] -666  POISON!
+	  [508] -666  POISON!
+	  [509] -666  POISON!
+	  [510] -666  POISON!
+	  [511] -666  POISON!
+	  [512] -666  POISON!
+	  [513] -666  POISON!
+	  [514] -666  POISON!
+	  [515] -666  POISON!
+	  [516] -666  POISON!
+	  [517] -666  POISON!
+	  [518] -666  POISON!
+	  [519] -666  POISON!
+	  [520] -666  POISON!
+	  [521] -666  POISON!
+	  [522] -666  POISON!
+	  [523] -666  POISON!
+	  [524] -666  POISON!
+	  [525] -666  POISON!
+	  [526] -666  POISON!
+	  [527] -666  POISON!
+	  [528] -666  POISON!
+	  [529] -666  POISON!
+	  [530] -666  POISON!
+	  [531] -666  POISON!
+	  [532] -666  POISON!
+	  [533] -666  POISON!
+	  [534] -666  POISON!
+	  [535] -666  POISON!
+	  [536] -666  POISON!
+	  [537] -666  POISON!
+	  [538] -666  POISON!
+	  [539] -666  POISON!
+	  [540] -666  POISON!
+	  [541] -666  POISON!
+	  [542] -666  POISON!
+	  [543] -666  POISON!
+	  [544] -666  POISON!
+	  [545] -666  POISON!
+	  [546] -666  POISON!
+	  [547] -666  POISON!
+	  [548] -666  POISON!
+	  [549] -666  POISON!
+	  [550] -666  POISON!
+	  [551] -666  POISON!
+	  [552] -666  POISON!
+	  [553] -666  POISON!
+	  [554] -666  POISON!
+	  [555] -666  POISON!
+	  [556] -666  POISON!
+	  [557] -666  POISON!
+	  [558] -666  POISON!
+	  [559] -666  POISON!
+	  [560] -666  POISON!
+	  [561] -666  POISON!
+	  [562] -666  POISON!
+	  [563] -666  POISON!
+	  [564] -666  POISON!
+	  [565] -666  POISON!
+	  [566] -666  POISON!
+	  [567] -666  POISON!
+	  [568] -666  POISON!
+	  [569] -666  POISON!
+	  [570] -666  POISON!
+	  [571] -666  POISON!
+	  [572] -666  POISON!
+	  [573] -666  POISON!
+	  [574] -666  POISON!
+	  [575] -666  POISON!
+	  [576] -666  POISON!
+	  [577] -666  POISON!
+	  [578] -666  POISON!
+	  [579] -666  POISON!
+	  [580] -666  POISON!
+	  [581] -666  POISON!
+	  [582] -666  POISON!
+	  [583] -666  POISON!
+	  [584] -666  POISON!
+	  [585] -666  POISON!
+	  [586] -666  POISON!
+	  [587] -666  POISON!
+	  [588] -666  POISON!
+	  [589] -666  POISON!
+	  [590] -666  POISON!
+	  [591] -666  POISON!
+	  [592] -666  POISON!
+	  [593] -666  POISON!
+	  [594] -666  POISON!
+	  [595] -666  POISON!
+	  [596] -666  POISON!
+	  [597] -666  POISON!
+	  [598] -666  POISON!
+	  [599] -666  POISON!
+	  [600] -666  POISON!
+	  [601] -666  POISON!
+	  [602] -666  POISON!
+	  [603] -666  POISON!
+	  [604] -666  POISON!
+	  [605] -666  POISON!
+	  [606] -666  POISON!
+	  [607] -666  POISON!
+	  [608] -666  POISON!
+	  [609] -666  POISON!
+	  [610] -666  POISON!
+	  [611] -666  POISON!
+	  [612] -666  POISON!
+	  [613] -666  POISON!
+	  [614] -666  POISON!
+	  [615] -666  POISON!
+	  [616] -666  POISON!
+	  [617] -666  POISON!
+	  [618] -666  POISON!
+	  [619] -666  POISON!
+	  [620] -666  POISON!
+	  [621] -666  POISON!
+	  [622] -666  POISON!
+	  [623] -666  POISON!
+	  [624] -666  POISON!
+	  [625] -666  POISON!
+	  [626] -666  POISON!
+	  [627] -666  POISON!
+	  [628] -666  POISON!
+	  [629] -666  POISON!
+	  [630] -666  POISON!
+	  [631] -666  POISON!
+	  [632] -666  POISON!
+	  [633] -666  POISON!
+	  [634] -666  POISON!
+	  [635] -666  POISON!
+	  [636] -666  POISON!
+	  [637] -666  POISON!
+	  [638] -666  POISON!
+	  [639] -666  POISON!
+	  [640] -666  POISON!
+	  [641] -666  POISON!
+	  [642] -666  POISON!
+	  [643] -666  POISON!
+	  [644] -666  POISON!
+	  [645] -666  POISON!
+	  [646] -666  POISON!
+	  [647] -666  POISON!
+	  [648] -666  POISON!
+	  [649] -666  POISON!
+	  [650] -666  POISON!
+	  [651] -666  POISON!
+	  [652] -666  POISON!
+	  [653] -666  POISON!
+	  [654] -666  POISON!
+	  [655] -666  POISON!
+	  [656] -666  POISON!
+	  [657] -666  POISON!
+	  [658] -666  POISON!
+	  [659] -666  POISON!
+	  [660] -666  POISON!
+	  [661] -666  POISON!
+	  [662] -666  POISON!
+	  [663] -666  POISON!
+	  [664] -666  POISON!
+	  [665] -666  POISON!
+	  [666] -666  POISON!
+	  [667] -666  POISON!
+	  [668] -666  POISON!
+	  [669] -666  POISON!
+	  [670] -666  POISON!
+	  [671] -666  POISON!
+	  [672] -666  POISON!
+	  [673] -666  POISON!
+	  [674] -666  POISON!
+	  [675] -666  POISON!
+	  [676] -666  POISON!
+	  [677] -666  POISON!
+	  [678] -666  POISON!
+	  [679] -666  POISON!
+	  [680] -666  POISON!
+	  [681] -666  POISON!
+	  [682] -666  POISON!
+	  [683] -666  POISON!
+	  [684] -666  POISON!
+	  [685] -666  POISON!
+	  [686] -666  POISON!
+	  [687] -666  POISON!
+	  [688] -666  POISON!
+	  [689] -666  POISON!
+	  [690] -666  POISON!
+	  [691] -666  POISON!
+	  [692] -666  POISON!
+	  [693] -666  POISON!
+	  [694] -666  POISON!
+	  [695] -666  POISON!
+	  [696] -666  POISON!
+	  [697] -666  POISON!
+	  [698] -666  POISON!
+	  [699] -666  POISON!
+	  [700] -666  POISON!
+	  [701] -666  POISON!
+	  [702] -666  POISON!
+	  [703] -666  POISON!
+	  [704] -666  POISON!
+	  [705] -666  POISON!
+	  [706] -666  POISON!
+	  [707] -666  POISON!
+	  [708] -666  POISON!
+	  [709] -666  POISON!
+	  [710] -666  POISON!
+	  [711] -666  POISON!
+	  [712] -666  POISON!
+	  [713] -666  POISON!
+	  [714] -666  POISON!
+	  [715] -666  POISON!
+	  [716] -666  POISON!
+	  [717] -666  POISON!
+	  [718] -666  POISON!
+	  [719] -666  POISON!
+	  [720] -666  POISON!
+	  [721] -666  POISON!
+	  [722] -666  POISON!
+	  [723] -666  POISON!
+	  [724] -666  POISON!
+	  [725] -666  POISON!
+	  [726] -666  POISON!
+	  [727] -666  POISON!
+	  [728] -666  POISON!
+	  [729] -666  POISON!
+	  [730] -666  POISON!
+	  [731] -666  POISON!
+	  [732] -666  POISON!
+	  [733] -666  POISON!
+	  [734] -666  POISON!
+	  [735] -666  POISON!
+	  [736] -666  POISON!
+	  [737] -666  POISON!
+	  [738] -666  POISON!
+	  [739] -666  POISON!
+	  [740] -666  POISON!
+	  [741] -666  POISON!
+	  [742] -666  POISON!
+	  [743] -666  POISON!
+	  [744] -666  POISON!
+	  [745] -666  POISON!
+	  [746] -666  POISON!
+	  [747] -666  POISON!
+	  [748] -666  POISON!
+	  [749] -666  POISON!
+	  [750] -666  POISON!
+	  [751] -666  POISON!
+	  [752] -666  POISON!
+	  [753] -666  POISON!
+	  [754] -666  POISON!
+	  [755] -666  POISON!
+	  [756] -666  POISON!
+	  [757] -666  POISON!
+	  [758] -666  POISON!
+	  [759] -666  POISON!
+	  [760] -666  POISON!
+	  [761] -666  POISON!
+	  [762] -666  POISON!
+	  [763] -666  POISON!
+	  [764] -666  POISON!
+	  [765] -666  POISON!
+	  [766] -666  POISON!
+	  [767] -666  POISON!
+	  [768] -666  POISON!
+	  [769] -666  POISON!
+	  [770] -666  POISON!
+	  [771] -666  POISON!
+	  [772] -666  POISON!
+	  [773] -666  POISON!
+	  [774] -666  POISON!
+	  [775] -666  POISON!
+	  [776] -666  POISON!
+	  [777] -666  POISON!
+	  [778] -666  POISON!
+	  [779] -666  POISON!
+	  [780] -666  POISON!
+	  [781] -666  POISON!
+	  [782] -666  POISON!
+	  [783] -666  POISON!
+	  [784] -666  POISON!
+	  [785] -666  POISON!
+	  [786] -666  POISON!
+	  [787] -666  POISON!
+	  [788] -666  POISON!
+	  [789] -666  POISON!
+	  [790] -666  POISON!
+	  [791] -666  POISON!
+	  [792] -666  POISON!
+	  [793] -666  POISON!
+	  [794] -666  POISON!
+	  [795] -666  POISON!
+	  [796] -666  POISON!
+	  [797] -666  POISON!
+	  [798] -666  POISON!
+	  [799] -666  POISON!
+	  [800] -666  POISON!
+	  [801] -666  POISON!
+	  [802] -666  POISON!
+	  [803] -666  POISON!
+	  [804] -666  POISON!
+	  [805] -666  POISON!
+	  [806] -666  POISON!
+	  [807] -666  POISON!
+	  [808] -666  POISON!
+	  [809] -666  POISON!
+	  [810] -666  POISON!
+	  [811] -666  POISON!
+	  [812] -666  POISON!
+	  [813] -666  POISON!
+	  [814] -666  POISON!
+	  [815] -666  POISON!
+	  [816] -666  POISON!
+	  [817] -666  POISON!
+	  [818] -666  POISON!
+	  [819] -666  POISON!
+	  [820] -666  POISON!
+	  [821] -666  POISON!
+	  [822] -666  POISON!
+	  [823] -666  POISON!
+	  [824] -666  POISON!
+	  [825] -666  POISON!
+	  [826] -666  POISON!
+	  [827] -666  POISON!
+	  [828] -666  POISON!
+	  [829] -666  POISON!
+	  [830] -666  POISON!
+	  [831] -666  POISON!
+	  [832] -666  POISON!
+	  [833] -666  POISON!
+	  [834] -666  POISON!
+	  [835] -666  POISON!
+	  [836] -666  POISON!
+	  [837] -666  POISON!
+	  [838] -666  POISON!
+	  [839] -666  POISON!
+	  [840] -666  POISON!
+	  [841] -666  POISON!
+	  [842] -666  POISON!
+	  [843] -666  POISON!
+	  [844] -666  POISON!
+	  [845] -666  POISON!
+	  [846] -666  POISON!
+	  [847] -666  POISON!
+	  [848] -666  POISON!
+	  [849] -666  POISON!
+	  [850] -666  POISON!
+	  [851] -666  POISON!
+	  [852] -666  POISON!
+	  [853] -666  POISON!
+	  [854] -666  POISON!
+	  [855] -666  POISON!
+	  [856] -666  POISON!
+	  [857] -666  POISON!
+	  [858] -666  POISON!
+	  [859] -666  POISON!
+	  [860] -666  POISON!
+	  [861] -666  POISON!
+	  [862] -666  POISON!
+	  [863] -666  POISON!
+	  [864] -666  POISON!
+	  [865] -666  POISON!
+	  [866] -666  POISON!
+	  [867] -666  POISON!
+	  [868] -666  POISON!
+	  [869] -666  POISON!
+	  [870] -666  POISON!
+	  [871] -666  POISON!
+	  [872] -666  POISON!
+	  [873] -666  POISON!
+	  [874] -666  POISON!
+	  [875] -666  POISON!
+	  [876] -666  POISON!
+	  [877] -666  POISON!
+	  [878] -666  POISON!
+	  [879] -666  POISON!
+	  [880] -666  POISON!
+	  [881] -666  POISON!
+	  [882] -666  POISON!
+	  [883] -666  POISON!
+	  [884] -666  POISON!
+	  [885] -666  POISON!
+	  [886] -666  POISON!
+	  [887] -666  POISON!
+	  [888] -666  POISON!
+	  [889] -666  POISON!
+	  [890] -666  POISON!
+	  [891] -666  POISON!
+	  [892] -666  POISON!
+	  [893] -666  POISON!
+	  [894] -666  POISON!
+	  [895] -666  POISON!
+	  [896] -666  POISON!
+	  [897] -666  POISON!
+	  [898] -666  POISON!
+	  [899] -666  POISON!
+	  [900] -666  POISON!
+	  [901] -666  POISON!
+	  [902] -666  POISON!
+	  [903] -666  POISON!
+	  [904] -666  POISON!
+	  [905] -666  POISON!
+	  [906] -666  POISON!
+	  [907] -666  POISON!
+	  [908] -666  POISON!
+	  [909] -666  POISON!
+	  [910] -666  POISON!
+	  [911] -666  POISON!
+	  [912] -666  POISON!
+	  [913] -666  POISON!
+	  [914] -666  POISON!
+	  [915] -666  POISON!
+	  [916] -666  POISON!
+	  [917] -666  POISON!
+	  [918] -666  POISON!
+	  [919] -666  POISON!
+	  [920] -666  POISON!
+	  [921] -666  POISON!
+	  [922] -666  POISON!
+	  [923] -666  POISON!
+	  [924] -666  POISON!
+	  [925] -666  POISON!
+	  [926] -666  POISON!
+	  [927] -666  POISON!
+	  [928] -666  POISON!
+	  [929] -666  POISON!
+	  [930] -666  POISON!
+	  [931] -666  POISON!
+	  [932] -666  POISON!
+	  [933] -666  POISON!
+	  [934] -666  POISON!
+	  [935] -666  POISON!
+	  [936] -666  POISON!
+	  [937] -666  POISON!
+	  [938] -666  POISON!
+	  [939] -666  POISON!
+	  [940] -666  POISON!
+	  [941] -666  POISON!
+	  [942] -666  POISON!
+	  [943] -666  POISON!
+	  [944] -666  POISON!
+	  [945] -666  POISON!
+	  [946] -666  POISON!
+	  [947] -666  POISON!
+	  [948] -666  POISON!
+	  [949] -666  POISON!
+	  [950] -666  POISON!
+	  [951] -666  POISON!
+	  [952] -666  POISON!
+	  [953] -666  POISON!
+	  [954] -666  POISON!
+	  [955] -666  POISON!
+	  [956] -666  POISON!
+	  [957] -666  POISON!
+	  [958] -666  POISON!
+	  [959] -666  POISON!
+	  [960] -666  POISON!
+	  [961] -666  POISON!
+	  [962] -666  POISON!
+	  [963] -666  POISON!
+	  [964] -666  POISON!
+	  [965] -666  POISON!
+	  [966] -666  POISON!
+	  [967] -666  POISON!
+	  [968] -666  POISON!
+	  [969] -666  POISON!
+	  [970] -666  POISON!
+	  [971] -666  POISON!
+	  [972] -666  POISON!
+	  [973] -666  POISON!
+	  [974] -666  POISON!
+	  [975] -666  POISON!
+	  [976] -666  POISON!
+	  [977] -666  POISON!
+	  [978] -666  POISON!
+	  [979] -666  POISON!
+	  [980] -666  POISON!
+	  [981] -666  POISON!
+	  [982] -666  POISON!
+	  [983] -666  POISON!
+	  [984] -666  POISON!
+	  [985] -666  POISON!
+	  [986] -666  POISON!
+	  [987] -666  POISON!
+	  [988] -666  POISON!
+	  [989] -666  POISON!
+	  [990] -666  POISON!
+	  [991] -666  POISON!
+	  [992] -666  POISON!
+	  [993] -666  POISON!
+	  [994] -666  POISON!
+	  [995] -666  POISON!
+	  [996] -666  POISON!
+	  [997] -666  POISON!
+	  [998] -666  POISON!
+	  [999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffed8051680]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	  [6] -666  POISON!
+	  [7] -666  POISON!
+	  [8] -666  POISON!
+	  [9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	  [64] -666  POISON!
+	  [65] -666  POISON!
+	  [66] -666  POISON!
+	  [67] -666  POISON!
+	  [68] -666  POISON!
+	  [69] -666  POISON!
+	  [70] -666  POISON!
+	  [71] -666  POISON!
+	  [72] -666  POISON!
+	  [73] -666  POISON!
+	  [74] -666  POISON!
+	  [75] -666  POISON!
+	  [76] -666  POISON!
+	  [77] -666  POISON!
+	  [78] -666  POISON!
+	  [79] -666  POISON!
+	  [80] -666  POISON!
+	  [81] -666  POISON!
+	  [82] -666  POISON!
+	  [83] -666  POISON!
+	  [84] -666  POISON!
+	  [85] -666  POISON!
+	  [86] -666  POISON!
+	  [87] -666  POISON!
+	  [88] -666  POISON!
+	  [89] -666  POISON!
+	  [90] -666  POISON!
+	  [91] -666  POISON!
+	  [92] -666  POISON!
+	  [93] -666  POISON!
+	  [94] -666  POISON!
+	  [95] -666  POISON!
+	  [96] -666  POISON!
+	  [97] -666  POISON!
+	  [98] -666  POISON!
+	  [99] -666  POISON!
+	  [100] -666  POISON!
+	  [101] -666  POISON!
+	  [102] -666  POISON!
+	  [103] -666  POISON!
+	  [104] -666  POISON!
+	  [105] -666  POISON!
+	  [106] -666  POISON!
+	  [107] -666  POISON!
+	  [108] -666  POISON!
+	  [109] -666  POISON!
+	  [110] -666  POISON!
+	  [111] -666  POISON!
+	  [112] -666  POISON!
+	  [113] -666  POISON!
+	  [114] -666  POISON!
+	  [115] -666  POISON!
+	  [116] -666  POISON!
+	  [117] -666  POISON!
+	  [118] -666  POISON!
+	  [119] -666  POISON!
+	  [120] -666  POISON!
+	  [121] -666  POISON!
+	  [122] -666  POISON!
+	  [123] -666  POISON!
+	  [124] -666  POISON!
+	  [125] -666  POISON!
+	  [126] -666  POISON!
+	  [127] -666  POISON!
+	  [128] -666  POISON!
+	  [129] -666  POISON!
+	  [130] -666  POISON!
+	  [131] -666  POISON!
+	  [132] -666  POISON!
+	  [133] -666  POISON!
+	  [134] -666  POISON!
+	  [135] -666  POISON!
+	  [136] -666  POISON!
+	  [137] -666  POISON!
+	  [138] -666  POISON!
+	  [139] -666  POISON!
+	  [140] -666  POISON!
+	  [141] -666  POISON!
+	  [142] -666  POISON!
+	  [143] -666  POISON!
+	  [144] -666  POISON!
+	  [145] -666  POISON!
+	  [146] -666  POISON!
+	  [147] -666  POISON!
+	  [148] -666  POISON!
+	  [149] -666  POISON!
+	  [150] -666  POISON!
+	  [151] -666  POISON!
+	  [152] -666  POISON!
+	  [153] -666  POISON!
+	  [154] -666  POISON!
+	  [155] -666  POISON!
+	  [156] -666  POISON!
+	  [157] -666  POISON!
+	  [158] -666  POISON!
+	  [159] -666  POISON!
+	  [160] -666  POISON!
+	  [161] -666  POISON!
+	  [162] -666  POISON!
+	  [163] -666  POISON!
+	  [164] -666  POISON!
+	  [165] -666  POISON!
+	  [166] -666  POISON!
+	  [167] -666  POISON!
+	  [168] -666  POISON!
+	  [169] -666  POISON!
+	  [170] -666  POISON!
+	  [171] -666  POISON!
+	  [172] -666  POISON!
+	  [173] -666  POISON!
+	  [174] -666  POISON!
+	  [175] -666  POISON!
+	  [176] -666  POISON!
+	  [177] -666  POISON!
+	  [178] -666  POISON!
+	  [179] -666  POISON!
+	  [180] -666  POISON!
+	  [181] -666  POISON!
+	  [182] -666  POISON!
+	  [183] -666  POISON!
+	  [184] -666  POISON!
+	  [185] -666  POISON!
+	  [186] -666  POISON!
+	  [187] -666  POISON!
+	  [188] -666  POISON!
+	  [189] -666  POISON!
+	  [190] -666  POISON!
+	  [191] -666  POISON!
+	  [192] -666  POISON!
+	  [193] -666  POISON!
+	  [194] -666  POISON!
+	  [195] -666  POISON!
+	  [196] -666  POISON!
+	  [197] -666  POISON!
+	  [198] -666  POISON!
+	  [199] -666  POISON!
+	  [200] -666  POISON!
+	  [201] -666  POISON!
+	  [202] -666  POISON!
+	  [203] -666  POISON!
+	  [204] -666  POISON!
+	  [205] -666  POISON!
+	  [206] -666  POISON!
+	  [207] -666  POISON!
+	  [208] -666  POISON!
+	  [209] -666  POISON!
+	  [210] -666  POISON!
+	  [211] -666  POISON!
+	  [212] -666  POISON!
+	  [213] -666  POISON!
+	  [214] -666  POISON!
+	  [215] -666  POISON!
+	  [216] -666  POISON!
+	  [217] -666  POISON!
+	  [218] -666  POISON!
+	  [219] -666  POISON!
+	  [220] -666  POISON!
+	  [221] -666  POISON!
+	  [222] -666  POISON!
+	  [223] -666  POISON!
+	  [224] -666  POISON!
+	  [225] -666  POISON!
+	  [226] -666  POISON!
+	  [227] -666  POISON!
+	  [228] -666  POISON!
+	  [229] -666  POISON!
+	  [230] -666  POISON!
+	  [231] -666  POISON!
+	  [232] -666  POISON!
+	  [233] -666  POISON!
+	  [234] -666  POISON!
+	  [235] -666  POISON!
+	  [236] -666  POISON!
+	  [237] -666  POISON!
+	  [238] -666  POISON!
+	  [239] -666  POISON!
+	  [240] -666  POISON!
+	  [241] -666  POISON!
+	  [242] -666  POISON!
+	  [243] -666  POISON!
+	  [244] -666  POISON!
+	  [245] -666  POISON!
+	  [246] -666  POISON!
+	  [247] -666  POISON!
+	  [248] -666  POISON!
+	  [249] -666  POISON!
+	  [250] -666  POISON!
+	  [251] -666  POISON!
+	  [252] -666  POISON!
+	  [253] -666  POISON!
+	  [254] -666  POISON!
+	  [255] -666  POISON!
+	  [256] -666  POISON!
+	  [257] -666  POISON!
+	  [258] -666  POISON!
+	  [259] -666  POISON!
+	  [260] -666  POISON!
+	  [261] -666  POISON!
+	  [262] -666  POISON!
+	  [263] -666  POISON!
+	  [264] -666  POISON!
+	  [265] -666  POISON!
+	  [266] -666  POISON!
+	  [267] -666  POISON!
+	  [268] -666  POISON!
+	  [269] -666  POISON!
+	  [270] -666  POISON!
+	  [271] -666  POISON!
+	  [272] -666  POISON!
+	  [273] -666  POISON!
+	  [274] -666  POISON!
+	  [275] -666  POISON!
+	  [276] -666  POISON!
+	  [277] -666  POISON!
+	  [278] -666  POISON!
+	  [279] -666  POISON!
+	  [280] -666  POISON!
+	  [281] -666  POISON!
+	  [282] -666  POISON!
+	  [283] -666  POISON!
+	  [284] -666  POISON!
+	  [285] -666  POISON!
+	  [286] -666  POISON!
+	  [287] -666  POISON!
+	  [288] -666  POISON!
+	  [289] -666  POISON!
+	  [290] -666  POISON!
+	  [291] -666  POISON!
+	  [292] -666  POISON!
+	  [293] -666  POISON!
+	  [294] -666  POISON!
+	  [295] -666  POISON!
+	  [296] -666  POISON!
+	  [297] -666  POISON!
+	  [298] -666  POISON!
+	  [299] -666  POISON!
+	  [300] -666  POISON!
+	  [301] -666  POISON!
+	  [302] -666  POISON!
+	  [303] -666  POISON!
+	  [304] -666  POISON!
+	  [305] -666  POISON!
+	  [306] -666  POISON!
+	  [307] -666  POISON!
+	  [308] -666  POISON!
+	  [309] -666  POISON!
+	  [310] -666  POISON!
+	  [311] -666  POISON!
+	  [312] -666  POISON!
+	  [313] -666  POISON!
+	  [314] -666  POISON!
+	  [315] -666  POISON!
+	  [316] -666  POISON!
+	  [317] -666  POISON!
+	  [318] -666  POISON!
+	  [319] -666  POISON!
+	  [320] -666  POISON!
+	  [321] -666  POISON!
+	  [322] -666  POISON!
+	  [323] -666  POISON!
+	  [324] -666  POISON!
+	  [325] -666  POISON!
+	  [326] -666  POISON!
+	  [327] -666  POISON!
+	  [328] -666  POISON!
+	  [329] -666  POISON!
+	  [330] -666  POISON!
+	  [331] -666  POISON!
+	  [332] -666  POISON!
+	  [333] -666  POISON!
+	  [334] -666  POISON!
+	  [335] -666  POISON!
+	  [336] -666  POISON!
+	  [337] -666  POISON!
+	  [338] -666  POISON!
+	  [339] -666  POISON!
+	  [340] -666  POISON!
+	  [341] -666  POISON!
+	  [342] -666  POISON!
+	  [343] -666  POISON!
+	  [344] -666  POISON!
+	  [345] -666  POISON!
+	  [346] -666  POISON!
+	  [347] -666  POISON!
+	  [348] -666  POISON!
+	  [349] -666  POISON!
+	  [350] -666  POISON!
+	  [351] -666  POISON!
+	  [352] -666  POISON!
+	  [353] -666  POISON!
+	  [354] -666  POISON!
+	  [355] -666  POISON!
+	  [356] -666  POISON!
+	  [357] -666  POISON!
+	  [358] -666  POISON!
+	  [359] -666  POISON!
+	  [360] -666  POISON!
+	  [361] -666  POISON!
+	  [362] -666  POISON!
+	  [363] -666  POISON!
+	  [364] -666  POISON!
+	  [365] -666  POISON!
+	  [366] -666  POISON!
+	  [367] -666  POISON!
+	  [368] -666  POISON!
+	  [369] -666  POISON!
+	  [370] -666  POISON!
+	  [371] -666  POISON!
+	  [372] -666  POISON!
+	  [373] -666  POISON!
+	  [374] -666  POISON!
+	  [375] -666  POISON!
+	  [376] -666  POISON!
+	  [377] -666  POISON!
+	  [378] -666  POISON!
+	  [379] -666  POISON!
+	  [380] -666  POISON!
+	  [381] -666  POISON!
+	  [382] -666  POISON!
+	  [383] -666  POISON!
+	  [384] -666  POISON!
+	  [385] -666  POISON!
+	  [386] -666  POISON!
+	  [387] -666  POISON!
+	  [388] -666  POISON!
+	  [389] -666  POISON!
+	  [390] -666  POISON!
+	  [391] -666  POISON!
+	  [392] -666  POISON!
+	  [393] -666  POISON!
+	  [394] -666  POISON!
+	  [395] -666  POISON!
+	  [396] -666  POISON!
+	  [397] -666  POISON!
+	  [398] -666  POISON!
+	  [399] -666  POISON!
+	  [400] -666  POISON!
+	  [401] -666  POISON!
+	  [402] -666  POISON!
+	  [403] -666  POISON!
+	  [404] -666  POISON!
+	  [405] -666  POISON!
+	  [406] -666  POISON!
+	  [407] -666  POISON!
+	  [408] -666  POISON!
+	  [409] -666  POISON!
+	  [410] -666  POISON!
+	  [411] -666  POISON!
+	  [412] -666  POISON!
+	  [413] -666  POISON!
+	  [414] -666  POISON!
+	  [415] -666  POISON!
+	  [416] -666  POISON!
+	  [417] -666  POISON!
+	  [418] -666  POISON!
+	  [419] -666  POISON!
+	  [420] -666  POISON!
+	  [421] -666  POISON!
+	  [422] -666  POISON!
+	  [423] -666  POISON!
+	  [424] -666  POISON!
+	  [425] -666  POISON!
+	  [426] -666  POISON!
+	  [427] -666  POISON!
+	  [428] -666  POISON!
+	  [429] -666  POISON!
+	  [430] -666  POISON!
+	  [431] -666  POISON!
+	  [432] -666  POISON!
+	  [433] -666  POISON!
+	  [434] -666  POISON!
+	  [435] -666  POISON!
+	  [436] -666  POISON!
+	  [437] -666  POISON!
+	  [438] -666  POISON!
+	  [439] -666  POISON!
+	  [440] -666  POISON!
+	  [441] -666  POISON!
+	  [442] -666  POISON!
+	  [443] -666  POISON!
+	  [444] -666  POISON!
+	  [445] -666  POISON!
+	  [446] -666  POISON!
+	  [447] -666  POISON!
+	  [448] -666  POISON!
+	  [449] -666  POISON!
+	  [450] -666  POISON!
+	  [451] -666  POISON!
+	  [452] -666  POISON!
+	  [453] -666  POISON!
+	  [454] -666  POISON!
+	  [455] -666  POISON!
+	  [456] -666  POISON!
+	  [457] -666  POISON!
+	  [458] -666  POISON!
+	  [459] -666  POISON!
+	  [460] -666  POISON!
+	  [461] -666  POISON!
+	  [462] -666  POISON!
+	  [463] -666  POISON!
+	  [464] -666  POISON!
+	  [465] -666  POISON!
+	  [466] -666  POISON!
+	  [467] -666  POISON!
+	  [468] -666  POISON!
+	  [469] -666  POISON!
+	  [470] -666  POISON!
+	  [471] -666  POISON!
+	  [472] -666  POISON!
+	  [473] -666  POISON!
+	  [474] -666  POISON!
+	  [475] -666  POISON!
+	  [476] -666  POISON!
+	  [477] -666  POISON!
+	  [478] -666  POISON!
+	  [479] -666  POISON!
+	  [480] -666  POISON!
+	  [481] -666  POISON!
+	  [482] -666  POISON!
+	  [483] -666  POISON!
+	  [484] -666  POISON!
+	  [485] -666  POISON!
+	  [486] -666  POISON!
+	  [487] -666  POISON!
+	  [488] -666  POISON!
+	  [489] -666  POISON!
+	  [490] -666  POISON!
+	  [491] -666  POISON!
+	  [492] -666  POISON!
+	  [493] -666  POISON!
+	  [494] -666  POISON!
+	  [495] -666  POISON!
+	  [496] -666  POISON!
+	  [497] -666  POISON!
+	  [498] -666  POISON!
+	  [499] -666  POISON!
+	  [500] -666  POISON!
+	  [501] -666  POISON!
+	  [502] -666  POISON!
+	  [503] -666  POISON!
+	  [504] -666  POISON!
+	  [505] -666  POISON!
+	  [506] -666  POISON!
+	  [507] -666  POISON!
+	  [508] -666  POISON!
+	  [509] -666  POISON!
+	  [510] -666  POISON!
+	  [511] -666  POISON!
+	  [512] -666  POISON!
+	  [513] -666  POISON!
+	  [514] -666  POISON!
+	  [515] -666  POISON!
+	  [516] -666  POISON!
+	  [517] -666  POISON!
+	  [518] -666  POISON!
+	  [519] -666  POISON!
+	  [520] -666  POISON!
+	  [521] -666  POISON!
+	  [522] -666  POISON!
+	  [523] -666  POISON!
+	  [524] -666  POISON!
+	  [525] -666  POISON!
+	  [526] -666  POISON!
+	  [527] -666  POISON!
+	  [528] -666  POISON!
+	  [529] -666  POISON!
+	  [530] -666  POISON!
+	  [531] -666  POISON!
+	  [532] -666  POISON!
+	  [533] -666  POISON!
+	  [534] -666  POISON!
+	  [535] -666  POISON!
+	  [536] -666  POISON!
+	  [537] -666  POISON!
+	  [538] -666  POISON!
+	  [539] -666  POISON!
+	  [540] -666  POISON!
+	  [541] -666  POISON!
+	  [542] -666  POISON!
+	  [543] -666  POISON!
+	  [544] -666  POISON!
+	  [545] -666  POISON!
+	  [546] -666  POISON!
+	  [547] -666  POISON!
+	  [548] -666  POISON!
+	  [549] -666  POISON!
+	  [550] -666  POISON!
+	  [551] -666  POISON!
+	  [552] -666  POISON!
+	  [553] -666  POISON!
+	  [554] -666  POISON!
+	  [555] -666  POISON!
+	  [556] -666  POISON!
+	  [557] -666  POISON!
+	  [558] -666  POISON!
+	  [559] -666  POISON!
+	  [560] -666  POISON!
+	  [561] -666  POISON!
+	  [562] -666  POISON!
+	  [563] -666  POISON!
+	  [564] -666  POISON!
+	  [565] -666  POISON!
+	  [566] -666  POISON!
+	  [567] -666  POISON!
+	  [568] -666  POISON!
+	  [569] -666  POISON!
+	  [570] -666  POISON!
+	  [571] -666  POISON!
+	  [572] -666  POISON!
+	  [573] -666  POISON!
+	  [574] -666  POISON!
+	  [575] -666  POISON!
+	  [576] -666  POISON!
+	  [577] -666  POISON!
+	  [578] -666  POISON!
+	  [579] -666  POISON!
+	  [580] -666  POISON!
+	  [581] -666  POISON!
+	  [582] -666  POISON!
+	  [583] -666  POISON!
+	  [584] -666  POISON!
+	  [585] -666  POISON!
+	  [586] -666  POISON!
+	  [587] -666  POISON!
+	  [588] -666  POISON!
+	  [589] -666  POISON!
+	  [590] -666  POISON!
+	  [591] -666  POISON!
+	  [592] -666  POISON!
+	  [593] -666  POISON!
+	  [594] -666  POISON!
+	  [595] -666  POISON!
+	  [596] -666  POISON!
+	  [597] -666  POISON!
+	  [598] -666  POISON!
+	  [599] -666  POISON!
+	  [600] -666  POISON!
+	  [601] -666  POISON!
+	  [602] -666  POISON!
+	  [603] -666  POISON!
+	  [604] -666  POISON!
+	  [605] -666  POISON!
+	  [606] -666  POISON!
+	  [607] -666  POISON!
+	  [608] -666  POISON!
+	  [609] -666  POISON!
+	  [610] -666  POISON!
+	  [611] -666  POISON!
+	  [612] -666  POISON!
+	  [613] -666  POISON!
+	  [614] -666  POISON!
+	  [615] -666  POISON!
+	  [616] -666  POISON!
+	  [617] -666  POISON!
+	  [618] -666  POISON!
+	  [619] -666  POISON!
+	  [620] -666  POISON!
+	  [621] -666  POISON!
+	  [622] -666  POISON!
+	  [623] -666  POISON!
+	  [624] -666  POISON!
+	  [625] -666  POISON!
+	  [626] -666  POISON!
+	  [627] -666  POISON!
+	  [628] -666  POISON!
+	  [629] -666  POISON!
+	  [630] -666  POISON!
+	  [631] -666  POISON!
+	  [632] -666  POISON!
+	  [633] -666  POISON!
+	  [634] -666  POISON!
+	  [635] -666  POISON!
+	  [636] -666  POISON!
+	  [637] -666  POISON!
+	  [638] -666  POISON!
+	  [639] -666  POISON!
+	  [640] -666  POISON!
+	  [641] -666  POISON!
+	  [642] -666  POISON!
+	  [643] -666  POISON!
+	  [644] -666  POISON!
+	  [645] -666  POISON!
+	  [646] -666  POISON!
+	  [647] -666  POISON!
+	  [648] -666  POISON!
+	  [649] -666  POISON!
+	  [650] -666  POISON!
+	  [651] -666  POISON!
+	  [652] -666  POISON!
+	  [653] -666  POISON!
+	  [654] -666  POISON!
+	  [655] -666  POISON!
+	  [656] -666  POISON!
+	  [657] -666  POISON!
+	  [658] -666  POISON!
+	  [659] -666  POISON!
+	  [660] -666  POISON!
+	  [661] -666  POISON!
+	  [662] -666  POISON!
+	  [663] -666  POISON!
+	  [664] -666  POISON!
+	  [665] -666  POISON!
+	  [666] -666  POISON!
+	  [667] -666  POISON!
+	  [668] -666  POISON!
+	  [669] -666  POISON!
+	  [670] -666  POISON!
+	  [671] -666  POISON!
+	  [672] -666  POISON!
+	  [673] -666  POISON!
+	  [674] -666  POISON!
+	  [675] -666  POISON!
+	  [676] -666  POISON!
+	  [677] -666  POISON!
+	  [678] -666  POISON!
+	  [679] -666  POISON!
+	  [680] -666  POISON!
+	  [681] -666  POISON!
+	  [682] -666  POISON!
+	  [683] -666  POISON!
+	  [684] -666  POISON!
+	  [685] -666  POISON!
+	  [686] -666  POISON!
+	  [687] -666  POISON!
+	  [688] -666  POISON!
+	  [689] -666  POISON!
+	  [690] -666  POISON!
+	  [691] -666  POISON!
+	  [692] -666  POISON!
+	  [693] -666  POISON!
+	  [694] -666  POISON!
+	  [695] -666  POISON!
+	  [696] -666  POISON!
+	  [697] -666  POISON!
+	  [698] -666  POISON!
+	  [699] -666  POISON!
+	  [700] -666  POISON!
+	  [701] -666  POISON!
+	  [702] -666  POISON!
+	  [703] -666  POISON!
+	  [704] -666  POISON!
+	  [705] -666  POISON!
+	  [706] -666  POISON!
+	  [707] -666  POISON!
+	  [708] -666  POISON!
+	  [709] -666  POISON!
+	  [710] -666  POISON!
+	  [711] -666  POISON!
+	  [712] -666  POISON!
+	  [713] -666  POISON!
+	  [714] -666  POISON!
+	  [715] -666  POISON!
+	  [716] -666  POISON!
+	  [717] -666  POISON!
+	  [718] -666  POISON!
+	  [719] -666  POISON!
+	  [720] -666  POISON!
+	  [721] -666  POISON!
+	  [722] -666  POISON!
+	  [723] -666  POISON!
+	  [724] -666  POISON!
+	  [725] -666  POISON!
+	  [726] -666  POISON!
+	  [727] -666  POISON!
+	  [728] -666  POISON!
+	  [729] -666  POISON!
+	  [730] -666  POISON!
+	  [731] -666  POISON!
+	  [732] -666  POISON!
+	  [733] -666  POISON!
+	  [734] -666  POISON!
+	  [735] -666  POISON!
+	  [736] -666  POISON!
+	  [737] -666  POISON!
+	  [738] -666  POISON!
+	  [739] -666  POISON!
+	  [740] -666  POISON!
+	  [741] -666  POISON!
+	  [742] -666  POISON!
+	  [743] -666  POISON!
+	  [744] -666  POISON!
+	  [745] -666  POISON!
+	  [746] -666  POISON!
+	  [747] -666  POISON!
+	  [748] -666  POISON!
+	  [749] -666  POISON!
+	  [750] -666  POISON!
+	  [751] -666  POISON!
+	  [752] -666  POISON!
+	  [753] -666  POISON!
+	  [754] -666  POISON!
+	  [755] -666  POISON!
+	  [756] -666  POISON!
+	  [757] -666  POISON!
+	  [758] -666  POISON!
+	  [759] -666  POISON!
+	  [760] -666  POISON!
+	  [761] -666  POISON!
+	  [762] -666  POISON!
+	  [763] -666  POISON!
+	  [764] -666  POISON!
+	  [765] -666  POISON!
+	  [766] -666  POISON!
+	  [767] -666  POISON!
+	  [768] -666  POISON!
+	  [769] -666  POISON!
+	  [770] -666  POISON!
+	  [771] -666  POISON!
+	  [772] -666  POISON!
+	  [773] -666  POISON!
+	  [774] -666  POISON!
+	  [775] -666  POISON!
+	  [776] -666  POISON!
+	  [777] -666  POISON!
+	  [778] -666  POISON!
+	  [779] -666  POISON!
+	  [780] -666  POISON!
+	  [781] -666  POISON!
+	  [782] -666  POISON!
+	  [783] -666  POISON!
+	  [784] -666  POISON!
+	  [785] -666  POISON!
+	  [786] -666  POISON!
+	  [787] -666  POISON!
+	  [788] -666  POISON!
+	  [789] -666  POISON!
+	  [790] -666  POISON!
+	  [791] -666  POISON!
+	  [792] -666  POISON!
+	  [793] -666  POISON!
+	  [794] -666  POISON!
+	  [795] -666  POISON!
+	  [796] -666  POISON!
+	  [797] -666  POISON!
+	  [798] -666  POISON!
+	  [799] -666  POISON!
+	  [800] -666  POISON!
+	  [801] -666  POISON!
+	  [802] -666  POISON!
+	  [803] -666  POISON!
+	  [804] -666  POISON!
+	  [805] -666  POISON!
+	  [806] -666  POISON!
+	  [807] -666  POISON!
+	  [808] -666  POISON!
+	  [809] -666  POISON!
+	  [810] -666  POISON!
+	  [811] -666  POISON!
+	  [812] -666  POISON!
+	  [813] -666  POISON!
+	  [814] -666  POISON!
+	  [815] -666  POISON!
+	  [816] -666  POISON!
+	  [817] -666  POISON!
+	  [818] -666  POISON!
+	  [819] -666  POISON!
+	  [820] -666  POISON!
+	  [821] -666  POISON!
+	  [822] -666  POISON!
+	  [823] -666  POISON!
+	  [824] -666  POISON!
+	  [825] -666  POISON!
+	  [826] -666  POISON!
+	  [827] -666  POISON!
+	  [828] -666  POISON!
+	  [829] -666  POISON!
+	  [830] -666  POISON!
+	  [831] -666  POISON!
+	  [832] -666  POISON!
+	  [833] -666  POISON!
+	  [834] -666  POISON!
+	  [835] -666  POISON!
+	  [836] -666  POISON!
+	  [837] -666  POISON!
+	  [838] -666  POISON!
+	  [839] -666  POISON!
+	  [840] -666  POISON!
+	  [841] -666  POISON!
+	  [842] -666  POISON!
+	  [843] -666  POISON!
+	  [844] -666  POISON!
+	  [845] -666  POISON!
+	  [846] -666  POISON!
+	  [847] -666  POISON!
+	  [848] -666  POISON!
+	  [849] -666  POISON!
+	  [850] -666  POISON!
+	  [851] -666  POISON!
+	  [852] -666  POISON!
+	  [853] -666  POISON!
+	  [854] -666  POISON!
+	  [855] -666  POISON!
+	  [856] -666  POISON!
+	  [857] -666  POISON!
+	  [858] -666  POISON!
+	  [859] -666  POISON!
+	  [860] -666  POISON!
+	  [861] -666  POISON!
+	  [862] -666  POISON!
+	  [863] -666  POISON!
+	  [864] -666  POISON!
+	  [865] -666  POISON!
+	  [866] -666  POISON!
+	  [867] -666  POISON!
+	  [868] -666  POISON!
+	  [869] -666  POISON!
+	  [870] -666  POISON!
+	  [871] -666  POISON!
+	  [872] -666  POISON!
+	  [873] -666  POISON!
+	  [874] -666  POISON!
+	  [875] -666  POISON!
+	  [876] -666  POISON!
+	  [877] -666  POISON!
+	  [878] -666  POISON!
+	  [879] -666  POISON!
+	  [880] -666  POISON!
+	  [881] -666  POISON!
+	  [882] -666  POISON!
+	  [883] -666  POISON!
+	  [884] -666  POISON!
+	  [885] -666  POISON!
+	  [886] -666  POISON!
+	  [887] -666  POISON!
+	  [888] -666  POISON!
+	  [889] -666  POISON!
+	  [890] -666  POISON!
+	  [891] -666  POISON!
+	  [892] -666  POISON!
+	  [893] -666  POISON!
+	  [894] -666  POISON!
+	  [895] -666  POISON!
+	  [896] -666  POISON!
+	  [897] -666  POISON!
+	  [898] -666  POISON!
+	  [899] -666  POISON!
+	  [900] -666  POISON!
+	  [901] -666  POISON!
+	  [902] -666  POISON!
+	  [903] -666  POISON!
+	  [904] -666  POISON!
+	  [905] -666  POISON!
+	  [906] -666  POISON!
+	  [907] -666  POISON!
+	  [908] -666  POISON!
+	  [909] -666  POISON!
+	  [910] -666  POISON!
+	  [911] -666  POISON!
+	  [912] -666  POISON!
+	  [913] -666  POISON!
+	  [914] -666  POISON!
+	  [915] -666  POISON!
+	  [916] -666  POISON!
+	  [917] -666  POISON!
+	  [918] -666  POISON!
+	  [919] -666  POISON!
+	  [920] -666  POISON!
+	  [921] -666  POISON!
+	  [922] -666  POISON!
+	  [923] -666  POISON!
+	  [924] -666  POISON!
+	  [925] -666  POISON!
+	  [926] -666  POISON!
+	  [927] -666  POISON!
+	  [928] -666  POISON!
+	  [929] -666  POISON!
+	  [930] -666  POISON!
+	  [931] -666  POISON!
+	  [932] -666  POISON!
+	  [933] -666  POISON!
+	  [934] -666  POISON!
+	  [935] -666  POISON!
+	  [936] -666  POISON!
+	  [937] -666  POISON!
+	  [938] -666  POISON!
+	  [939] -666  POISON!
+	  [940] -666  POISON!
+	  [941] -666  POISON!
+	  [942] -666  POISON!
+	  [943] -666  POISON!
+	  [944] -666  POISON!
+	  [945] -666  POISON!
+	  [946] -666  POISON!
+	  [947] -666  POISON!
+	  [948] -666  POISON!
+	  [949] -666  POISON!
+	  [950] -666  POISON!
+	  [951] -666  POISON!
+	  [952] -666  POISON!
+	  [953] -666  POISON!
+	  [954] -666  POISON!
+	  [955] -666  POISON!
+	  [956] -666  POISON!
+	  [957] -666  POISON!
+	  [958] -666  POISON!
+	  [959] -666  POISON!
+	  [960] -666  POISON!
+	  [961] -666  POISON!
+	  [962] -666  POISON!
+	  [963] -666  POISON!
+	  [964] -666  POISON!
+	  [965] -666  POISON!
+	  [966] -666  POISON!
+	  [967] -666  POISON!
+	  [968] -666  POISON!
+	  [969] -666  POISON!
+	  [970] -666  POISON!
+	  [971] -666  POISON!
+	  [972] -666  POISON!
+	  [973] -666  POISON!
+	  [974] -666  POISON!
+	  [975] -666  POISON!
+	  [976] -666  POISON!
+	  [977] -666  POISON!
+	  [978] -666  POISON!
+	  [979] -666  POISON!
+	  [980] -666  POISON!
+	  [981] -666  POISON!
+	  [982] -666  POISON!
+	  [983] -666  POISON!
+	  [984] -666  POISON!
+	  [985] -666  POISON!
+	  [986] -666  POISON!
+	  [987] -666  POISON!
+	  [988] -666  POISON!
+	  [989] -666  POISON!
+	  [990] -666  POISON!
+	  [991] -666  POISON!
+	  [992] -666  POISON!
+	  [993] -666  POISON!
+	  [994] -666  POISON!
+	  [995] -666  POISON!
+	  [996] -666  POISON!
+	  [997] -666  POISON!
+	  [998] -666  POISON!
+	  [999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffdb09bad30]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	  [6] -666  POISON!
+	  [7] -666  POISON!
+	  [8] -666  POISON!
+	  [9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	  [64] -666  POISON!
+	  [65] -666  POISON!
+	  [66] -666  POISON!
+	  [67] -666  POISON!
+	  [68] -666  POISON!
+	  [69] -666  POISON!
+	  [70] -666  POISON!
+	  [71] -666  POISON!
+	  [72] -666  POISON!
+	  [73] -666  POISON!
+	  [74] -666  POISON!
+	  [75] -666  POISON!
+	  [76] -666  POISON!
+	  [77] -666  POISON!
+	  [78] -666  POISON!
+	  [79] -666  POISON!
+	  [80] -666  POISON!
+	  [81] -666  POISON!
+	  [82] -666  POISON!
+	  [83] -666  POISON!
+	  [84] -666  POISON!
+	  [85] -666  POISON!
+	  [86] -666  POISON!
+	  [87] -666  POISON!
+	  [88] -666  POISON!
+	  [89] -666  POISON!
+	  [90] -666  POISON!
+	  [91] -666  POISON!
+	  [92] -666  POISON!
+	  [93] -666  POISON!
+	  [94] -666  POISON!
+	  [95] -666  POISON!
+	  [96] -666  POISON!
+	  [97] -666  POISON!
+	  [98] -666  POISON!
+	  [99] -666  POISON!
+	  [100] -666  POISON!
+	  [101] -666  POISON!
+	  [102] -666  POISON!
+	  [103] -666  POISON!
+	  [104] -666  POISON!
+	  [105] -666  POISON!
+	  [106] -666  POISON!
+	  [107] -666  POISON!
+	  [108] -666  POISON!
+	  [109] -666  POISON!
+	  [110] -666  POISON!
+	  [111] -666  POISON!
+	  [112] -666  POISON!
+	  [113] -666  POISON!
+	  [114] -666  POISON!
+	  [115] -666  POISON!
+	  [116] -666  POISON!
+	  [117] -666  POISON!
+	  [118] -666  POISON!
+	  [119] -666  POISON!
+	  [120] -666  POISON!
+	  [121] -666  POISON!
+	  [122] -666  POISON!
+	  [123] -666  POISON!
+	  [124] -666  POISON!
+	  [125] -666  POISON!
+	  [126] -666  POISON!
+	  [127] -666  POISON!
+	  [128] -666  POISON!
+	  [129] -666  POISON!
+	  [130] -666  POISON!
+	  [131] -666  POISON!
+	  [132] -666  POISON!
+	  [133] -666  POISON!
+	  [134] -666  POISON!
+	  [135] -666  POISON!
+	  [136] -666  POISON!
+	  [137] -666  POISON!
+	  [138] -666  POISON!
+	  [139] -666  POISON!
+	  [140] -666  POISON!
+	  [141] -666  POISON!
+	  [142] -666  POISON!
+	  [143] -666  POISON!
+	  [144] -666  POISON!
+	  [145] -666  POISON!
+	  [146] -666  POISON!
+	  [147] -666  POISON!
+	  [148] -666  POISON!
+	  [149] -666  POISON!
+	  [150] -666  POISON!
+	  [151] -666  POISON!
+	  [152] -666  POISON!
+	  [153] -666  POISON!
+	  [154] -666  POISON!
+	  [155] -666  POISON!
+	  [156] -666  POISON!
+	  [157] -666  POISON!
+	  [158] -666  POISON!
+	  [159] -666  POISON!
+	  [160] -666  POISON!
+	  [161] -666  POISON!
+	  [162] -666  POISON!
+	  [163] -666  POISON!
+	  [164] -666  POISON!
+	  [165] -666  POISON!
+	  [166] -666  POISON!
+	  [167] -666  POISON!
+	  [168] -666  POISON!
+	  [169] -666  POISON!
+	  [170] -666  POISON!
+	  [171] -666  POISON!
+	  [172] -666  POISON!
+	  [173] -666  POISON!
+	  [174] -666  POISON!
+	  [175] -666  POISON!
+	  [176] -666  POISON!
+	  [177] -666  POISON!
+	  [178] -666  POISON!
+	  [179] -666  POISON!
+	  [180] -666  POISON!
+	  [181] -666  POISON!
+	  [182] -666  POISON!
+	  [183] -666  POISON!
+	  [184] -666  POISON!
+	  [185] -666  POISON!
+	  [186] -666  POISON!
+	  [187] -666  POISON!
+	  [188] -666  POISON!
+	  [189] -666  POISON!
+	  [190] -666  POISON!
+	  [191] -666  POISON!
+	  [192] -666  POISON!
+	  [193] -666  POISON!
+	  [194] -666  POISON!
+	  [195] -666  POISON!
+	  [196] -666  POISON!
+	  [197] -666  POISON!
+	  [198] -666  POISON!
+	  [199] -666  POISON!
+	  [200] -666  POISON!
+	  [201] -666  POISON!
+	  [202] -666  POISON!
+	  [203] -666  POISON!
+	  [204] -666  POISON!
+	  [205] -666  POISON!
+	  [206] -666  POISON!
+	  [207] -666  POISON!
+	  [208] -666  POISON!
+	  [209] -666  POISON!
+	  [210] -666  POISON!
+	  [211] -666  POISON!
+	  [212] -666  POISON!
+	  [213] -666  POISON!
+	  [214] -666  POISON!
+	  [215] -666  POISON!
+	  [216] -666  POISON!
+	  [217] -666  POISON!
+	  [218] -666  POISON!
+	  [219] -666  POISON!
+	  [220] -666  POISON!
+	  [221] -666  POISON!
+	  [222] -666  POISON!
+	  [223] -666  POISON!
+	  [224] -666  POISON!
+	  [225] -666  POISON!
+	  [226] -666  POISON!
+	  [227] -666  POISON!
+	  [228] -666  POISON!
+	  [229] -666  POISON!
+	  [230] -666  POISON!
+	  [231] -666  POISON!
+	  [232] -666  POISON!
+	  [233] -666  POISON!
+	  [234] -666  POISON!
+	  [235] -666  POISON!
+	  [236] -666  POISON!
+	  [237] -666  POISON!
+	  [238] -666  POISON!
+	  [239] -666  POISON!
+	  [240] -666  POISON!
+	  [241] -666  POISON!
+	  [242] -666  POISON!
+	  [243] -666  POISON!
+	  [244] -666  POISON!
+	  [245] -666  POISON!
+	  [246] -666  POISON!
+	  [247] -666  POISON!
+	  [248] -666  POISON!
+	  [249] -666  POISON!
+	  [250] -666  POISON!
+	  [251] -666  POISON!
+	  [252] -666  POISON!
+	  [253] -666  POISON!
+	  [254] -666  POISON!
+	  [255] -666  POISON!
+	  [256] -666  POISON!
+	  [257] -666  POISON!
+	  [258] -666  POISON!
+	  [259] -666  POISON!
+	  [260] -666  POISON!
+	  [261] -666  POISON!
+	  [262] -666  POISON!
+	  [263] -666  POISON!
+	  [264] -666  POISON!
+	  [265] -666  POISON!
+	  [266] -666  POISON!
+	  [267] -666  POISON!
+	  [268] -666  POISON!
+	  [269] -666  POISON!
+	  [270] -666  POISON!
+	  [271] -666  POISON!
+	  [272] -666  POISON!
+	  [273] -666  POISON!
+	  [274] -666  POISON!
+	  [275] -666  POISON!
+	  [276] -666  POISON!
+	  [277] -666  POISON!
+	  [278] -666  POISON!
+	  [279] -666  POISON!
+	  [280] -666  POISON!
+	  [281] -666  POISON!
+	  [282] -666  POISON!
+	  [283] -666  POISON!
+	  [284] -666  POISON!
+	  [285] -666  POISON!
+	  [286] -666  POISON!
+	  [287] -666  POISON!
+	  [288] -666  POISON!
+	  [289] -666  POISON!
+	  [290] -666  POISON!
+	  [291] -666  POISON!
+	  [292] -666  POISON!
+	  [293] -666  POISON!
+	  [294] -666  POISON!
+	  [295] -666  POISON!
+	  [296] -666  POISON!
+	  [297] -666  POISON!
+	  [298] -666  POISON!
+	  [299] -666  POISON!
+	  [300] -666  POISON!
+	  [301] -666  POISON!
+	  [302] -666  POISON!
+	  [303] -666  POISON!
+	  [304] -666  POISON!
+	  [305] -666  POISON!
+	  [306] -666  POISON!
+	  [307] -666  POISON!
+	  [308] -666  POISON!
+	  [309] -666  POISON!
+	  [310] -666  POISON!
+	  [311] -666  POISON!
+	  [312] -666  POISON!
+	  [313] -666  POISON!
+	  [314] -666  POISON!
+	  [315] -666  POISON!
+	  [316] -666  POISON!
+	  [317] -666  POISON!
+	  [318] -666  POISON!
+	  [319] -666  POISON!
+	  [320] -666  POISON!
+	  [321] -666  POISON!
+	  [322] -666  POISON!
+	  [323] -666  POISON!
+	  [324] -666  POISON!
+	  [325] -666  POISON!
+	  [326] -666  POISON!
+	  [327] -666  POISON!
+	  [328] -666  POISON!
+	  [329] -666  POISON!
+	  [330] -666  POISON!
+	  [331] -666  POISON!
+	  [332] -666  POISON!
+	  [333] -666  POISON!
+	  [334] -666  POISON!
+	  [335] -666  POISON!
+	  [336] -666  POISON!
+	  [337] -666  POISON!
+	  [338] -666  POISON!
+	  [339] -666  POISON!
+	  [340] -666  POISON!
+	  [341] -666  POISON!
+	  [342] -666  POISON!
+	  [343] -666  POISON!
+	  [344] -666  POISON!
+	  [345] -666  POISON!
+	  [346] -666  POISON!
+	  [347] -666  POISON!
+	  [348] -666  POISON!
+	  [349] -666  POISON!
+	  [350] -666  POISON!
+	  [351] -666  POISON!
+	  [352] -666  POISON!
+	  [353] -666  POISON!
+	  [354] -666  POISON!
+	  [355] -666  POISON!
+	  [356] -666  POISON!
+	  [357] -666  POISON!
+	  [358] -666  POISON!
+	  [359] -666  POISON!
+	  [360] -666  POISON!
+	  [361] -666  POISON!
+	  [362] -666  POISON!
+	  [363] -666  POISON!
+	  [364] -666  POISON!
+	  [365] -666  POISON!
+	  [366] -666  POISON!
+	  [367] -666  POISON!
+	  [368] -666  POISON!
+	  [369] -666  POISON!
+	  [370] -666  POISON!
+	  [371] -666  POISON!
+	  [372] -666  POISON!
+	  [373] -666  POISON!
+	  [374] -666  POISON!
+	  [375] -666  POISON!
+	  [376] -666  POISON!
+	  [377] -666  POISON!
+	  [378] -666  POISON!
+	  [379] -666  POISON!
+	  [380] -666  POISON!
+	  [381] -666  POISON!
+	  [382] -666  POISON!
+	  [383] -666  POISON!
+	  [384] -666  POISON!
+	  [385] -666  POISON!
+	  [386] -666  POISON!
+	  [387] -666  POISON!
+	  [388] -666  POISON!
+	  [389] -666  POISON!
+	  [390] -666  POISON!
+	  [391] -666  POISON!
+	  [392] -666  POISON!
+	  [393] -666  POISON!
+	  [394] -666  POISON!
+	  [395] -666  POISON!
+	  [396] -666  POISON!
+	  [397] -666  POISON!
+	  [398] -666  POISON!
+	  [399] -666  POISON!
+	  [400] -666  POISON!
+	  [401] -666  POISON!
+	  [402] -666  POISON!
+	  [403] -666  POISON!
+	  [404] -666  POISON!
+	  [405] -666  POISON!
+	  [406] -666  POISON!
+	  [407] -666  POISON!
+	  [408] -666  POISON!
+	  [409] -666  POISON!
+	  [410] -666  POISON!
+	  [411] -666  POISON!
+	  [412] -666  POISON!
+	  [413] -666  POISON!
+	  [414] -666  POISON!
+	  [415] -666  POISON!
+	  [416] -666  POISON!
+	  [417] -666  POISON!
+	  [418] -666  POISON!
+	  [419] -666  POISON!
+	  [420] -666  POISON!
+	  [421] -666  POISON!
+	  [422] -666  POISON!
+	  [423] -666  POISON!
+	  [424] -666  POISON!
+	  [425] -666  POISON!
+	  [426] -666  POISON!
+	  [427] -666  POISON!
+	  [428] -666  POISON!
+	  [429] -666  POISON!
+	  [430] -666  POISON!
+	  [431] -666  POISON!
+	  [432] -666  POISON!
+	  [433] -666  POISON!
+	  [434] -666  POISON!
+	  [435] -666  POISON!
+	  [436] -666  POISON!
+	  [437] -666  POISON!
+	  [438] -666  POISON!
+	  [439] -666  POISON!
+	  [440] -666  POISON!
+	  [441] -666  POISON!
+	  [442] -666  POISON!
+	  [443] -666  POISON!
+	  [444] -666  POISON!
+	  [445] -666  POISON!
+	  [446] -666  POISON!
+	  [447] -666  POISON!
+	  [448] -666  POISON!
+	  [449] -666  POISON!
+	  [450] -666  POISON!
+	  [451] -666  POISON!
+	  [452] -666  POISON!
+	  [453] -666  POISON!
+	  [454] -666  POISON!
+	  [455] -666  POISON!
+	  [456] -666  POISON!
+	  [457] -666  POISON!
+	  [458] -666  POISON!
+	  [459] -666  POISON!
+	  [460] -666  POISON!
+	  [461] -666  POISON!
+	  [462] -666  POISON!
+	  [463] -666  POISON!
+	  [464] -666  POISON!
+	  [465] -666  POISON!
+	  [466] -666  POISON!
+	  [467] -666  POISON!
+	  [468] -666  POISON!
+	  [469] -666  POISON!
+	  [470] -666  POISON!
+	  [471] -666  POISON!
+	  [472] -666  POISON!
+	  [473] -666  POISON!
+	  [474] -666  POISON!
+	  [475] -666  POISON!
+	  [476] -666  POISON!
+	  [477] -666  POISON!
+	  [478] -666  POISON!
+	  [479] -666  POISON!
+	  [480] -666  POISON!
+	  [481] -666  POISON!
+	  [482] -666  POISON!
+	  [483] -666  POISON!
+	  [484] -666  POISON!
+	  [485] -666  POISON!
+	  [486] -666  POISON!
+	  [487] -666  POISON!
+	  [488] -666  POISON!
+	  [489] -666  POISON!
+	  [490] -666  POISON!
+	  [491] -666  POISON!
+	  [492] -666  POISON!
+	  [493] -666  POISON!
+	  [494] -666  POISON!
+	  [495] -666  POISON!
+	  [496] -666  POISON!
+	  [497] -666  POISON!
+	  [498] -666  POISON!
+	  [499] -666  POISON!
+	  [500] -666  POISON!
+	  [501] -666  POISON!
+	  [502] -666  POISON!
+	  [503] -666  POISON!
+	  [504] -666  POISON!
+	  [505] -666  POISON!
+	  [506] -666  POISON!
+	  [507] -666  POISON!
+	  [508] -666  POISON!
+	  [509] -666  POISON!
+	  [510] -666  POISON!
+	  [511] -666  POISON!
+	  [512] -666  POISON!
+	  [513] -666  POISON!
+	  [514] -666  POISON!
+	  [515] -666  POISON!
+	  [516] -666  POISON!
+	  [517] -666  POISON!
+	  [518] -666  POISON!
+	  [519] -666  POISON!
+	  [520] -666  POISON!
+	  [521] -666  POISON!
+	  [522] -666  POISON!
+	  [523] -666  POISON!
+	  [524] -666  POISON!
+	  [525] -666  POISON!
+	  [526] -666  POISON!
+	  [527] -666  POISON!
+	  [528] -666  POISON!
+	  [529] -666  POISON!
+	  [530] -666  POISON!
+	  [531] -666  POISON!
+	  [532] -666  POISON!
+	  [533] -666  POISON!
+	  [534] -666  POISON!
+	  [535] -666  POISON!
+	  [536] -666  POISON!
+	  [537] -666  POISON!
+	  [538] -666  POISON!
+	  [539] -666  POISON!
+	  [540] -666  POISON!
+	  [541] -666  POISON!
+	  [542] -666  POISON!
+	  [543] -666  POISON!
+	  [544] -666  POISON!
+	  [545] -666  POISON!
+	  [546] -666  POISON!
+	  [547] -666  POISON!
+	  [548] -666  POISON!
+	  [549] -666  POISON!
+	  [550] -666  POISON!
+	  [551] -666  POISON!
+	  [552] -666  POISON!
+	  [553] -666  POISON!
+	  [554] -666  POISON!
+	  [555] -666  POISON!
+	  [556] -666  POISON!
+	  [557] -666  POISON!
+	  [558] -666  POISON!
+	  [559] -666  POISON!
+	  [560] -666  POISON!
+	  [561] -666  POISON!
+	  [562] -666  POISON!
+	  [563] -666  POISON!
+	  [564] -666  POISON!
+	  [565] -666  POISON!
+	  [566] -666  POISON!
+	  [567] -666  POISON!
+	  [568] -666  POISON!
+	  [569] -666  POISON!
+	  [570] -666  POISON!
+	  [571] -666  POISON!
+	  [572] -666  POISON!
+	  [573] -666  POISON!
+	  [574] -666  POISON!
+	  [575] -666  POISON!
+	  [576] -666  POISON!
+	  [577] -666  POISON!
+	  [578] -666  POISON!
+	  [579] -666  POISON!
+	  [580] -666  POISON!
+	  [581] -666  POISON!
+	  [582] -666  POISON!
+	  [583] -666  POISON!
+	  [584] -666  POISON!
+	  [585] -666  POISON!
+	  [586] -666  POISON!
+	  [587] -666  POISON!
+	  [588] -666  POISON!
+	  [589] -666  POISON!
+	  [590] -666  POISON!
+	  [591] -666  POISON!
+	  [592] -666  POISON!
+	  [593] -666  POISON!
+	  [594] -666  POISON!
+	  [595] -666  POISON!
+	  [596] -666  POISON!
+	  [597] -666  POISON!
+	  [598] -666  POISON!
+	  [599] -666  POISON!
+	  [600] -666  POISON!
+	  [601] -666  POISON!
+	  [602] -666  POISON!
+	  [603] -666  POISON!
+	  [604] -666  POISON!
+	  [605] -666  POISON!
+	  [606] -666  POISON!
+	  [607] -666  POISON!
+	  [608] -666  POISON!
+	  [609] -666  POISON!
+	  [610] -666  POISON!
+	  [611] -666  POISON!
+	  [612] -666  POISON!
+	  [613] -666  POISON!
+	  [614] -666  POISON!
+	  [615] -666  POISON!
+	  [616] -666  POISON!
+	  [617] -666  POISON!
+	  [618] -666  POISON!
+	  [619] -666  POISON!
+	  [620] -666  POISON!
+	  [621] -666  POISON!
+	  [622] -666  POISON!
+	  [623] -666  POISON!
+	  [624] -666  POISON!
+	  [625] -666  POISON!
+	  [626] -666  POISON!
+	  [627] -666  POISON!
+	  [628] -666  POISON!
+	  [629] -666  POISON!
+	  [630] -666  POISON!
+	  [631] -666  POISON!
+	  [632] -666  POISON!
+	  [633] -666  POISON!
+	  [634] -666  POISON!
+	  [635] -666  POISON!
+	  [636] -666  POISON!
+	  [637] -666  POISON!
+	  [638] -666  POISON!
+	  [639] -666  POISON!
+	  [640] -666  POISON!
+	  [641] -666  POISON!
+	  [642] -666  POISON!
+	  [643] -666  POISON!
+	  [644] -666  POISON!
+	  [645] -666  POISON!
+	  [646] -666  POISON!
+	  [647] -666  POISON!
+	  [648] -666  POISON!
+	  [649] -666  POISON!
+	  [650] -666  POISON!
+	  [651] -666  POISON!
+	  [652] -666  POISON!
+	  [653] -666  POISON!
+	  [654] -666  POISON!
+	  [655] -666  POISON!
+	  [656] -666  POISON!
+	  [657] -666  POISON!
+	  [658] -666  POISON!
+	  [659] -666  POISON!
+	  [660] -666  POISON!
+	  [661] -666  POISON!
+	  [662] -666  POISON!
+	  [663] -666  POISON!
+	  [664] -666  POISON!
+	  [665] -666  POISON!
+	  [666] -666  POISON!
+	  [667] -666  POISON!
+	  [668] -666  POISON!
+	  [669] -666  POISON!
+	  [670] -666  POISON!
+	  [671] -666  POISON!
+	  [672] -666  POISON!
+	  [673] -666  POISON!
+	  [674] -666  POISON!
+	  [675] -666  POISON!
+	  [676] -666  POISON!
+	  [677] -666  POISON!
+	  [678] -666  POISON!
+	  [679] -666  POISON!
+	  [680] -666  POISON!
+	  [681] -666  POISON!
+	  [682] -666  POISON!
+	  [683] -666  POISON!
+	  [684] -666  POISON!
+	  [685] -666  POISON!
+	  [686] -666  POISON!
+	  [687] -666  POISON!
+	  [688] -666  POISON!
+	  [689] -666  POISON!
+	  [690] -666  POISON!
+	  [691] -666  POISON!
+	  [692] -666  POISON!
+	  [693] -666  POISON!
+	  [694] -666  POISON!
+	  [695] -666  POISON!
+	  [696] -666  POISON!
+	  [697] -666  POISON!
+	  [698] -666  POISON!
+	  [699] -666  POISON!
+	  [700] -666  POISON!
+	  [701] -666  POISON!
+	  [702] -666  POISON!
+	  [703] -666  POISON!
+	  [704] -666  POISON!
+	  [705] -666  POISON!
+	  [706] -666  POISON!
+	  [707] -666  POISON!
+	  [708] -666  POISON!
+	  [709] -666  POISON!
+	  [710] -666  POISON!
+	  [711] -666  POISON!
+	  [712] -666  POISON!
+	  [713] -666  POISON!
+	  [714] -666  POISON!
+	  [715] -666  POISON!
+	  [716] -666  POISON!
+	  [717] -666  POISON!
+	  [718] -666  POISON!
+	  [719] -666  POISON!
+	  [720] -666  POISON!
+	  [721] -666  POISON!
+	  [722] -666  POISON!
+	  [723] -666  POISON!
+	  [724] -666  POISON!
+	  [725] -666  POISON!
+	  [726] -666  POISON!
+	  [727] -666  POISON!
+	  [728] -666  POISON!
+	  [729] -666  POISON!
+	  [730] -666  POISON!
+	  [731] -666  POISON!
+	  [732] -666  POISON!
+	  [733] -666  POISON!
+	  [734] -666  POISON!
+	  [735] -666  POISON!
+	  [736] -666  POISON!
+	  [737] -666  POISON!
+	  [738] -666  POISON!
+	  [739] -666  POISON!
+	  [740] -666  POISON!
+	  [741] -666  POISON!
+	  [742] -666  POISON!
+	  [743] -666  POISON!
+	  [744] -666  POISON!
+	  [745] -666  POISON!
+	  [746] -666  POISON!
+	  [747] -666  POISON!
+	  [748] -666  POISON!
+	  [749] -666  POISON!
+	  [750] -666  POISON!
+	  [751] -666  POISON!
+	  [752] -666  POISON!
+	  [753] -666  POISON!
+	  [754] -666  POISON!
+	  [755] -666  POISON!
+	  [756] -666  POISON!
+	  [757] -666  POISON!
+	  [758] -666  POISON!
+	  [759] -666  POISON!
+	  [760] -666  POISON!
+	  [761] -666  POISON!
+	  [762] -666  POISON!
+	  [763] -666  POISON!
+	  [764] -666  POISON!
+	  [765] -666  POISON!
+	  [766] -666  POISON!
+	  [767] -666  POISON!
+	  [768] -666  POISON!
+	  [769] -666  POISON!
+	  [770] -666  POISON!
+	  [771] -666  POISON!
+	  [772] -666  POISON!
+	  [773] -666  POISON!
+	  [774] -666  POISON!
+	  [775] -666  POISON!
+	  [776] -666  POISON!
+	  [777] -666  POISON!
+	  [778] -666  POISON!
+	  [779] -666  POISON!
+	  [780] -666  POISON!
+	  [781] -666  POISON!
+	  [782] -666  POISON!
+	  [783] -666  POISON!
+	  [784] -666  POISON!
+	  [785] -666  POISON!
+	  [786] -666  POISON!
+	  [787] -666  POISON!
+	  [788] -666  POISON!
+	  [789] -666  POISON!
+	  [790] -666  POISON!
+	  [791] -666  POISON!
+	  [792] -666  POISON!
+	  [793] -666  POISON!
+	  [794] -666  POISON!
+	  [795] -666  POISON!
+	  [796] -666  POISON!
+	  [797] -666  POISON!
+	  [798] -666  POISON!
+	  [799] -666  POISON!
+	  [800] -666  POISON!
+	  [801] -666  POISON!
+	  [802] -666  POISON!
+	  [803] -666  POISON!
+	  [804] -666  POISON!
+	  [805] -666  POISON!
+	  [806] -666  POISON!
+	  [807] -666  POISON!
+	  [808] -666  POISON!
+	  [809] -666  POISON!
+	  [810] -666  POISON!
+	  [811] -666  POISON!
+	  [812] -666  POISON!
+	  [813] -666  POISON!
+	  [814] -666  POISON!
+	  [815] -666  POISON!
+	  [816] -666  POISON!
+	  [817] -666  POISON!
+	  [818] -666  POISON!
+	  [819] -666  POISON!
+	  [820] -666  POISON!
+	  [821] -666  POISON!
+	  [822] -666  POISON!
+	  [823] -666  POISON!
+	  [824] -666  POISON!
+	  [825] -666  POISON!
+	  [826] -666  POISON!
+	  [827] -666  POISON!
+	  [828] -666  POISON!
+	  [829] -666  POISON!
+	  [830] -666  POISON!
+	  [831] -666  POISON!
+	  [832] -666  POISON!
+	  [833] -666  POISON!
+	  [834] -666  POISON!
+	  [835] -666  POISON!
+	  [836] -666  POISON!
+	  [837] -666  POISON!
+	  [838] -666  POISON!
+	  [839] -666  POISON!
+	  [840] -666  POISON!
+	  [841] -666  POISON!
+	  [842] -666  POISON!
+	  [843] -666  POISON!
+	  [844] -666  POISON!
+	  [845] -666  POISON!
+	  [846] -666  POISON!
+	  [847] -666  POISON!
+	  [848] -666  POISON!
+	  [849] -666  POISON!
+	  [850] -666  POISON!
+	  [851] -666  POISON!
+	  [852] -666  POISON!
+	  [853] -666  POISON!
+	  [854] -666  POISON!
+	  [855] -666  POISON!
+	  [856] -666  POISON!
+	  [857] -666  POISON!
+	  [858] -666  POISON!
+	  [859] -666  POISON!
+	  [860] -666  POISON!
+	  [861] -666  POISON!
+	  [862] -666  POISON!
+	  [863] -666  POISON!
+	  [864] -666  POISON!
+	  [865] -666  POISON!
+	  [866] -666  POISON!
+	  [867] -666  POISON!
+	  [868] -666  POISON!
+	  [869] -666  POISON!
+	  [870] -666  POISON!
+	  [871] -666  POISON!
+	  [872] -666  POISON!
+	  [873] -666  POISON!
+	  [874] -666  POISON!
+	  [875] -666  POISON!
+	  [876] -666  POISON!
+	  [877] -666  POISON!
+	  [878] -666  POISON!
+	  [879] -666  POISON!
+	  [880] -666  POISON!
+	  [881] -666  POISON!
+	  [882] -666  POISON!
+	  [883] -666  POISON!
+	  [884] -666  POISON!
+	  [885] -666  POISON!
+	  [886] -666  POISON!
+	  [887] -666  POISON!
+	  [888] -666  POISON!
+	  [889] -666  POISON!
+	  [890] -666  POISON!
+	  [891] -666  POISON!
+	  [892] -666  POISON!
+	  [893] -666  POISON!
+	  [894] -666  POISON!
+	  [895] -666  POISON!
+	  [896] -666  POISON!
+	  [897] -666  POISON!
+	  [898] -666  POISON!
+	  [899] -666  POISON!
+	  [900] -666  POISON!
+	  [901] -666  POISON!
+	  [902] -666  POISON!
+	  [903] -666  POISON!
+	  [904] -666  POISON!
+	  [905] -666  POISON!
+	  [906] -666  POISON!
+	  [907] -666  POISON!
+	  [908] -666  POISON!
+	  [909] -666  POISON!
+	  [910] -666  POISON!
+	  [911] -666  POISON!
+	  [912] -666  POISON!
+	  [913] -666  POISON!
+	  [914] -666  POISON!
+	  [915] -666  POISON!
+	  [916] -666  POISON!
+	  [917] -666  POISON!
+	  [918] -666  POISON!
+	  [919] -666  POISON!
+	  [920] -666  POISON!
+	  [921] -666  POISON!
+	  [922] -666  POISON!
+	  [923] -666  POISON!
+	  [924] -666  POISON!
+	  [925] -666  POISON!
+	  [926] -666  POISON!
+	  [927] -666  POISON!
+	  [928] -666  POISON!
+	  [929] -666  POISON!
+	  [930] -666  POISON!
+	  [931] -666  POISON!
+	  [932] -666  POISON!
+	  [933] -666  POISON!
+	  [934] -666  POISON!
+	  [935] -666  POISON!
+	  [936] -666  POISON!
+	  [937] -666  POISON!
+	  [938] -666  POISON!
+	  [939] -666  POISON!
+	  [940] -666  POISON!
+	  [941] -666  POISON!
+	  [942] -666  POISON!
+	  [943] -666  POISON!
+	  [944] -666  POISON!
+	  [945] -666  POISON!
+	  [946] -666  POISON!
+	  [947] -666  POISON!
+	  [948] -666  POISON!
+	  [949] -666  POISON!
+	  [950] -666  POISON!
+	  [951] -666  POISON!
+	  [952] -666  POISON!
+	  [953] -666  POISON!
+	  [954] -666  POISON!
+	  [955] -666  POISON!
+	  [956] -666  POISON!
+	  [957] -666  POISON!
+	  [958] -666  POISON!
+	  [959] -666  POISON!
+	  [960] -666  POISON!
+	  [961] -666  POISON!
+	  [962] -666  POISON!
+	  [963] -666  POISON!
+	  [964] -666  POISON!
+	  [965] -666  POISON!
+	  [966] -666  POISON!
+	  [967] -666  POISON!
+	  [968] -666  POISON!
+	  [969] -666  POISON!
+	  [970] -666  POISON!
+	  [971] -666  POISON!
+	  [972] -666  POISON!
+	  [973] -666  POISON!
+	  [974] -666  POISON!
+	  [975] -666  POISON!
+	  [976] -666  POISON!
+	  [977] -666  POISON!
+	  [978] -666  POISON!
+	  [979] -666  POISON!
+	  [980] -666  POISON!
+	  [981] -666  POISON!
+	  [982] -666  POISON!
+	  [983] -666  POISON!
+	  [984] -666  POISON!
+	  [985] -666  POISON!
+	  [986] -666  POISON!
+	  [987] -666  POISON!
+	  [988] -666  POISON!
+	  [989] -666  POISON!
+	  [990] -666  POISON!
+	  [991] -666  POISON!
+	  [992] -666  POISON!
+	  [993] -666  POISON!
+	  [994] -666  POISON!
+	  [995] -666  POISON!
+	  [996] -666  POISON!
+	  [997] -666  POISON!
+	  [998] -666  POISON!
+	  [999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffe5efbc850]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	  [6] -666  POISON!
+	  [7] -666  POISON!
+	  [8] -666  POISON!
+	  [9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	  [64] -666  POISON!
+	  [65] -666  POISON!
+	  [66] -666  POISON!
+	  [67] -666  POISON!
+	  [68] -666  POISON!
+	  [69] -666  POISON!
+	  [70] -666  POISON!
+	  [71] -666  POISON!
+	  [72] -666  POISON!
+	  [73] -666  POISON!
+	  [74] -666  POISON!
+	  [75] -666  POISON!
+	  [76] -666  POISON!
+	  [77] -666  POISON!
+	  [78] -666  POISON!
+	  [79] -666  POISON!
+	  [80] -666  POISON!
+	  [81] -666  POISON!
+	  [82] -666  POISON!
+	  [83] -666  POISON!
+	  [84] -666  POISON!
+	  [85] -666  POISON!
+	  [86] -666  POISON!
+	  [87] -666  POISON!
+	  [88] -666  POISON!
+	  [89] -666  POISON!
+	  [90] -666  POISON!
+	  [91] -666  POISON!
+	  [92] -666  POISON!
+	  [93] -666  POISON!
+	  [94] -666  POISON!
+	  [95] -666  POISON!
+	  [96] -666  POISON!
+	  [97] -666  POISON!
+	  [98] -666  POISON!
+	  [99] -666  POISON!
+	  [100] -666  POISON!
+	  [101] -666  POISON!
+	  [102] -666  POISON!
+	  [103] -666  POISON!
+	  [104] -666  POISON!
+	  [105] -666  POISON!
+	  [106] -666  POISON!
+	  [107] -666  POISON!
+	  [108] -666  POISON!
+	  [109] -666  POISON!
+	  [110] -666  POISON!
+	  [111] -666  POISON!
+	  [112] -666  POISON!
+	  [113] -666  POISON!
+	  [114] -666  POISON!
+	  [115] -666  POISON!
+	  [116] -666  POISON!
+	  [117] -666  POISON!
+	  [118] -666  POISON!
+	  [119] -666  POISON!
+	  [120] -666  POISON!
+	  [121] -666  POISON!
+	  [122] -666  POISON!
+	  [123] -666  POISON!
+	  [124] -666  POISON!
+	  [125] -666  POISON!
+	  [126] -666  POISON!
+	  [127] -666  POISON!
+	  [128] -666  POISON!
+	  [129] -666  POISON!
+	  [130] -666  POISON!
+	  [131] -666  POISON!
+	  [132] -666  POISON!
+	  [133] -666  POISON!
+	  [134] -666  POISON!
+	  [135] -666  POISON!
+	  [136] -666  POISON!
+	  [137] -666  POISON!
+	  [138] -666  POISON!
+	  [139] -666  POISON!
+	  [140] -666  POISON!
+	  [141] -666  POISON!
+	  [142] -666  POISON!
+	  [143] -666  POISON!
+	  [144] -666  POISON!
+	  [145] -666  POISON!
+	  [146] -666  POISON!
+	  [147] -666  POISON!
+	  [148] -666  POISON!
+	  [149] -666  POISON!
+	  [150] -666  POISON!
+	  [151] -666  POISON!
+	  [152] -666  POISON!
+	  [153] -666  POISON!
+	  [154] -666  POISON!
+	  [155] -666  POISON!
+	  [156] -666  POISON!
+	  [157] -666  POISON!
+	  [158] -666  POISON!
+	  [159] -666  POISON!
+	  [160] -666  POISON!
+	  [161] -666  POISON!
+	  [162] -666  POISON!
+	  [163] -666  POISON!
+	  [164] -666  POISON!
+	  [165] -666  POISON!
+	  [166] -666  POISON!
+	  [167] -666  POISON!
+	  [168] -666  POISON!
+	  [169] -666  POISON!
+	  [170] -666  POISON!
+	  [171] -666  POISON!
+	  [172] -666  POISON!
+	  [173] -666  POISON!
+	  [174] -666  POISON!
+	  [175] -666  POISON!
+	  [176] -666  POISON!
+	  [177] -666  POISON!
+	  [178] -666  POISON!
+	  [179] -666  POISON!
+	  [180] -666  POISON!
+	  [181] -666  POISON!
+	  [182] -666  POISON!
+	  [183] -666  POISON!
+	  [184] -666  POISON!
+	  [185] -666  POISON!
+	  [186] -666  POISON!
+	  [187] -666  POISON!
+	  [188] -666  POISON!
+	  [189] -666  POISON!
+	  [190] -666  POISON!
+	  [191] -666  POISON!
+	  [192] -666  POISON!
+	  [193] -666  POISON!
+	  [194] -666  POISON!
+	  [195] -666  POISON!
+	  [196] -666  POISON!
+	  [197] -666  POISON!
+	  [198] -666  POISON!
+	  [199] -666  POISON!
+	  [200] -666  POISON!
+	  [201] -666  POISON!
+	  [202] -666  POISON!
+	  [203] -666  POISON!
+	  [204] -666  POISON!
+	  [205] -666  POISON!
+	  [206] -666  POISON!
+	  [207] -666  POISON!
+	  [208] -666  POISON!
+	  [209] -666  POISON!
+	  [210] -666  POISON!
+	  [211] -666  POISON!
+	  [212] -666  POISON!
+	  [213] -666  POISON!
+	  [214] -666  POISON!
+	  [215] -666  POISON!
+	  [216] -666  POISON!
+	  [217] -666  POISON!
+	  [218] -666  POISON!
+	  [219] -666  POISON!
+	  [220] -666  POISON!
+	  [221] -666  POISON!
+	  [222] -666  POISON!
+	  [223] -666  POISON!
+	  [224] -666  POISON!
+	  [225] -666  POISON!
+	  [226] -666  POISON!
+	  [227] -666  POISON!
+	  [228] -666  POISON!
+	  [229] -666  POISON!
+	  [230] -666  POISON!
+	  [231] -666  POISON!
+	  [232] -666  POISON!
+	  [233] -666  POISON!
+	  [234] -666  POISON!
+	  [235] -666  POISON!
+	  [236] -666  POISON!
+	  [237] -666  POISON!
+	  [238] -666  POISON!
+	  [239] -666  POISON!
+	  [240] -666  POISON!
+	  [241] -666  POISON!
+	  [242] -666  POISON!
+	  [243] -666  POISON!
+	  [244] -666  POISON!
+	  [245] -666  POISON!
+	  [246] -666  POISON!
+	  [247] -666  POISON!
+	  [248] -666  POISON!
+	  [249] -666  POISON!
+	  [250] -666  POISON!
+	  [251] -666  POISON!
+	  [252] -666  POISON!
+	  [253] -666  POISON!
+	  [254] -666  POISON!
+	  [255] -666  POISON!
+	  [256] -666  POISON!
+	  [257] -666  POISON!
+	  [258] -666  POISON!
+	  [259] -666  POISON!
+	  [260] -666  POISON!
+	  [261] -666  POISON!
+	  [262] -666  POISON!
+	  [263] -666  POISON!
+	  [264] -666  POISON!
+	  [265] -666  POISON!
+	  [266] -666  POISON!
+	  [267] -666  POISON!
+	  [268] -666  POISON!
+	  [269] -666  POISON!
+	  [270] -666  POISON!
+	  [271] -666  POISON!
+	  [272] -666  POISON!
+	  [273] -666  POISON!
+	  [274] -666  POISON!
+	  [275] -666  POISON!
+	  [276] -666  POISON!
+	  [277] -666  POISON!
+	  [278] -666  POISON!
+	  [279] -666  POISON!
+	  [280] -666  POISON!
+	  [281] -666  POISON!
+	  [282] -666  POISON!
+	  [283] -666  POISON!
+	  [284] -666  POISON!
+	  [285] -666  POISON!
+	  [286] -666  POISON!
+	  [287] -666  POISON!
+	  [288] -666  POISON!
+	  [289] -666  POISON!
+	  [290] -666  POISON!
+	  [291] -666  POISON!
+	  [292] -666  POISON!
+	  [293] -666  POISON!
+	  [294] -666  POISON!
+	  [295] -666  POISON!
+	  [296] -666  POISON!
+	  [297] -666  POISON!
+	  [298] -666  POISON!
+	  [299] -666  POISON!
+	  [300] -666  POISON!
+	  [301] -666  POISON!
+	  [302] -666  POISON!
+	  [303] -666  POISON!
+	  [304] -666  POISON!
+	  [305] -666  POISON!
+	  [306] -666  POISON!
+	  [307] -666  POISON!
+	  [308] -666  POISON!
+	  [309] -666  POISON!
+	  [310] -666  POISON!
+	  [311] -666  POISON!
+	  [312] -666  POISON!
+	  [313] -666  POISON!
+	  [314] -666  POISON!
+	  [315] -666  POISON!
+	  [316] -666  POISON!
+	  [317] -666  POISON!
+	  [318] -666  POISON!
+	  [319] -666  POISON!
+	  [320] -666  POISON!
+	  [321] -666  POISON!
+	  [322] -666  POISON!
+	  [323] -666  POISON!
+	  [324] -666  POISON!
+	  [325] -666  POISON!
+	  [326] -666  POISON!
+	  [327] -666  POISON!
+	  [328] -666  POISON!
+	  [329] -666  POISON!
+	  [330] -666  POISON!
+	  [331] -666  POISON!
+	  [332] -666  POISON!
+	  [333] -666  POISON!
+	  [334] -666  POISON!
+	  [335] -666  POISON!
+	  [336] -666  POISON!
+	  [337] -666  POISON!
+	  [338] -666  POISON!
+	  [339] -666  POISON!
+	  [340] -666  POISON!
+	  [341] -666  POISON!
+	  [342] -666  POISON!
+	  [343] -666  POISON!
+	  [344] -666  POISON!
+	  [345] -666  POISON!
+	  [346] -666  POISON!
+	  [347] -666  POISON!
+	  [348] -666  POISON!
+	  [349] -666  POISON!
+	  [350] -666  POISON!
+	  [351] -666  POISON!
+	  [352] -666  POISON!
+	  [353] -666  POISON!
+	  [354] -666  POISON!
+	  [355] -666  POISON!
+	  [356] -666  POISON!
+	  [357] -666  POISON!
+	  [358] -666  POISON!
+	  [359] -666  POISON!
+	  [360] -666  POISON!
+	  [361] -666  POISON!
+	  [362] -666  POISON!
+	  [363] -666  POISON!
+	  [364] -666  POISON!
+	  [365] -666  POISON!
+	  [366] -666  POISON!
+	  [367] -666  POISON!
+	  [368] -666  POISON!
+	  [369] -666  POISON!
+	  [370] -666  POISON!
+	  [371] -666  POISON!
+	  [372] -666  POISON!
+	  [373] -666  POISON!
+	  [374] -666  POISON!
+	  [375] -666  POISON!
+	  [376] -666  POISON!
+	  [377] -666  POISON!
+	  [378] -666  POISON!
+	  [379] -666  POISON!
+	  [380] -666  POISON!
+	  [381] -666  POISON!
+	  [382] -666  POISON!
+	  [383] -666  POISON!
+	  [384] -666  POISON!
+	  [385] -666  POISON!
+	  [386] -666  POISON!
+	  [387] -666  POISON!
+	  [388] -666  POISON!
+	  [389] -666  POISON!
+	  [390] -666  POISON!
+	  [391] -666  POISON!
+	  [392] -666  POISON!
+	  [393] -666  POISON!
+	  [394] -666  POISON!
+	  [395] -666  POISON!
+	  [396] -666  POISON!
+	  [397] -666  POISON!
+	  [398] -666  POISON!
+	  [399] -666  POISON!
+	  [400] -666  POISON!
+	  [401] -666  POISON!
+	  [402] -666  POISON!
+	  [403] -666  POISON!
+	  [404] -666  POISON!
+	  [405] -666  POISON!
+	  [406] -666  POISON!
+	  [407] -666  POISON!
+	  [408] -666  POISON!
+	  [409] -666  POISON!
+	  [410] -666  POISON!
+	  [411] -666  POISON!
+	  [412] -666  POISON!
+	  [413] -666  POISON!
+	  [414] -666  POISON!
+	  [415] -666  POISON!
+	  [416] -666  POISON!
+	  [417] -666  POISON!
+	  [418] -666  POISON!
+	  [419] -666  POISON!
+	  [420] -666  POISON!
+	  [421] -666  POISON!
+	  [422] -666  POISON!
+	  [423] -666  POISON!
+	  [424] -666  POISON!
+	  [425] -666  POISON!
+	  [426] -666  POISON!
+	  [427] -666  POISON!
+	  [428] -666  POISON!
+	  [429] -666  POISON!
+	  [430] -666  POISON!
+	  [431] -666  POISON!
+	  [432] -666  POISON!
+	  [433] -666  POISON!
+	  [434] -666  POISON!
+	  [435] -666  POISON!
+	  [436] -666  POISON!
+	  [437] -666  POISON!
+	  [438] -666  POISON!
+	  [439] -666  POISON!
+	  [440] -666  POISON!
+	  [441] -666  POISON!
+	  [442] -666  POISON!
+	  [443] -666  POISON!
+	  [444] -666  POISON!
+	  [445] -666  POISON!
+	  [446] -666  POISON!
+	  [447] -666  POISON!
+	  [448] -666  POISON!
+	  [449] -666  POISON!
+	  [450] -666  POISON!
+	  [451] -666  POISON!
+	  [452] -666  POISON!
+	  [453] -666  POISON!
+	  [454] -666  POISON!
+	  [455] -666  POISON!
+	  [456] -666  POISON!
+	  [457] -666  POISON!
+	  [458] -666  POISON!
+	  [459] -666  POISON!
+	  [460] -666  POISON!
+	  [461] -666  POISON!
+	  [462] -666  POISON!
+	  [463] -666  POISON!
+	  [464] -666  POISON!
+	  [465] -666  POISON!
+	  [466] -666  POISON!
+	  [467] -666  POISON!
+	  [468] -666  POISON!
+	  [469] -666  POISON!
+	  [470] -666  POISON!
+	  [471] -666  POISON!
+	  [472] -666  POISON!
+	  [473] -666  POISON!
+	  [474] -666  POISON!
+	  [475] -666  POISON!
+	  [476] -666  POISON!
+	  [477] -666  POISON!
+	  [478] -666  POISON!
+	  [479] -666  POISON!
+	  [480] -666  POISON!
+	  [481] -666  POISON!
+	  [482] -666  POISON!
+	  [483] -666  POISON!
+	  [484] -666  POISON!
+	  [485] -666  POISON!
+	  [486] -666  POISON!
+	  [487] -666  POISON!
+	  [488] -666  POISON!
+	  [489] -666  POISON!
+	  [490] -666  POISON!
+	  [491] -666  POISON!
+	  [492] -666  POISON!
+	  [493] -666  POISON!
+	  [494] -666  POISON!
+	  [495] -666  POISON!
+	  [496] -666  POISON!
+	  [497] -666  POISON!
+	  [498] -666  POISON!
+	  [499] -666  POISON!
+	  [500] -666  POISON!
+	  [501] -666  POISON!
+	  [502] -666  POISON!
+	  [503] -666  POISON!
+	  [504] -666  POISON!
+	  [505] -666  POISON!
+	  [506] -666  POISON!
+	  [507] -666  POISON!
+	  [508] -666  POISON!
+	  [509] -666  POISON!
+	  [510] -666  POISON!
+	  [511] -666  POISON!
+	  [512] -666  POISON!
+	  [513] -666  POISON!
+	  [514] -666  POISON!
+	  [515] -666  POISON!
+	  [516] -666  POISON!
+	  [517] -666  POISON!
+	  [518] -666  POISON!
+	  [519] -666  POISON!
+	  [520] -666  POISON!
+	  [521] -666  POISON!
+	  [522] -666  POISON!
+	  [523] -666  POISON!
+	  [524] -666  POISON!
+	  [525] -666  POISON!
+	  [526] -666  POISON!
+	  [527] -666  POISON!
+	  [528] -666  POISON!
+	  [529] -666  POISON!
+	  [530] -666  POISON!
+	  [531] -666  POISON!
+	  [532] -666  POISON!
+	  [533] -666  POISON!
+	  [534] -666  POISON!
+	  [535] -666  POISON!
+	  [536] -666  POISON!
+	  [537] -666  POISON!
+	  [538] -666  POISON!
+	  [539] -666  POISON!
+	  [540] -666  POISON!
+	  [541] -666  POISON!
+	  [542] -666  POISON!
+	  [543] -666  POISON!
+	  [544] -666  POISON!
+	  [545] -666  POISON!
+	  [546] -666  POISON!
+	  [547] -666  POISON!
+	  [548] -666  POISON!
+	  [549] -666  POISON!
+	  [550] -666  POISON!
+	  [551] -666  POISON!
+	  [552] -666  POISON!
+	  [553] -666  POISON!
+	  [554] -666  POISON!
+	  [555] -666  POISON!
+	  [556] -666  POISON!
+	  [557] -666  POISON!
+	  [558] -666  POISON!
+	  [559] -666  POISON!
+	  [560] -666  POISON!
+	  [561] -666  POISON!
+	  [562] -666  POISON!
+	  [563] -666  POISON!
+	  [564] -666  POISON!
+	  [565] -666  POISON!
+	  [566] -666  POISON!
+	  [567] -666  POISON!
+	  [568] -666  POISON!
+	  [569] -666  POISON!
+	  [570] -666  POISON!
+	  [571] -666  POISON!
+	  [572] -666  POISON!
+	  [573] -666  POISON!
+	  [574] -666  POISON!
+	  [575] -666  POISON!
+	  [576] -666  POISON!
+	  [577] -666  POISON!
+	  [578] -666  POISON!
+	  [579] -666  POISON!
+	  [580] -666  POISON!
+	  [581] -666  POISON!
+	  [582] -666  POISON!
+	  [583] -666  POISON!
+	  [584] -666  POISON!
+	  [585] -666  POISON!
+	  [586] -666  POISON!
+	  [587] -666  POISON!
+	  [588] -666  POISON!
+	  [589] -666  POISON!
+	  [590] -666  POISON!
+	  [591] -666  POISON!
+	  [592] -666  POISON!
+	  [593] -666  POISON!
+	  [594] -666  POISON!
+	  [595] -666  POISON!
+	  [596] -666  POISON!
+	  [597] -666  POISON!
+	  [598] -666  POISON!
+	  [599] -666  POISON!
+	  [600] -666  POISON!
+	  [601] -666  POISON!
+	  [602] -666  POISON!
+	  [603] -666  POISON!
+	  [604] -666  POISON!
+	  [605] -666  POISON!
+	  [606] -666  POISON!
+	  [607] -666  POISON!
+	  [608] -666  POISON!
+	  [609] -666  POISON!
+	  [610] -666  POISON!
+	  [611] -666  POISON!
+	  [612] -666  POISON!
+	  [613] -666  POISON!
+	  [614] -666  POISON!
+	  [615] -666  POISON!
+	  [616] -666  POISON!
+	  [617] -666  POISON!
+	  [618] -666  POISON!
+	  [619] -666  POISON!
+	  [620] -666  POISON!
+	  [621] -666  POISON!
+	  [622] -666  POISON!
+	  [623] -666  POISON!
+	  [624] -666  POISON!
+	  [625] -666  POISON!
+	  [626] -666  POISON!
+	  [627] -666  POISON!
+	  [628] -666  POISON!
+	  [629] -666  POISON!
+	  [630] -666  POISON!
+	  [631] -666  POISON!
+	  [632] -666  POISON!
+	  [633] -666  POISON!
+	  [634] -666  POISON!
+	  [635] -666  POISON!
+	  [636] -666  POISON!
+	  [637] -666  POISON!
+	  [638] -666  POISON!
+	  [639] -666  POISON!
+	  [640] -666  POISON!
+	  [641] -666  POISON!
+	  [642] -666  POISON!
+	  [643] -666  POISON!
+	  [644] -666  POISON!
+	  [645] -666  POISON!
+	  [646] -666  POISON!
+	  [647] -666  POISON!
+	  [648] -666  POISON!
+	  [649] -666  POISON!
+	  [650] -666  POISON!
+	  [651] -666  POISON!
+	  [652] -666  POISON!
+	  [653] -666  POISON!
+	  [654] -666  POISON!
+	  [655] -666  POISON!
+	  [656] -666  POISON!
+	  [657] -666  POISON!
+	  [658] -666  POISON!
+	  [659] -666  POISON!
+	  [660] -666  POISON!
+	  [661] -666  POISON!
+	  [662] -666  POISON!
+	  [663] -666  POISON!
+	  [664] -666  POISON!
+	  [665] -666  POISON!
+	  [666] -666  POISON!
+	  [667] -666  POISON!
+	  [668] -666  POISON!
+	  [669] -666  POISON!
+	  [670] -666  POISON!
+	  [671] -666  POISON!
+	  [672] -666  POISON!
+	  [673] -666  POISON!
+	  [674] -666  POISON!
+	  [675] -666  POISON!
+	  [676] -666  POISON!
+	  [677] -666  POISON!
+	  [678] -666  POISON!
+	  [679] -666  POISON!
+	  [680] -666  POISON!
+	  [681] -666  POISON!
+	  [682] -666  POISON!
+	  [683] -666  POISON!
+	  [684] -666  POISON!
+	  [685] -666  POISON!
+	  [686] -666  POISON!
+	  [687] -666  POISON!
+	  [688] -666  POISON!
+	  [689] -666  POISON!
+	  [690] -666  POISON!
+	  [691] -666  POISON!
+	  [692] -666  POISON!
+	  [693] -666  POISON!
+	  [694] -666  POISON!
+	  [695] -666  POISON!
+	  [696] -666  POISON!
+	  [697] -666  POISON!
+	  [698] -666  POISON!
+	  [699] -666  POISON!
+	  [700] -666  POISON!
+	  [701] -666  POISON!
+	  [702] -666  POISON!
+	  [703] -666  POISON!
+	  [704] -666  POISON!
+	  [705] -666  POISON!
+	  [706] -666  POISON!
+	  [707] -666  POISON!
+	  [708] -666  POISON!
+	  [709] -666  POISON!
+	  [710] -666  POISON!
+	  [711] -666  POISON!
+	  [712] -666  POISON!
+	  [713] -666  POISON!
+	  [714] -666  POISON!
+	  [715] -666  POISON!
+	  [716] -666  POISON!
+	  [717] -666  POISON!
+	  [718] -666  POISON!
+	  [719] -666  POISON!
+	  [720] -666  POISON!
+	  [721] -666  POISON!
+	  [722] -666  POISON!
+	  [723] -666  POISON!
+	  [724] -666  POISON!
+	  [725] -666  POISON!
+	  [726] -666  POISON!
+	  [727] -666  POISON!
+	  [728] -666  POISON!
+	  [729] -666  POISON!
+	  [730] -666  POISON!
+	  [731] -666  POISON!
+	  [732] -666  POISON!
+	  [733] -666  POISON!
+	  [734] -666  POISON!
+	  [735] -666  POISON!
+	  [736] -666  POISON!
+	  [737] -666  POISON!
+	  [738] -666  POISON!
+	  [739] -666  POISON!
+	  [740] -666  POISON!
+	  [741] -666  POISON!
+	  [742] -666  POISON!
+	  [743] -666  POISON!
+	  [744] -666  POISON!
+	  [745] -666  POISON!
+	  [746] -666  POISON!
+	  [747] -666  POISON!
+	  [748] -666  POISON!
+	  [749] -666  POISON!
+	  [750] -666  POISON!
+	  [751] -666  POISON!
+	  [752] -666  POISON!
+	  [753] -666  POISON!
+	  [754] -666  POISON!
+	  [755] -666  POISON!
+	  [756] -666  POISON!
+	  [757] -666  POISON!
+	  [758] -666  POISON!
+	  [759] -666  POISON!
+	  [760] -666  POISON!
+	  [761] -666  POISON!
+	  [762] -666  POISON!
+	  [763] -666  POISON!
+	  [764] -666  POISON!
+	  [765] -666  POISON!
+	  [766] -666  POISON!
+	  [767] -666  POISON!
+	  [768] -666  POISON!
+	  [769] -666  POISON!
+	  [770] -666  POISON!
+	  [771] -666  POISON!
+	  [772] -666  POISON!
+	  [773] -666  POISON!
+	  [774] -666  POISON!
+	  [775] -666  POISON!
+	  [776] -666  POISON!
+	  [777] -666  POISON!
+	  [778] -666  POISON!
+	  [779] -666  POISON!
+	  [780] -666  POISON!
+	  [781] -666  POISON!
+	  [782] -666  POISON!
+	  [783] -666  POISON!
+	  [784] -666  POISON!
+	  [785] -666  POISON!
+	  [786] -666  POISON!
+	  [787] -666  POISON!
+	  [788] -666  POISON!
+	  [789] -666  POISON!
+	  [790] -666  POISON!
+	  [791] -666  POISON!
+	  [792] -666  POISON!
+	  [793] -666  POISON!
+	  [794] -666  POISON!
+	  [795] -666  POISON!
+	  [796] -666  POISON!
+	  [797] -666  POISON!
+	  [798] -666  POISON!
+	  [799] -666  POISON!
+	  [800] -666  POISON!
+	  [801] -666  POISON!
+	  [802] -666  POISON!
+	  [803] -666  POISON!
+	  [804] -666  POISON!
+	  [805] -666  POISON!
+	  [806] -666  POISON!
+	  [807] -666  POISON!
+	  [808] -666  POISON!
+	  [809] -666  POISON!
+	  [810] -666  POISON!
+	  [811] -666  POISON!
+	  [812] -666  POISON!
+	  [813] -666  POISON!
+	  [814] -666  POISON!
+	  [815] -666  POISON!
+	  [816] -666  POISON!
+	  [817] -666  POISON!
+	  [818] -666  POISON!
+	  [819] -666  POISON!
+	  [820] -666  POISON!
+	  [821] -666  POISON!
+	  [822] -666  POISON!
+	  [823] -666  POISON!
+	  [824] -666  POISON!
+	  [825] -666  POISON!
+	  [826] -666  POISON!
+	  [827] -666  POISON!
+	  [828] -666  POISON!
+	  [829] -666  POISON!
+	  [830] -666  POISON!
+	  [831] -666  POISON!
+	  [832] -666  POISON!
+	  [833] -666  POISON!
+	  [834] -666  POISON!
+	  [835] -666  POISON!
+	  [836] -666  POISON!
+	  [837] -666  POISON!
+	  [838] -666  POISON!
+	  [839] -666  POISON!
+	  [840] -666  POISON!
+	  [841] -666  POISON!
+	  [842] -666  POISON!
+	  [843] -666  POISON!
+	  [844] -666  POISON!
+	  [845] -666  POISON!
+	  [846] -666  POISON!
+	  [847] -666  POISON!
+	  [848] -666  POISON!
+	  [849] -666  POISON!
+	  [850] -666  POISON!
+	  [851] -666  POISON!
+	  [852] -666  POISON!
+	  [853] -666  POISON!
+	  [854] -666  POISON!
+	  [855] -666  POISON!
+	  [856] -666  POISON!
+	  [857] -666  POISON!
+	  [858] -666  POISON!
+	  [859] -666  POISON!
+	  [860] -666  POISON!
+	  [861] -666  POISON!
+	  [862] -666  POISON!
+	  [863] -666  POISON!
+	  [864] -666  POISON!
+	  [865] -666  POISON!
+	  [866] -666  POISON!
+	  [867] -666  POISON!
+	  [868] -666  POISON!
+	  [869] -666  POISON!
+	  [870] -666  POISON!
+	  [871] -666  POISON!
+	  [872] -666  POISON!
+	  [873] -666  POISON!
+	  [874] -666  POISON!
+	  [875] -666  POISON!
+	  [876] -666  POISON!
+	  [877] -666  POISON!
+	  [878] -666  POISON!
+	  [879] -666  POISON!
+	  [880] -666  POISON!
+	  [881] -666  POISON!
+	  [882] -666  POISON!
+	  [883] -666  POISON!
+	  [884] -666  POISON!
+	  [885] -666  POISON!
+	  [886] -666  POISON!
+	  [887] -666  POISON!
+	  [888] -666  POISON!
+	  [889] -666  POISON!
+	  [890] -666  POISON!
+	  [891] -666  POISON!
+	  [892] -666  POISON!
+	  [893] -666  POISON!
+	  [894] -666  POISON!
+	  [895] -666  POISON!
+	  [896] -666  POISON!
+	  [897] -666  POISON!
+	  [898] -666  POISON!
+	  [899] -666  POISON!
+	  [900] -666  POISON!
+	  [901] -666  POISON!
+	  [902] -666  POISON!
+	  [903] -666  POISON!
+	  [904] -666  POISON!
+	  [905] -666  POISON!
+	  [906] -666  POISON!
+	  [907] -666  POISON!
+	  [908] -666  POISON!
+	  [909] -666  POISON!
+	  [910] -666  POISON!
+	  [911] -666  POISON!
+	  [912] -666  POISON!
+	  [913] -666  POISON!
+	  [914] -666  POISON!
+	  [915] -666  POISON!
+	  [916] -666  POISON!
+	  [917] -666  POISON!
+	  [918] -666  POISON!
+	  [919] -666  POISON!
+	  [920] -666  POISON!
+	  [921] -666  POISON!
+	  [922] -666  POISON!
+	  [923] -666  POISON!
+	  [924] -666  POISON!
+	  [925] -666  POISON!
+	  [926] -666  POISON!
+	  [927] -666  POISON!
+	  [928] -666  POISON!
+	  [929] -666  POISON!
+	  [930] -666  POISON!
+	  [931] -666  POISON!
+	  [932] -666  POISON!
+	  [933] -666  POISON!
+	  [934] -666  POISON!
+	  [935] -666  POISON!
+	  [936] -666  POISON!
+	  [937] -666  POISON!
+	  [938] -666  POISON!
+	  [939] -666  POISON!
+	  [940] -666  POISON!
+	  [941] -666  POISON!
+	  [942] -666  POISON!
+	  [943] -666  POISON!
+	  [944] -666  POISON!
+	  [945] -666  POISON!
+	  [946] -666  POISON!
+	  [947] -666  POISON!
+	  [948] -666  POISON!
+	  [949] -666  POISON!
+	  [950] -666  POISON!
+	  [951] -666  POISON!
+	  [952] -666  POISON!
+	  [953] -666  POISON!
+	  [954] -666  POISON!
+	  [955] -666  POISON!
+	  [956] -666  POISON!
+	  [957] -666  POISON!
+	  [958] -666  POISON!
+	  [959] -666  POISON!
+	  [960] -666  POISON!
+	  [961] -666  POISON!
+	  [962] -666  POISON!
+	  [963] -666  POISON!
+	  [964] -666  POISON!
+	  [965] -666  POISON!
+	  [966] -666  POISON!
+	  [967] -666  POISON!
+	  [968] -666  POISON!
+	  [969] -666  POISON!
+	  [970] -666  POISON!
+	  [971] -666  POISON!
+	  [972] -666  POISON!
+	  [973] -666  POISON!
+	  [974] -666  POISON!
+	  [975] -666  POISON!
+	  [976] -666  POISON!
+	  [977] -666  POISON!
+	  [978] -666  POISON!
+	  [979] -666  POISON!
+	  [980] -666  POISON!
+	  [981] -666  POISON!
+	  [982] -666  POISON!
+	  [983] -666  POISON!
+	  [984] -666  POISON!
+	  [985] -666  POISON!
+	  [986] -666  POISON!
+	  [987] -666  POISON!
+	  [988] -666  POISON!
+	  [989] -666  POISON!
+	  [990] -666  POISON!
+	  [991] -666  POISON!
+	  [992] -666  POISON!
+	  [993] -666  POISON!
+	  [994] -666  POISON!
+	  [995] -666  POISON!
+	  [996] -666  POISON!
+	  [997] -666  POISON!
+	  [998] -666  POISON!
+	  [999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffc066d0260]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [3] -666  POISON!
+	  [4] -666  POISON!
+	  [5] -666  POISON!
+	  [6] -666  POISON!
+	  [7] -666  POISON!
+	  [8] -666  POISON!
+	  [9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	  [64] -666  POISON!
+	  [65] -666  POISON!
+	  [66] -666  POISON!
+	  [67] -666  POISON!
+	  [68] -666  POISON!
+	  [69] -666  POISON!
+	  [70] -666  POISON!
+	  [71] -666  POISON!
+	  [72] -666  POISON!
+	  [73] -666  POISON!
+	  [74] -666  POISON!
+	  [75] -666  POISON!
+	  [76] -666  POISON!
+	  [77] -666  POISON!
+	  [78] -666  POISON!
+	  [79] -666  POISON!
+	  [80] -666  POISON!
+	  [81] -666  POISON!
+	  [82] -666  POISON!
+	  [83] -666  POISON!
+	  [84] -666  POISON!
+	  [85] -666  POISON!
+	  [86] -666  POISON!
+	  [87] -666  POISON!
+	  [88] -666  POISON!
+	  [89] -666  POISON!
+	  [90] -666  POISON!
+	  [91] -666  POISON!
+	  [92] -666  POISON!
+	  [93] -666  POISON!
+	  [94] -666  POISON!
+	  [95] -666  POISON!
+	  [96] -666  POISON!
+	  [97] -666  POISON!
+	  [98] -666  POISON!
+	  [99] -666  POISON!
+	  [100] -666  POISON!
+	  [101] -666  POISON!
+	  [102] -666  POISON!
+	  [103] -666  POISON!
+	  [104] -666  POISON!
+	  [105] -666  POISON!
+	  [106] -666  POISON!
+	  [107] -666  POISON!
+	  [108] -666  POISON!
+	  [109] -666  POISON!
+	  [110] -666  POISON!
+	  [111] -666  POISON!
+	  [112] -666  POISON!
+	  [113] -666  POISON!
+	  [114] -666  POISON!
+	  [115] -666  POISON!
+	  [116] -666  POISON!
+	  [117] -666  POISON!
+	  [118] -666  POISON!
+	  [119] -666  POISON!
+	  [120] -666  POISON!
+	  [121] -666  POISON!
+	  [122] -666  POISON!
+	  [123] -666  POISON!
+	  [124] -666  POISON!
+	  [125] -666  POISON!
+	  [126] -666  POISON!
+	  [127] -666  POISON!
+	  [128] -666  POISON!
+	  [129] -666  POISON!
+	  [130] -666  POISON!
+	  [131] -666  POISON!
+	  [132] -666  POISON!
+	  [133] -666  POISON!
+	  [134] -666  POISON!
+	  [135] -666  POISON!
+	  [136] -666  POISON!
+	  [137] -666  POISON!
+	  [138] -666  POISON!
+	  [139] -666  POISON!
+	  [140] -666  POISON!
+	  [141] -666  POISON!
+	  [142] -666  POISON!
+	  [143] -666  POISON!
+	  [144] -666  POISON!
+	  [145] -666  POISON!
+	  [146] -666  POISON!
+	  [147] -666  POISON!
+	  [148] -666  POISON!
+	  [149] -666  POISON!
+	  [150] -666  POISON!
+	  [151] -666  POISON!
+	  [152] -666  POISON!
+	  [153] -666  POISON!
+	  [154] -666  POISON!
+	  [155] -666  POISON!
+	  [156] -666  POISON!
+	  [157] -666  POISON!
+	  [158] -666  POISON!
+	  [159] -666  POISON!
+	  [160] -666  POISON!
+	  [161] -666  POISON!
+	  [162] -666  POISON!
+	  [163] -666  POISON!
+	  [164] -666  POISON!
+	  [165] -666  POISON!
+	  [166] -666  POISON!
+	  [167] -666  POISON!
+	  [168] -666  POISON!
+	  [169] -666  POISON!
+	  [170] -666  POISON!
+	  [171] -666  POISON!
+	  [172] -666  POISON!
+	  [173] -666  POISON!
+	  [174] -666  POISON!
+	  [175] -666  POISON!
+	  [176] -666  POISON!
+	  [177] -666  POISON!
+	  [178] -666  POISON!
+	  [179] -666  POISON!
+	  [180] -666  POISON!
+	  [181] -666  POISON!
+	  [182] -666  POISON!
+	  [183] -666  POISON!
+	  [184] -666  POISON!
+	  [185] -666  POISON!
+	  [186] -666  POISON!
+	  [187] -666  POISON!
+	  [188] -666  POISON!
+	  [189] -666  POISON!
+	  [190] -666  POISON!
+	  [191] -666  POISON!
+	  [192] -666  POISON!
+	  [193] -666  POISON!
+	  [194] -666  POISON!
+	  [195] -666  POISON!
+	  [196] -666  POISON!
+	  [197] -666  POISON!
+	  [198] -666  POISON!
+	  [199] -666  POISON!
+	  [200] -666  POISON!
+	  [201] -666  POISON!
+	  [202] -666  POISON!
+	  [203] -666  POISON!
+	  [204] -666  POISON!
+	  [205] -666  POISON!
+	  [206] -666  POISON!
+	  [207] -666  POISON!
+	  [208] -666  POISON!
+	  [209] -666  POISON!
+	  [210] -666  POISON!
+	  [211] -666  POISON!
+	  [212] -666  POISON!
+	  [213] -666  POISON!
+	  [214] -666  POISON!
+	  [215] -666  POISON!
+	  [216] -666  POISON!
+	  [217] -666  POISON!
+	  [218] -666  POISON!
+	  [219] -666  POISON!
+	  [220] -666  POISON!
+	  [221] -666  POISON!
+	  [222] -666  POISON!
+	  [223] -666  POISON!
+	  [224] -666  POISON!
+	  [225] -666  POISON!
+	  [226] -666  POISON!
+	  [227] -666  POISON!
+	  [228] -666  POISON!
+	  [229] -666  POISON!
+	  [230] -666  POISON!
+	  [231] -666  POISON!
+	  [232] -666  POISON!
+	  [233] -666  POISON!
+	  [234] -666  POISON!
+	  [235] -666  POISON!
+	  [236] -666  POISON!
+	  [237] -666  POISON!
+	  [238] -666  POISON!
+	  [239] -666  POISON!
+	  [240] -666  POISON!
+	  [241] -666  POISON!
+	  [242] -666  POISON!
+	  [243] -666  POISON!
+	  [244] -666  POISON!
+	  [245] -666  POISON!
+	  [246] -666  POISON!
+	  [247] -666  POISON!
+	  [248] -666  POISON!
+	  [249] -666  POISON!
+	  [250] -666  POISON!
+	  [251] -666  POISON!
+	  [252] -666  POISON!
+	  [253] -666  POISON!
+	  [254] -666  POISON!
+	  [255] -666  POISON!
+	  [256] -666  POISON!
+	  [257] -666  POISON!
+	  [258] -666  POISON!
+	  [259] -666  POISON!
+	  [260] -666  POISON!
+	  [261] -666  POISON!
+	  [262] -666  POISON!
+	  [263] -666  POISON!
+	  [264] -666  POISON!
+	  [265] -666  POISON!
+	  [266] -666  POISON!
+	  [267] -666  POISON!
+	  [268] -666  POISON!
+	  [269] -666  POISON!
+	  [270] -666  POISON!
+	  [271] -666  POISON!
+	  [272] -666  POISON!
+	  [273] -666  POISON!
+	  [274] -666  POISON!
+	  [275] -666  POISON!
+	  [276] -666  POISON!
+	  [277] -666  POISON!
+	  [278] -666  POISON!
+	  [279] -666  POISON!
+	  [280] -666  POISON!
+	  [281] -666  POISON!
+	  [282] -666  POISON!
+	  [283] -666  POISON!
+	  [284] -666  POISON!
+	  [285] -666  POISON!
+	  [286] -666  POISON!
+	  [287] -666  POISON!
+	  [288] -666  POISON!
+	  [289] -666  POISON!
+	  [290] -666  POISON!
+	  [291] -666  POISON!
+	  [292] -666  POISON!
+	  [293] -666  POISON!
+	  [294] -666  POISON!
+	  [295] -666  POISON!
+	  [296] -666  POISON!
+	  [297] -666  POISON!
+	  [298] -666  POISON!
+	  [299] -666  POISON!
+	  [300] -666  POISON!
+	  [301] -666  POISON!
+	  [302] -666  POISON!
+	  [303] -666  POISON!
+	  [304] -666  POISON!
+	  [305] -666  POISON!
+	  [306] -666  POISON!
+	  [307] -666  POISON!
+	  [308] -666  POISON!
+	  [309] -666  POISON!
+	  [310] -666  POISON!
+	  [311] -666  POISON!
+	  [312] -666  POISON!
+	  [313] -666  POISON!
+	  [314] -666  POISON!
+	  [315] -666  POISON!
+	  [316] -666  POISON!
+	  [317] -666  POISON!
+	  [318] -666  POISON!
+	  [319] -666  POISON!
+	  [320] -666  POISON!
+	  [321] -666  POISON!
+	  [322] -666  POISON!
+	  [323] -666  POISON!
+	  [324] -666  POISON!
+	  [325] -666  POISON!
+	  [326] -666  POISON!
+	  [327] -666  POISON!
+	  [328] -666  POISON!
+	  [329] -666  POISON!
+	  [330] -666  POISON!
+	  [331] -666  POISON!
+	  [332] -666  POISON!
+	  [333] -666  POISON!
+	  [334] -666  POISON!
+	  [335] -666  POISON!
+	  [336] -666  POISON!
+	  [337] -666  POISON!
+	  [338] -666  POISON!
+	  [339] -666  POISON!
+	  [340] -666  POISON!
+	  [341] -666  POISON!
+	  [342] -666  POISON!
+	  [343] -666  POISON!
+	  [344] -666  POISON!
+	  [345] -666  POISON!
+	  [346] -666  POISON!
+	  [347] -666  POISON!
+	  [348] -666  POISON!
+	  [349] -666  POISON!
+	  [350] -666  POISON!
+	  [351] -666  POISON!
+	  [352] -666  POISON!
+	  [353] -666  POISON!
+	  [354] -666  POISON!
+	  [355] -666  POISON!
+	  [356] -666  POISON!
+	  [357] -666  POISON!
+	  [358] -666  POISON!
+	  [359] -666  POISON!
+	  [360] -666  POISON!
+	  [361] -666  POISON!
+	  [362] -666  POISON!
+	  [363] -666  POISON!
+	  [364] -666  POISON!
+	  [365] -666  POISON!
+	  [366] -666  POISON!
+	  [367] -666  POISON!
+	  [368] -666  POISON!
+	  [369] -666  POISON!
+	  [370] -666  POISON!
+	  [371] -666  POISON!
+	  [372] -666  POISON!
+	  [373] -666  POISON!
+	  [374] -666  POISON!
+	  [375] -666  POISON!
+	  [376] -666  POISON!
+	  [377] -666  POISON!
+	  [378] -666  POISON!
+	  [379] -666  POISON!
+	  [380] -666  POISON!
+	  [381] -666  POISON!
+	  [382] -666  POISON!
+	  [383] -666  POISON!
+	  [384] -666  POISON!
+	  [385] -666  POISON!
+	  [386] -666  POISON!
+	  [387] -666  POISON!
+	  [388] -666  POISON!
+	  [389] -666  POISON!
+	  [390] -666  POISON!
+	  [391] -666  POISON!
+	  [392] -666  POISON!
+	  [393] -666  POISON!
+	  [394] -666  POISON!
+	  [395] -666  POISON!
+	  [396] -666  POISON!
+	  [397] -666  POISON!
+	  [398] -666  POISON!
+	  [399] -666  POISON!
+	  [400] -666  POISON!
+	  [401] -666  POISON!
+	  [402] -666  POISON!
+	  [403] -666  POISON!
+	  [404] -666  POISON!
+	  [405] -666  POISON!
+	  [406] -666  POISON!
+	  [407] -666  POISON!
+	  [408] -666  POISON!
+	  [409] -666  POISON!
+	  [410] -666  POISON!
+	  [411] -666  POISON!
+	  [412] -666  POISON!
+	  [413] -666  POISON!
+	  [414] -666  POISON!
+	  [415] -666  POISON!
+	  [416] -666  POISON!
+	  [417] -666  POISON!
+	  [418] -666  POISON!
+	  [419] -666  POISON!
+	  [420] -666  POISON!
+	  [421] -666  POISON!
+	  [422] -666  POISON!
+	  [423] -666  POISON!
+	  [424] -666  POISON!
+	  [425] -666  POISON!
+	  [426] -666  POISON!
+	  [427] -666  POISON!
+	  [428] -666  POISON!
+	  [429] -666  POISON!
+	  [430] -666  POISON!
+	  [431] -666  POISON!
+	  [432] -666  POISON!
+	  [433] -666  POISON!
+	  [434] -666  POISON!
+	  [435] -666  POISON!
+	  [436] -666  POISON!
+	  [437] -666  POISON!
+	  [438] -666  POISON!
+	  [439] -666  POISON!
+	  [440] -666  POISON!
+	  [441] -666  POISON!
+	  [442] -666  POISON!
+	  [443] -666  POISON!
+	  [444] -666  POISON!
+	  [445] -666  POISON!
+	  [446] -666  POISON!
+	  [447] -666  POISON!
+	  [448] -666  POISON!
+	  [449] -666  POISON!
+	  [450] -666  POISON!
+	  [451] -666  POISON!
+	  [452] -666  POISON!
+	  [453] -666  POISON!
+	  [454] -666  POISON!
+	  [455] -666  POISON!
+	  [456] -666  POISON!
+	  [457] -666  POISON!
+	  [458] -666  POISON!
+	  [459] -666  POISON!
+	  [460] -666  POISON!
+	  [461] -666  POISON!
+	  [462] -666  POISON!
+	  [463] -666  POISON!
+	  [464] -666  POISON!
+	  [465] -666  POISON!
+	  [466] -666  POISON!
+	  [467] -666  POISON!
+	  [468] -666  POISON!
+	  [469] -666  POISON!
+	  [470] -666  POISON!
+	  [471] -666  POISON!
+	  [472] -666  POISON!
+	  [473] -666  POISON!
+	  [474] -666  POISON!
+	  [475] -666  POISON!
+	  [476] -666  POISON!
+	  [477] -666  POISON!
+	  [478] -666  POISON!
+	  [479] -666  POISON!
+	  [480] -666  POISON!
+	  [481] -666  POISON!
+	  [482] -666  POISON!
+	  [483] -666  POISON!
+	  [484] -666  POISON!
+	  [485] -666  POISON!
+	  [486] -666  POISON!
+	  [487] -666  POISON!
+	  [488] -666  POISON!
+	  [489] -666  POISON!
+	  [490] -666  POISON!
+	  [491] -666  POISON!
+	  [492] -666  POISON!
+	  [493] -666  POISON!
+	  [494] -666  POISON!
+	  [495] -666  POISON!
+	  [496] -666  POISON!
+	  [497] -666  POISON!
+	  [498] -666  POISON!
+	  [499] -666  POISON!
+	  [500] -666  POISON!
+	  [501] -666  POISON!
+	  [502] -666  POISON!
+	  [503] -666  POISON!
+	  [504] -666  POISON!
+	  [505] -666  POISON!
+	  [506] -666  POISON!
+	  [507] -666  POISON!
+	  [508] -666  POISON!
+	  [509] -666  POISON!
+	  [510] -666  POISON!
+	  [511] -666  POISON!
+	  [512] -666  POISON!
+	  [513] -666  POISON!
+	  [514] -666  POISON!
+	  [515] -666  POISON!
+	  [516] -666  POISON!
+	  [517] -666  POISON!
+	  [518] -666  POISON!
+	  [519] -666  POISON!
+	  [520] -666  POISON!
+	  [521] -666  POISON!
+	  [522] -666  POISON!
+	  [523] -666  POISON!
+	  [524] -666  POISON!
+	  [525] -666  POISON!
+	  [526] -666  POISON!
+	  [527] -666  POISON!
+	  [528] -666  POISON!
+	  [529] -666  POISON!
+	  [530] -666  POISON!
+	  [531] -666  POISON!
+	  [532] -666  POISON!
+	  [533] -666  POISON!
+	  [534] -666  POISON!
+	  [535] -666  POISON!
+	  [536] -666  POISON!
+	  [537] -666  POISON!
+	  [538] -666  POISON!
+	  [539] -666  POISON!
+	  [540] -666  POISON!
+	  [541] -666  POISON!
+	  [542] -666  POISON!
+	  [543] -666  POISON!
+	  [544] -666  POISON!
+	  [545] -666  POISON!
+	  [546] -666  POISON!
+	  [547] -666  POISON!
+	  [548] -666  POISON!
+	  [549] -666  POISON!
+	  [550] -666  POISON!
+	  [551] -666  POISON!
+	  [552] -666  POISON!
+	  [553] -666  POISON!
+	  [554] -666  POISON!
+	  [555] -666  POISON!
+	  [556] -666  POISON!
+	  [557] -666  POISON!
+	  [558] -666  POISON!
+	  [559] -666  POISON!
+	  [560] -666  POISON!
+	  [561] -666  POISON!
+	  [562] -666  POISON!
+	  [563] -666  POISON!
+	  [564] -666  POISON!
+	  [565] -666  POISON!
+	  [566] -666  POISON!
+	  [567] -666  POISON!
+	  [568] -666  POISON!
+	  [569] -666  POISON!
+	  [570] -666  POISON!
+	  [571] -666  POISON!
+	  [572] -666  POISON!
+	  [573] -666  POISON!
+	  [574] -666  POISON!
+	  [575] -666  POISON!
+	  [576] -666  POISON!
+	  [577] -666  POISON!
+	  [578] -666  POISON!
+	  [579] -666  POISON!
+	  [580] -666  POISON!
+	  [581] -666  POISON!
+	  [582] -666  POISON!
+	  [583] -666  POISON!
+	  [584] -666  POISON!
+	  [585] -666  POISON!
+	  [586] -666  POISON!
+	  [587] -666  POISON!
+	  [588] -666  POISON!
+	  [589] -666  POISON!
+	  [590] -666  POISON!
+	  [591] -666  POISON!
+	  [592] -666  POISON!
+	  [593] -666  POISON!
+	  [594] -666  POISON!
+	  [595] -666  POISON!
+	  [596] -666  POISON!
+	  [597] -666  POISON!
+	  [598] -666  POISON!
+	  [599] -666  POISON!
+	  [600] -666  POISON!
+	  [601] -666  POISON!
+	  [602] -666  POISON!
+	  [603] -666  POISON!
+	  [604] -666  POISON!
+	  [605] -666  POISON!
+	  [606] -666  POISON!
+	  [607] -666  POISON!
+	  [608] -666  POISON!
+	  [609] -666  POISON!
+	  [610] -666  POISON!
+	  [611] -666  POISON!
+	  [612] -666  POISON!
+	  [613] -666  POISON!
+	  [614] -666  POISON!
+	  [615] -666  POISON!
+	  [616] -666  POISON!
+	  [617] -666  POISON!
+	  [618] -666  POISON!
+	  [619] -666  POISON!
+	  [620] -666  POISON!
+	  [621] -666  POISON!
+	  [622] -666  POISON!
+	  [623] -666  POISON!
+	  [624] -666  POISON!
+	  [625] -666  POISON!
+	  [626] -666  POISON!
+	  [627] -666  POISON!
+	  [628] -666  POISON!
+	  [629] -666  POISON!
+	  [630] -666  POISON!
+	  [631] -666  POISON!
+	  [632] -666  POISON!
+	  [633] -666  POISON!
+	  [634] -666  POISON!
+	  [635] -666  POISON!
+	  [636] -666  POISON!
+	  [637] -666  POISON!
+	  [638] -666  POISON!
+	  [639] -666  POISON!
+	  [640] -666  POISON!
+	  [641] -666  POISON!
+	  [642] -666  POISON!
+	  [643] -666  POISON!
+	  [644] -666  POISON!
+	  [645] -666  POISON!
+	  [646] -666  POISON!
+	  [647] -666  POISON!
+	  [648] -666  POISON!
+	  [649] -666  POISON!
+	  [650] -666  POISON!
+	  [651] -666  POISON!
+	  [652] -666  POISON!
+	  [653] -666  POISON!
+	  [654] -666  POISON!
+	  [655] -666  POISON!
+	  [656] -666  POISON!
+	  [657] -666  POISON!
+	  [658] -666  POISON!
+	  [659] -666  POISON!
+	  [660] -666  POISON!
+	  [661] -666  POISON!
+	  [662] -666  POISON!
+	  [663] -666  POISON!
+	  [664] -666  POISON!
+	  [665] -666  POISON!
+	  [666] -666  POISON!
+	  [667] -666  POISON!
+	  [668] -666  POISON!
+	  [669] -666  POISON!
+	  [670] -666  POISON!
+	  [671] -666  POISON!
+	  [672] -666  POISON!
+	  [673] -666  POISON!
+	  [674] -666  POISON!
+	  [675] -666  POISON!
+	  [676] -666  POISON!
+	  [677] -666  POISON!
+	  [678] -666  POISON!
+	  [679] -666  POISON!
+	  [680] -666  POISON!
+	  [681] -666  POISON!
+	  [682] -666  POISON!
+	  [683] -666  POISON!
+	  [684] -666  POISON!
+	  [685] -666  POISON!
+	  [686] -666  POISON!
+	  [687] -666  POISON!
+	  [688] -666  POISON!
+	  [689] -666  POISON!
+	  [690] -666  POISON!
+	  [691] -666  POISON!
+	  [692] -666  POISON!
+	  [693] -666  POISON!
+	  [694] -666  POISON!
+	  [695] -666  POISON!
+	  [696] -666  POISON!
+	  [697] -666  POISON!
+	  [698] -666  POISON!
+	  [699] -666  POISON!
+	  [700] -666  POISON!
+	  [701] -666  POISON!
+	  [702] -666  POISON!
+	  [703] -666  POISON!
+	  [704] -666  POISON!
+	  [705] -666  POISON!
+	  [706] -666  POISON!
+	  [707] -666  POISON!
+	  [708] -666  POISON!
+	  [709] -666  POISON!
+	  [710] -666  POISON!
+	  [711] -666  POISON!
+	  [712] -666  POISON!
+	  [713] -666  POISON!
+	  [714] -666  POISON!
+	  [715] -666  POISON!
+	  [716] -666  POISON!
+	  [717] -666  POISON!
+	  [718] -666  POISON!
+	  [719] -666  POISON!
+	  [720] -666  POISON!
+	  [721] -666  POISON!
+	  [722] -666  POISON!
+	  [723] -666  POISON!
+	  [724] -666  POISON!
+	  [725] -666  POISON!
+	  [726] -666  POISON!
+	  [727] -666  POISON!
+	  [728] -666  POISON!
+	  [729] -666  POISON!
+	  [730] -666  POISON!
+	  [731] -666  POISON!
+	  [732] -666  POISON!
+	  [733] -666  POISON!
+	  [734] -666  POISON!
+	  [735] -666  POISON!
+	  [736] -666  POISON!
+	  [737] -666  POISON!
+	  [738] -666  POISON!
+	  [739] -666  POISON!
+	  [740] -666  POISON!
+	  [741] -666  POISON!
+	  [742] -666  POISON!
+	  [743] -666  POISON!
+	  [744] -666  POISON!
+	  [745] -666  POISON!
+	  [746] -666  POISON!
+	  [747] -666  POISON!
+	  [748] -666  POISON!
+	  [749] -666  POISON!
+	  [750] -666  POISON!
+	  [751] -666  POISON!
+	  [752] -666  POISON!
+	  [753] -666  POISON!
+	  [754] -666  POISON!
+	  [755] -666  POISON!
+	  [756] -666  POISON!
+	  [757] -666  POISON!
+	  [758] -666  POISON!
+	  [759] -666  POISON!
+	  [760] -666  POISON!
+	  [761] -666  POISON!
+	  [762] -666  POISON!
+	  [763] -666  POISON!
+	  [764] -666  POISON!
+	  [765] -666  POISON!
+	  [766] -666  POISON!
+	  [767] -666  POISON!
+	  [768] -666  POISON!
+	  [769] -666  POISON!
+	  [770] -666  POISON!
+	  [771] -666  POISON!
+	  [772] -666  POISON!
+	  [773] -666  POISON!
+	  [774] -666  POISON!
+	  [775] -666  POISON!
+	  [776] -666  POISON!
+	  [777] -666  POISON!
+	  [778] -666  POISON!
+	  [779] -666  POISON!
+	  [780] -666  POISON!
+	  [781] -666  POISON!
+	  [782] -666  POISON!
+	  [783] -666  POISON!
+	  [784] -666  POISON!
+	  [785] -666  POISON!
+	  [786] -666  POISON!
+	  [787] -666  POISON!
+	  [788] -666  POISON!
+	  [789] -666  POISON!
+	  [790] -666  POISON!
+	  [791] -666  POISON!
+	  [792] -666  POISON!
+	  [793] -666  POISON!
+	  [794] -666  POISON!
+	  [795] -666  POISON!
+	  [796] -666  POISON!
+	  [797] -666  POISON!
+	  [798] -666  POISON!
+	  [799] -666  POISON!
+	  [800] -666  POISON!
+	  [801] -666  POISON!
+	  [802] -666  POISON!
+	  [803] -666  POISON!
+	  [804] -666  POISON!
+	  [805] -666  POISON!
+	  [806] -666  POISON!
+	  [807] -666  POISON!
+	  [808] -666  POISON!
+	  [809] -666  POISON!
+	  [810] -666  POISON!
+	  [811] -666  POISON!
+	  [812] -666  POISON!
+	  [813] -666  POISON!
+	  [814] -666  POISON!
+	  [815] -666  POISON!
+	  [816] -666  POISON!
+	  [817] -666  POISON!
+	  [818] -666  POISON!
+	  [819] -666  POISON!
+	  [820] -666  POISON!
+	  [821] -666  POISON!
+	  [822] -666  POISON!
+	  [823] -666  POISON!
+	  [824] -666  POISON!
+	  [825] -666  POISON!
+	  [826] -666  POISON!
+	  [827] -666  POISON!
+	  [828] -666  POISON!
+	  [829] -666  POISON!
+	  [830] -666  POISON!
+	  [831] -666  POISON!
+	  [832] -666  POISON!
+	  [833] -666  POISON!
+	  [834] -666  POISON!
+	  [835] -666  POISON!
+	  [836] -666  POISON!
+	  [837] -666  POISON!
+	  [838] -666  POISON!
+	  [839] -666  POISON!
+	  [840] -666  POISON!
+	  [841] -666  POISON!
+	  [842] -666  POISON!
+	  [843] -666  POISON!
+	  [844] -666  POISON!
+	  [845] -666  POISON!
+	  [846] -666  POISON!
+	  [847] -666  POISON!
+	  [848] -666  POISON!
+	  [849] -666  POISON!
+	  [850] -666  POISON!
+	  [851] -666  POISON!
+	  [852] -666  POISON!
+	  [853] -666  POISON!
+	  [854] -666  POISON!
+	  [855] -666  POISON!
+	  [856] -666  POISON!
+	  [857] -666  POISON!
+	  [858] -666  POISON!
+	  [859] -666  POISON!
+	  [860] -666  POISON!
+	  [861] -666  POISON!
+	  [862] -666  POISON!
+	  [863] -666  POISON!
+	  [864] -666  POISON!
+	  [865] -666  POISON!
+	  [866] -666  POISON!
+	  [867] -666  POISON!
+	  [868] -666  POISON!
+	  [869] -666  POISON!
+	  [870] -666  POISON!
+	  [871] -666  POISON!
+	  [872] -666  POISON!
+	  [873] -666  POISON!
+	  [874] -666  POISON!
+	  [875] -666  POISON!
+	  [876] -666  POISON!
+	  [877] -666  POISON!
+	  [878] -666  POISON!
+	  [879] -666  POISON!
+	  [880] -666  POISON!
+	  [881] -666  POISON!
+	  [882] -666  POISON!
+	  [883] -666  POISON!
+	  [884] -666  POISON!
+	  [885] -666  POISON!
+	  [886] -666  POISON!
+	  [887] -666  POISON!
+	  [888] -666  POISON!
+	  [889] -666  POISON!
+	  [890] -666  POISON!
+	  [891] -666  POISON!
+	  [892] -666  POISON!
+	  [893] -666  POISON!
+	  [894] -666  POISON!
+	  [895] -666  POISON!
+	  [896] -666  POISON!
+	  [897] -666  POISON!
+	  [898] -666  POISON!
+	  [899] -666  POISON!
+	  [900] -666  POISON!
+	  [901] -666  POISON!
+	  [902] -666  POISON!
+	  [903] -666  POISON!
+	  [904] -666  POISON!
+	  [905] -666  POISON!
+	  [906] -666  POISON!
+	  [907] -666  POISON!
+	  [908] -666  POISON!
+	  [909] -666  POISON!
+	  [910] -666  POISON!
+	  [911] -666  POISON!
+	  [912] -666  POISON!
+	  [913] -666  POISON!
+	  [914] -666  POISON!
+	  [915] -666  POISON!
+	  [916] -666  POISON!
+	  [917] -666  POISON!
+	  [918] -666  POISON!
+	  [919] -666  POISON!
+	  [920] -666  POISON!
+	  [921] -666  POISON!
+	  [922] -666  POISON!
+	  [923] -666  POISON!
+	  [924] -666  POISON!
+	  [925] -666  POISON!
+	  [926] -666  POISON!
+	  [927] -666  POISON!
+	  [928] -666  POISON!
+	  [929] -666  POISON!
+	  [930] -666  POISON!
+	  [931] -666  POISON!
+	  [932] -666  POISON!
+	  [933] -666  POISON!
+	  [934] -666  POISON!
+	  [935] -666  POISON!
+	  [936] -666  POISON!
+	  [937] -666  POISON!
+	  [938] -666  POISON!
+	  [939] -666  POISON!
+	  [940] -666  POISON!
+	  [941] -666  POISON!
+	  [942] -666  POISON!
+	  [943] -666  POISON!
+	  [944] -666  POISON!
+	  [945] -666  POISON!
+	  [946] -666  POISON!
+	  [947] -666  POISON!
+	  [948] -666  POISON!
+	  [949] -666  POISON!
+	  [950] -666  POISON!
+	  [951] -666  POISON!
+	  [952] -666  POISON!
+	  [953] -666  POISON!
+	  [954] -666  POISON!
+	  [955] -666  POISON!
+	  [956] -666  POISON!
+	  [957] -666  POISON!
+	  [958] -666  POISON!
+	  [959] -666  POISON!
+	  [960] -666  POISON!
+	  [961] -666  POISON!
+	  [962] -666  POISON!
+	  [963] -666  POISON!
+	  [964] -666  POISON!
+	  [965] -666  POISON!
+	  [966] -666  POISON!
+	  [967] -666  POISON!
+	  [968] -666  POISON!
+	  [969] -666  POISON!
+	  [970] -666  POISON!
+	  [971] -666  POISON!
+	  [972] -666  POISON!
+	  [973] -666  POISON!
+	  [974] -666  POISON!
+	  [975] -666  POISON!
+	  [976] -666  POISON!
+	  [977] -666  POISON!
+	  [978] -666  POISON!
+	  [979] -666  POISON!
+	  [980] -666  POISON!
+	  [981] -666  POISON!
+	  [982] -666  POISON!
+	  [983] -666  POISON!
+	  [984] -666  POISON!
+	  [985] -666  POISON!
+	  [986] -666  POISON!
+	  [987] -666  POISON!
+	  [988] -666  POISON!
+	  [989] -666  POISON!
+	  [990] -666  POISON!
+	  [991] -666  POISON!
+	  [992] -666  POISON!
+	  [993] -666  POISON!
+	  [994] -666  POISON!
+	  [995] -666  POISON!
+	  [996] -666  POISON!
+	  [997] -666  POISON!
+	  [998] -666  POISON!
+	  [999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 1024
+    size_ = 0
+    data_[0x7ffe2db790f0]
+	{
+	  [0] 30
+	  [1] 10
+	  [2] 10
+	  [   3] -666  POISON!
+	  [   4] -666  POISON!
+	  [   5] -666  POISON!
+	  [   6] -666  POISON!
+	  [   7] -666  POISON!
+	  [   8] -666  POISON!
+	  [   9] -666  POISON!
+	  [  10] -666  POISON!
+	  [  11] -666  POISON!
+	  [  12] -666  POISON!
+	  [  13] -666  POISON!
+	  [  14] -666  POISON!
+	  [  15] -666  POISON!
+	  [  16] -666  POISON!
+	  [  17] -666  POISON!
+	  [  18] -666  POISON!
+	  [  19] -666  POISON!
+	  [  20] -666  POISON!
+	  [  21] -666  POISON!
+	  [  22] -666  POISON!
+	  [  23] -666  POISON!
+	  [  24] -666  POISON!
+	  [  25] -666  POISON!
+	  [  26] -666  POISON!
+	  [  27] -666  POISON!
+	  [  28] -666  POISON!
+	  [  29] -666  POISON!
+	  [  30] -666  POISON!
+	  [  31] -666  POISON!
+	  [  32] -666  POISON!
+	  [  33] -666  POISON!
+	  [  34] -666  POISON!
+	  [  35] -666  POISON!
+	  [  36] -666  POISON!
+	  [  37] -666  POISON!
+	  [  38] -666  POISON!
+	  [  39] -666  POISON!
+	  [  40] -666  POISON!
+	  [  41] -666  POISON!
+	  [  42] -666  POISON!
+	  [  43] -666  POISON!
+	  [  44] -666  POISON!
+	  [  45] -666  POISON!
+	  [  46] -666  POISON!
+	  [  47] -666  POISON!
+	  [  48] -666  POISON!
+	  [  49] -666  POISON!
+	  [  50] -666  POISON!
+	  [  51] -666  POISON!
+	  [  52] -666  POISON!
+	  [  53] -666  POISON!
+	  [  54] -666  POISON!
+	  [  55] -666  POISON!
+	  [  56] -666  POISON!
+	  [  57] -666  POISON!
+	  [  58] -666  POISON!
+	  [  59] -666  POISON!
+	  [  60] -666  POISON!
+	  [  61] -666  POISON!
+	  [  62] -666  POISON!
+	  [  63] -666  POISON!
+	  [  64] -666  POISON!
+	  [  65] -666  POISON!
+	  [  66] -666  POISON!
+	  [  67] -666  POISON!
+	  [  68] -666  POISON!
+	  [  69] -666  POISON!
+	  [  70] -666  POISON!
+	  [  71] -666  POISON!
+	  [  72] -666  POISON!
+	  [  73] -666  POISON!
+	  [  74] -666  POISON!
+	  [  75] -666  POISON!
+	  [  76] -666  POISON!
+	  [  77] -666  POISON!
+	  [  78] -666  POISON!
+	  [  79] -666  POISON!
+	  [  80] -666  POISON!
+	  [  81] -666  POISON!
+	  [  82] -666  POISON!
+	  [  83] -666  POISON!
+	  [  84] -666  POISON!
+	  [  85] -666  POISON!
+	  [  86] -666  POISON!
+	  [  87] -666  POISON!
+	  [  88] -666  POISON!
+	  [  89] -666  POISON!
+	  [  90] -666  POISON!
+	  [  91] -666  POISON!
+	  [  92] -666  POISON!
+	  [  93] -666  POISON!
+	  [  94] -666  POISON!
+	  [  95] -666  POISON!
+	  [  96] -666  POISON!
+	  [  97] -666  POISON!
+	  [  98] -666  POISON!
+	  [  99] -666  POISON!
+	  [ 100] -666  POISON!
+	  [ 101] -666  POISON!
+	  [ 102] -666  POISON!
+	  [ 103] -666  POISON!
+	  [ 104] -666  POISON!
+	  [ 105] -666  POISON!
+	  [ 106] -666  POISON!
+	  [ 107] -666  POISON!
+	  [ 108] -666  POISON!
+	  [ 109] -666  POISON!
+	  [ 110] -666  POISON!
+	  [ 111] -666  POISON!
+	  [ 112] -666  POISON!
+	  [ 113] -666  POISON!
+	  [ 114] -666  POISON!
+	  [ 115] -666  POISON!
+	  [ 116] -666  POISON!
+	  [ 117] -666  POISON!
+	  [ 118] -666  POISON!
+	  [ 119] -666  POISON!
+	  [ 120] -666  POISON!
+	  [ 121] -666  POISON!
+	  [ 122] -666  POISON!
+	  [ 123] -666  POISON!
+	  [ 124] -666  POISON!
+	  [ 125] -666  POISON!
+	  [ 126] -666  POISON!
+	  [ 127] -666  POISON!
+	  [ 128] -666  POISON!
+	  [ 129] -666  POISON!
+	  [ 130] -666  POISON!
+	  [ 131] -666  POISON!
+	  [ 132] -666  POISON!
+	  [ 133] -666  POISON!
+	  [ 134] -666  POISON!
+	  [ 135] -666  POISON!
+	  [ 136] -666  POISON!
+	  [ 137] -666  POISON!
+	  [ 138] -666  POISON!
+	  [ 139] -666  POISON!
+	  [ 140] -666  POISON!
+	  [ 141] -666  POISON!
+	  [ 142] -666  POISON!
+	  [ 143] -666  POISON!
+	  [ 144] -666  POISON!
+	  [ 145] -666  POISON!
+	  [ 146] -666  POISON!
+	  [ 147] -666  POISON!
+	  [ 148] -666  POISON!
+	  [ 149] -666  POISON!
+	  [ 150] -666  POISON!
+	  [ 151] -666  POISON!
+	  [ 152] -666  POISON!
+	  [ 153] -666  POISON!
+	  [ 154] -666  POISON!
+	  [ 155] -666  POISON!
+	  [ 156] -666  POISON!
+	  [ 157] -666  POISON!
+	  [ 158] -666  POISON!
+	  [ 159] -666  POISON!
+	  [ 160] -666  POISON!
+	  [ 161] -666  POISON!
+	  [ 162] -666  POISON!
+	  [ 163] -666  POISON!
+	  [ 164] -666  POISON!
+	  [ 165] -666  POISON!
+	  [ 166] -666  POISON!
+	  [ 167] -666  POISON!
+	  [ 168] -666  POISON!
+	  [ 169] -666  POISON!
+	  [ 170] -666  POISON!
+	  [ 171] -666  POISON!
+	  [ 172] -666  POISON!
+	  [ 173] -666  POISON!
+	  [ 174] -666  POISON!
+	  [ 175] -666  POISON!
+	  [ 176] -666  POISON!
+	  [ 177] -666  POISON!
+	  [ 178] -666  POISON!
+	  [ 179] -666  POISON!
+	  [ 180] -666  POISON!
+	  [ 181] -666  POISON!
+	  [ 182] -666  POISON!
+	  [ 183] -666  POISON!
+	  [ 184] -666  POISON!
+	  [ 185] -666  POISON!
+	  [ 186] -666  POISON!
+	  [ 187] -666  POISON!
+	  [ 188] -666  POISON!
+	  [ 189] -666  POISON!
+	  [ 190] -666  POISON!
+	  [ 191] -666  POISON!
+	  [ 192] -666  POISON!
+	  [ 193] -666  POISON!
+	  [ 194] -666  POISON!
+	  [ 195] -666  POISON!
+	  [ 196] -666  POISON!
+	  [ 197] -666  POISON!
+	  [ 198] -666  POISON!
+	  [ 199] -666  POISON!
+	  [ 200] -666  POISON!
+	  [ 201] -666  POISON!
+	  [ 202] -666  POISON!
+	  [ 203] -666  POISON!
+	  [ 204] -666  POISON!
+	  [ 205] -666  POISON!
+	  [ 206] -666  POISON!
+	  [ 207] -666  POISON!
+	  [ 208] -666  POISON!
+	  [ 209] -666  POISON!
+	  [ 210] -666  POISON!
+	  [ 211] -666  POISON!
+	  [ 212] -666  POISON!
+	  [ 213] -666  POISON!
+	  [ 214] -666  POISON!
+	  [ 215] -666  POISON!
+	  [ 216] -666  POISON!
+	  [ 217] -666  POISON!
+	  [ 218] -666  POISON!
+	  [ 219] -666  POISON!
+	  [ 220] -666  POISON!
+	  [ 221] -666  POISON!
+	  [ 222] -666  POISON!
+	  [ 223] -666  POISON!
+	  [ 224] -666  POISON!
+	  [ 225] -666  POISON!
+	  [ 226] -666  POISON!
+	  [ 227] -666  POISON!
+	  [ 228] -666  POISON!
+	  [ 229] -666  POISON!
+	  [ 230] -666  POISON!
+	  [ 231] -666  POISON!
+	  [ 232] -666  POISON!
+	  [ 233] -666  POISON!
+	  [ 234] -666  POISON!
+	  [ 235] -666  POISON!
+	  [ 236] -666  POISON!
+	  [ 237] -666  POISON!
+	  [ 238] -666  POISON!
+	  [ 239] -666  POISON!
+	  [ 240] -666  POISON!
+	  [ 241] -666  POISON!
+	  [ 242] -666  POISON!
+	  [ 243] -666  POISON!
+	  [ 244] -666  POISON!
+	  [ 245] -666  POISON!
+	  [ 246] -666  POISON!
+	  [ 247] -666  POISON!
+	  [ 248] -666  POISON!
+	  [ 249] -666  POISON!
+	  [ 250] -666  POISON!
+	  [ 251] -666  POISON!
+	  [ 252] -666  POISON!
+	  [ 253] -666  POISON!
+	  [ 254] -666  POISON!
+	  [ 255] -666  POISON!
+	  [ 256] -666  POISON!
+	  [ 257] -666  POISON!
+	  [ 258] -666  POISON!
+	  [ 259] -666  POISON!
+	  [ 260] -666  POISON!
+	  [ 261] -666  POISON!
+	  [ 262] -666  POISON!
+	  [ 263] -666  POISON!
+	  [ 264] -666  POISON!
+	  [ 265] -666  POISON!
+	  [ 266] -666  POISON!
+	  [ 267] -666  POISON!
+	  [ 268] -666  POISON!
+	  [ 269] -666  POISON!
+	  [ 270] -666  POISON!
+	  [ 271] -666  POISON!
+	  [ 272] -666  POISON!
+	  [ 273] -666  POISON!
+	  [ 274] -666  POISON!
+	  [ 275] -666  POISON!
+	  [ 276] -666  POISON!
+	  [ 277] -666  POISON!
+	  [ 278] -666  POISON!
+	  [ 279] -666  POISON!
+	  [ 280] -666  POISON!
+	  [ 281] -666  POISON!
+	  [ 282] -666  POISON!
+	  [ 283] -666  POISON!
+	  [ 284] -666  POISON!
+	  [ 285] -666  POISON!
+	  [ 286] -666  POISON!
+	  [ 287] -666  POISON!
+	  [ 288] -666  POISON!
+	  [ 289] -666  POISON!
+	  [ 290] -666  POISON!
+	  [ 291] -666  POISON!
+	  [ 292] -666  POISON!
+	  [ 293] -666  POISON!
+	  [ 294] -666  POISON!
+	  [ 295] -666  POISON!
+	  [ 296] -666  POISON!
+	  [ 297] -666  POISON!
+	  [ 298] -666  POISON!
+	  [ 299] -666  POISON!
+	  [ 300] -666  POISON!
+	  [ 301] -666  POISON!
+	  [ 302] -666  POISON!
+	  [ 303] -666  POISON!
+	  [ 304] -666  POISON!
+	  [ 305] -666  POISON!
+	  [ 306] -666  POISON!
+	  [ 307] -666  POISON!
+	  [ 308] -666  POISON!
+	  [ 309] -666  POISON!
+	  [ 310] -666  POISON!
+	  [ 311] -666  POISON!
+	  [ 312] -666  POISON!
+	  [ 313] -666  POISON!
+	  [ 314] -666  POISON!
+	  [ 315] -666  POISON!
+	  [ 316] -666  POISON!
+	  [ 317] -666  POISON!
+	  [ 318] -666  POISON!
+	  [ 319] -666  POISON!
+	  [ 320] -666  POISON!
+	  [ 321] -666  POISON!
+	  [ 322] -666  POISON!
+	  [ 323] -666  POISON!
+	  [ 324] -666  POISON!
+	  [ 325] -666  POISON!
+	  [ 326] -666  POISON!
+	  [ 327] -666  POISON!
+	  [ 328] -666  POISON!
+	  [ 329] -666  POISON!
+	  [ 330] -666  POISON!
+	  [ 331] -666  POISON!
+	  [ 332] -666  POISON!
+	  [ 333] -666  POISON!
+	  [ 334] -666  POISON!
+	  [ 335] -666  POISON!
+	  [ 336] -666  POISON!
+	  [ 337] -666  POISON!
+	  [ 338] -666  POISON!
+	  [ 339] -666  POISON!
+	  [ 340] -666  POISON!
+	  [ 341] -666  POISON!
+	  [ 342] -666  POISON!
+	  [ 343] -666  POISON!
+	  [ 344] -666  POISON!
+	  [ 345] -666  POISON!
+	  [ 346] -666  POISON!
+	  [ 347] -666  POISON!
+	  [ 348] -666  POISON!
+	  [ 349] -666  POISON!
+	  [ 350] -666  POISON!
+	  [ 351] -666  POISON!
+	  [ 352] -666  POISON!
+	  [ 353] -666  POISON!
+	  [ 354] -666  POISON!
+	  [ 355] -666  POISON!
+	  [ 356] -666  POISON!
+	  [ 357] -666  POISON!
+	  [ 358] -666  POISON!
+	  [ 359] -666  POISON!
+	  [ 360] -666  POISON!
+	  [ 361] -666  POISON!
+	  [ 362] -666  POISON!
+	  [ 363] -666  POISON!
+	  [ 364] -666  POISON!
+	  [ 365] -666  POISON!
+	  [ 366] -666  POISON!
+	  [ 367] -666  POISON!
+	  [ 368] -666  POISON!
+	  [ 369] -666  POISON!
+	  [ 370] -666  POISON!
+	  [ 371] -666  POISON!
+	  [ 372] -666  POISON!
+	  [ 373] -666  POISON!
+	  [ 374] -666  POISON!
+	  [ 375] -666  POISON!
+	  [ 376] -666  POISON!
+	  [ 377] -666  POISON!
+	  [ 378] -666  POISON!
+	  [ 379] -666  POISON!
+	  [ 380] -666  POISON!
+	  [ 381] -666  POISON!
+	  [ 382] -666  POISON!
+	  [ 383] -666  POISON!
+	  [ 384] -666  POISON!
+	  [ 385] -666  POISON!
+	  [ 386] -666  POISON!
+	  [ 387] -666  POISON!
+	  [ 388] -666  POISON!
+	  [ 389] -666  POISON!
+	  [ 390] -666  POISON!
+	  [ 391] -666  POISON!
+	  [ 392] -666  POISON!
+	  [ 393] -666  POISON!
+	  [ 394] -666  POISON!
+	  [ 395] -666  POISON!
+	  [ 396] -666  POISON!
+	  [ 397] -666  POISON!
+	  [ 398] -666  POISON!
+	  [ 399] -666  POISON!
+	  [ 400] -666  POISON!
+	  [ 401] -666  POISON!
+	  [ 402] -666  POISON!
+	  [ 403] -666  POISON!
+	  [ 404] -666  POISON!
+	  [ 405] -666  POISON!
+	  [ 406] -666  POISON!
+	  [ 407] -666  POISON!
+	  [ 408] -666  POISON!
+	  [ 409] -666  POISON!
+	  [ 410] -666  POISON!
+	  [ 411] -666  POISON!
+	  [ 412] -666  POISON!
+	  [ 413] -666  POISON!
+	  [ 414] -666  POISON!
+	  [ 415] -666  POISON!
+	  [ 416] -666  POISON!
+	  [ 417] -666  POISON!
+	  [ 418] -666  POISON!
+	  [ 419] -666  POISON!
+	  [ 420] -666  POISON!
+	  [ 421] -666  POISON!
+	  [ 422] -666  POISON!
+	  [ 423] -666  POISON!
+	  [ 424] -666  POISON!
+	  [ 425] -666  POISON!
+	  [ 426] -666  POISON!
+	  [ 427] -666  POISON!
+	  [ 428] -666  POISON!
+	  [ 429] -666  POISON!
+	  [ 430] -666  POISON!
+	  [ 431] -666  POISON!
+	  [ 432] -666  POISON!
+	  [ 433] -666  POISON!
+	  [ 434] -666  POISON!
+	  [ 435] -666  POISON!
+	  [ 436] -666  POISON!
+	  [ 437] -666  POISON!
+	  [ 438] -666  POISON!
+	  [ 439] -666  POISON!
+	  [ 440] -666  POISON!
+	  [ 441] -666  POISON!
+	  [ 442] -666  POISON!
+	  [ 443] -666  POISON!
+	  [ 444] -666  POISON!
+	  [ 445] -666  POISON!
+	  [ 446] -666  POISON!
+	  [ 447] -666  POISON!
+	  [ 448] -666  POISON!
+	  [ 449] -666  POISON!
+	  [ 450] -666  POISON!
+	  [ 451] -666  POISON!
+	  [ 452] -666  POISON!
+	  [ 453] -666  POISON!
+	  [ 454] -666  POISON!
+	  [ 455] -666  POISON!
+	  [ 456] -666  POISON!
+	  [ 457] -666  POISON!
+	  [ 458] -666  POISON!
+	  [ 459] -666  POISON!
+	  [ 460] -666  POISON!
+	  [ 461] -666  POISON!
+	  [ 462] -666  POISON!
+	  [ 463] -666  POISON!
+	  [ 464] -666  POISON!
+	  [ 465] -666  POISON!
+	  [ 466] -666  POISON!
+	  [ 467] -666  POISON!
+	  [ 468] -666  POISON!
+	  [ 469] -666  POISON!
+	  [ 470] -666  POISON!
+	  [ 471] -666  POISON!
+	  [ 472] -666  POISON!
+	  [ 473] -666  POISON!
+	  [ 474] -666  POISON!
+	  [ 475] -666  POISON!
+	  [ 476] -666  POISON!
+	  [ 477] -666  POISON!
+	  [ 478] -666  POISON!
+	  [ 479] -666  POISON!
+	  [ 480] -666  POISON!
+	  [ 481] -666  POISON!
+	  [ 482] -666  POISON!
+	  [ 483] -666  POISON!
+	  [ 484] -666  POISON!
+	  [ 485] -666  POISON!
+	  [ 486] -666  POISON!
+	  [ 487] -666  POISON!
+	  [ 488] -666  POISON!
+	  [ 489] -666  POISON!
+	  [ 490] -666  POISON!
+	  [ 491] -666  POISON!
+	  [ 492] -666  POISON!
+	  [ 493] -666  POISON!
+	  [ 494] -666  POISON!
+	  [ 495] -666  POISON!
+	  [ 496] -666  POISON!
+	  [ 497] -666  POISON!
+	  [ 498] -666  POISON!
+	  [ 499] -666  POISON!
+	  [ 500] -666  POISON!
+	  [ 501] -666  POISON!
+	  [ 502] -666  POISON!
+	  [ 503] -666  POISON!
+	  [ 504] -666  POISON!
+	  [ 505] -666  POISON!
+	  [ 506] -666  POISON!
+	  [ 507] -666  POISON!
+	  [ 508] -666  POISON!
+	  [ 509] -666  POISON!
+	  [ 510] -666  POISON!
+	  [ 511] -666  POISON!
+	  [ 512] -666  POISON!
+	  [ 513] -666  POISON!
+	  [ 514] -666  POISON!
+	  [ 515] -666  POISON!
+	  [ 516] -666  POISON!
+	  [ 517] -666  POISON!
+	  [ 518] -666  POISON!
+	  [ 519] -666  POISON!
+	  [ 520] -666  POISON!
+	  [ 521] -666  POISON!
+	  [ 522] -666  POISON!
+	  [ 523] -666  POISON!
+	  [ 524] -666  POISON!
+	  [ 525] -666  POISON!
+	  [ 526] -666  POISON!
+	  [ 527] -666  POISON!
+	  [ 528] -666  POISON!
+	  [ 529] -666  POISON!
+	  [ 530] -666  POISON!
+	  [ 531] -666  POISON!
+	  [ 532] -666  POISON!
+	  [ 533] -666  POISON!
+	  [ 534] -666  POISON!
+	  [ 535] -666  POISON!
+	  [ 536] -666  POISON!
+	  [ 537] -666  POISON!
+	  [ 538] -666  POISON!
+	  [ 539] -666  POISON!
+	  [ 540] -666  POISON!
+	  [ 541] -666  POISON!
+	  [ 542] -666  POISON!
+	  [ 543] -666  POISON!
+	  [ 544] -666  POISON!
+	  [ 545] -666  POISON!
+	  [ 546] -666  POISON!
+	  [ 547] -666  POISON!
+	  [ 548] -666  POISON!
+	  [ 549] -666  POISON!
+	  [ 550] -666  POISON!
+	  [ 551] -666  POISON!
+	  [ 552] -666  POISON!
+	  [ 553] -666  POISON!
+	  [ 554] -666  POISON!
+	  [ 555] -666  POISON!
+	  [ 556] -666  POISON!
+	  [ 557] -666  POISON!
+	  [ 558] -666  POISON!
+	  [ 559] -666  POISON!
+	  [ 560] -666  POISON!
+	  [ 561] -666  POISON!
+	  [ 562] -666  POISON!
+	  [ 563] -666  POISON!
+	  [ 564] -666  POISON!
+	  [ 565] -666  POISON!
+	  [ 566] -666  POISON!
+	  [ 567] -666  POISON!
+	  [ 568] -666  POISON!
+	  [ 569] -666  POISON!
+	  [ 570] -666  POISON!
+	  [ 571] -666  POISON!
+	  [ 572] -666  POISON!
+	  [ 573] -666  POISON!
+	  [ 574] -666  POISON!
+	  [ 575] -666  POISON!
+	  [ 576] -666  POISON!
+	  [ 577] -666  POISON!
+	  [ 578] -666  POISON!
+	  [ 579] -666  POISON!
+	  [ 580] -666  POISON!
+	  [ 581] -666  POISON!
+	  [ 582] -666  POISON!
+	  [ 583] -666  POISON!
+	  [ 584] -666  POISON!
+	  [ 585] -666  POISON!
+	  [ 586] -666  POISON!
+	  [ 587] -666  POISON!
+	  [ 588] -666  POISON!
+	  [ 589] -666  POISON!
+	  [ 590] -666  POISON!
+	  [ 591] -666  POISON!
+	  [ 592] -666  POISON!
+	  [ 593] -666  POISON!
+	  [ 594] -666  POISON!
+	  [ 595] -666  POISON!
+	  [ 596] -666  POISON!
+	  [ 597] -666  POISON!
+	  [ 598] -666  POISON!
+	  [ 599] -666  POISON!
+	  [ 600] -666  POISON!
+	  [ 601] -666  POISON!
+	  [ 602] -666  POISON!
+	  [ 603] -666  POISON!
+	  [ 604] -666  POISON!
+	  [ 605] -666  POISON!
+	  [ 606] -666  POISON!
+	  [ 607] -666  POISON!
+	  [ 608] -666  POISON!
+	  [ 609] -666  POISON!
+	  [ 610] -666  POISON!
+	  [ 611] -666  POISON!
+	  [ 612] -666  POISON!
+	  [ 613] -666  POISON!
+	  [ 614] -666  POISON!
+	  [ 615] -666  POISON!
+	  [ 616] -666  POISON!
+	  [ 617] -666  POISON!
+	  [ 618] -666  POISON!
+	  [ 619] -666  POISON!
+	  [ 620] -666  POISON!
+	  [ 621] -666  POISON!
+	  [ 622] -666  POISON!
+	  [ 623] -666  POISON!
+	  [ 624] -666  POISON!
+	  [ 625] -666  POISON!
+	  [ 626] -666  POISON!
+	  [ 627] -666  POISON!
+	  [ 628] -666  POISON!
+	  [ 629] -666  POISON!
+	  [ 630] -666  POISON!
+	  [ 631] -666  POISON!
+	  [ 632] -666  POISON!
+	  [ 633] -666  POISON!
+	  [ 634] -666  POISON!
+	  [ 635] -666  POISON!
+	  [ 636] -666  POISON!
+	  [ 637] -666  POISON!
+	  [ 638] -666  POISON!
+	  [ 639] -666  POISON!
+	  [ 640] -666  POISON!
+	  [ 641] -666  POISON!
+	  [ 642] -666  POISON!
+	  [ 643] -666  POISON!
+	  [ 644] -666  POISON!
+	  [ 645] -666  POISON!
+	  [ 646] -666  POISON!
+	  [ 647] -666  POISON!
+	  [ 648] -666  POISON!
+	  [ 649] -666  POISON!
+	  [ 650] -666  POISON!
+	  [ 651] -666  POISON!
+	  [ 652] -666  POISON!
+	  [ 653] -666  POISON!
+	  [ 654] -666  POISON!
+	  [ 655] -666  POISON!
+	  [ 656] -666  POISON!
+	  [ 657] -666  POISON!
+	  [ 658] -666  POISON!
+	  [ 659] -666  POISON!
+	  [ 660] -666  POISON!
+	  [ 661] -666  POISON!
+	  [ 662] -666  POISON!
+	  [ 663] -666  POISON!
+	  [ 664] -666  POISON!
+	  [ 665] -666  POISON!
+	  [ 666] -666  POISON!
+	  [ 667] -666  POISON!
+	  [ 668] -666  POISON!
+	  [ 669] -666  POISON!
+	  [ 670] -666  POISON!
+	  [ 671] -666  POISON!
+	  [ 672] -666  POISON!
+	  [ 673] -666  POISON!
+	  [ 674] -666  POISON!
+	  [ 675] -666  POISON!
+	  [ 676] -666  POISON!
+	  [ 677] -666  POISON!
+	  [ 678] -666  POISON!
+	  [ 679] -666  POISON!
+	  [ 680] -666  POISON!
+	  [ 681] -666  POISON!
+	  [ 682] -666  POISON!
+	  [ 683] -666  POISON!
+	  [ 684] -666  POISON!
+	  [ 685] -666  POISON!
+	  [ 686] -666  POISON!
+	  [ 687] -666  POISON!
+	  [ 688] -666  POISON!
+	  [ 689] -666  POISON!
+	  [ 690] -666  POISON!
+	  [ 691] -666  POISON!
+	  [ 692] -666  POISON!
+	  [ 693] -666  POISON!
+	  [ 694] -666  POISON!
+	  [ 695] -666  POISON!
+	  [ 696] -666  POISON!
+	  [ 697] -666  POISON!
+	  [ 698] -666  POISON!
+	  [ 699] -666  POISON!
+	  [ 700] -666  POISON!
+	  [ 701] -666  POISON!
+	  [ 702] -666  POISON!
+	  [ 703] -666  POISON!
+	  [ 704] -666  POISON!
+	  [ 705] -666  POISON!
+	  [ 706] -666  POISON!
+	  [ 707] -666  POISON!
+	  [ 708] -666  POISON!
+	  [ 709] -666  POISON!
+	  [ 710] -666  POISON!
+	  [ 711] -666  POISON!
+	  [ 712] -666  POISON!
+	  [ 713] -666  POISON!
+	  [ 714] -666  POISON!
+	  [ 715] -666  POISON!
+	  [ 716] -666  POISON!
+	  [ 717] -666  POISON!
+	  [ 718] -666  POISON!
+	  [ 719] -666  POISON!
+	  [ 720] -666  POISON!
+	  [ 721] -666  POISON!
+	  [ 722] -666  POISON!
+	  [ 723] -666  POISON!
+	  [ 724] -666  POISON!
+	  [ 725] -666  POISON!
+	  [ 726] -666  POISON!
+	  [ 727] -666  POISON!
+	  [ 728] -666  POISON!
+	  [ 729] -666  POISON!
+	  [ 730] -666  POISON!
+	  [ 731] -666  POISON!
+	  [ 732] -666  POISON!
+	  [ 733] -666  POISON!
+	  [ 734] -666  POISON!
+	  [ 735] -666  POISON!
+	  [ 736] -666  POISON!
+	  [ 737] -666  POISON!
+	  [ 738] -666  POISON!
+	  [ 739] -666  POISON!
+	  [ 740] -666  POISON!
+	  [ 741] -666  POISON!
+	  [ 742] -666  POISON!
+	  [ 743] -666  POISON!
+	  [ 744] -666  POISON!
+	  [ 745] -666  POISON!
+	  [ 746] -666  POISON!
+	  [ 747] -666  POISON!
+	  [ 748] -666  POISON!
+	  [ 749] -666  POISON!
+	  [ 750] -666  POISON!
+	  [ 751] -666  POISON!
+	  [ 752] -666  POISON!
+	  [ 753] -666  POISON!
+	  [ 754] -666  POISON!
+	  [ 755] -666  POISON!
+	  [ 756] -666  POISON!
+	  [ 757] -666  POISON!
+	  [ 758] -666  POISON!
+	  [ 759] -666  POISON!
+	  [ 760] -666  POISON!
+	  [ 761] -666  POISON!
+	  [ 762] -666  POISON!
+	  [ 763] -666  POISON!
+	  [ 764] -666  POISON!
+	  [ 765] -666  POISON!
+	  [ 766] -666  POISON!
+	  [ 767] -666  POISON!
+	  [ 768] -666  POISON!
+	  [ 769] -666  POISON!
+	  [ 770] -666  POISON!
+	  [ 771] -666  POISON!
+	  [ 772] -666  POISON!
+	  [ 773] -666  POISON!
+	  [ 774] -666  POISON!
+	  [ 775] -666  POISON!
+	  [ 776] -666  POISON!
+	  [ 777] -666  POISON!
+	  [ 778] -666  POISON!
+	  [ 779] -666  POISON!
+	  [ 780] -666  POISON!
+	  [ 781] -666  POISON!
+	  [ 782] -666  POISON!
+	  [ 783] -666  POISON!
+	  [ 784] -666  POISON!
+	  [ 785] -666  POISON!
+	  [ 786] -666  POISON!
+	  [ 787] -666  POISON!
+	  [ 788] -666  POISON!
+	  [ 789] -666  POISON!
+	  [ 790] -666  POISON!
+	  [ 791] -666  POISON!
+	  [ 792] -666  POISON!
+	  [ 793] -666  POISON!
+	  [ 794] -666  POISON!
+	  [ 795] -666  POISON!
+	  [ 796] -666  POISON!
+	  [ 797] -666  POISON!
+	  [ 798] -666  POISON!
+	  [ 799] -666  POISON!
+	  [ 800] -666  POISON!
+	  [ 801] -666  POISON!
+	  [ 802] -666  POISON!
+	  [ 803] -666  POISON!
+	  [ 804] -666  POISON!
+	  [ 805] -666  POISON!
+	  [ 806] -666  POISON!
+	  [ 807] -666  POISON!
+	  [ 808] -666  POISON!
+	  [ 809] -666  POISON!
+	  [ 810] -666  POISON!
+	  [ 811] -666  POISON!
+	  [ 812] -666  POISON!
+	  [ 813] -666  POISON!
+	  [ 814] -666  POISON!
+	  [ 815] -666  POISON!
+	  [ 816] -666  POISON!
+	  [ 817] -666  POISON!
+	  [ 818] -666  POISON!
+	  [ 819] -666  POISON!
+	  [ 820] -666  POISON!
+	  [ 821] -666  POISON!
+	  [ 822] -666  POISON!
+	  [ 823] -666  POISON!
+	  [ 824] -666  POISON!
+	  [ 825] -666  POISON!
+	  [ 826] -666  POISON!
+	  [ 827] -666  POISON!
+	  [ 828] -666  POISON!
+	  [ 829] -666  POISON!
+	  [ 830] -666  POISON!
+	  [ 831] -666  POISON!
+	  [ 832] -666  POISON!
+	  [ 833] -666  POISON!
+	  [ 834] -666  POISON!
+	  [ 835] -666  POISON!
+	  [ 836] -666  POISON!
+	  [ 837] -666  POISON!
+	  [ 838] -666  POISON!
+	  [ 839] -666  POISON!
+	  [ 840] -666  POISON!
+	  [ 841] -666  POISON!
+	  [ 842] -666  POISON!
+	  [ 843] -666  POISON!
+	  [ 844] -666  POISON!
+	  [ 845] -666  POISON!
+	  [ 846] -666  POISON!
+	  [ 847] -666  POISON!
+	  [ 848] -666  POISON!
+	  [ 849] -666  POISON!
+	  [ 850] -666  POISON!
+	  [ 851] -666  POISON!
+	  [ 852] -666  POISON!
+	  [ 853] -666  POISON!
+	  [ 854] -666  POISON!
+	  [ 855] -666  POISON!
+	  [ 856] -666  POISON!
+	  [ 857] -666  POISON!
+	  [ 858] -666  POISON!
+	  [ 859] -666  POISON!
+	  [ 860] -666  POISON!
+	  [ 861] -666  POISON!
+	  [ 862] -666  POISON!
+	  [ 863] -666  POISON!
+	  [ 864] -666  POISON!
+	  [ 865] -666  POISON!
+	  [ 866] -666  POISON!
+	  [ 867] -666  POISON!
+	  [ 868] -666  POISON!
+	  [ 869] -666  POISON!
+	  [ 870] -666  POISON!
+	  [ 871] -666  POISON!
+	  [ 872] -666  POISON!
+	  [ 873] -666  POISON!
+	  [ 874] -666  POISON!
+	  [ 875] -666  POISON!
+	  [ 876] -666  POISON!
+	  [ 877] -666  POISON!
+	  [ 878] -666  POISON!
+	  [ 879] -666  POISON!
+	  [ 880] -666  POISON!
+	  [ 881] -666  POISON!
+	  [ 882] -666  POISON!
+	  [ 883] -666  POISON!
+	  [ 884] -666  POISON!
+	  [ 885] -666  POISON!
+	  [ 886] -666  POISON!
+	  [ 887] -666  POISON!
+	  [ 888] -666  POISON!
+	  [ 889] -666  POISON!
+	  [ 890] -666  POISON!
+	  [ 891] -666  POISON!
+	  [ 892] -666  POISON!
+	  [ 893] -666  POISON!
+	  [ 894] -666  POISON!
+	  [ 895] -666  POISON!
+	  [ 896] -666  POISON!
+	  [ 897] -666  POISON!
+	  [ 898] -666  POISON!
+	  [ 899] -666  POISON!
+	  [ 900] -666  POISON!
+	  [ 901] -666  POISON!
+	  [ 902] -666  POISON!
+	  [ 903] -666  POISON!
+	  [ 904] -666  POISON!
+	  [ 905] -666  POISON!
+	  [ 906] -666  POISON!
+	  [ 907] -666  POISON!
+	  [ 908] -666  POISON!
+	  [ 909] -666  POISON!
+	  [ 910] -666  POISON!
+	  [ 911] -666  POISON!
+	  [ 912] -666  POISON!
+	  [ 913] -666  POISON!
+	  [ 914] -666  POISON!
+	  [ 915] -666  POISON!
+	  [ 916] -666  POISON!
+	  [ 917] -666  POISON!
+	  [ 918] -666  POISON!
+	  [ 919] -666  POISON!
+	  [ 920] -666  POISON!
+	  [ 921] -666  POISON!
+	  [ 922] -666  POISON!
+	  [ 923] -666  POISON!
+	  [ 924] -666  POISON!
+	  [ 925] -666  POISON!
+	  [ 926] -666  POISON!
+	  [ 927] -666  POISON!
+	  [ 928] -666  POISON!
+	  [ 929] -666  POISON!
+	  [ 930] -666  POISON!
+	  [ 931] -666  POISON!
+	  [ 932] -666  POISON!
+	  [ 933] -666  POISON!
+	  [ 934] -666  POISON!
+	  [ 935] -666  POISON!
+	  [ 936] -666  POISON!
+	  [ 937] -666  POISON!
+	  [ 938] -666  POISON!
+	  [ 939] -666  POISON!
+	  [ 940] -666  POISON!
+	  [ 941] -666  POISON!
+	  [ 942] -666  POISON!
+	  [ 943] -666  POISON!
+	  [ 944] -666  POISON!
+	  [ 945] -666  POISON!
+	  [ 946] -666  POISON!
+	  [ 947] -666  POISON!
+	  [ 948] -666  POISON!
+	  [ 949] -666  POISON!
+	  [ 950] -666  POISON!
+	  [ 951] -666  POISON!
+	  [ 952] -666  POISON!
+	  [ 953] -666  POISON!
+	  [ 954] -666  POISON!
+	  [ 955] -666  POISON!
+	  [ 956] -666  POISON!
+	  [ 957] -666  POISON!
+	  [ 958] -666  POISON!
+	  [ 959] -666  POISON!
+	  [ 960] -666  POISON!
+	  [ 961] -666  POISON!
+	  [ 962] -666  POISON!
+	  [ 963] -666  POISON!
+	  [ 964] -666  POISON!
+	  [ 965] -666  POISON!
+	  [ 966] -666  POISON!
+	  [ 967] -666  POISON!
+	  [ 968] -666  POISON!
+	  [ 969] -666  POISON!
+	  [ 970] -666  POISON!
+	  [ 971] -666  POISON!
+	  [ 972] -666  POISON!
+	  [ 973] -666  POISON!
+	  [ 974] -666  POISON!
+	  [ 975] -666  POISON!
+	  [ 976] -666  POISON!
+	  [ 977] -666  POISON!
+	  [ 978] -666  POISON!
+	  [ 979] -666  POISON!
+	  [ 980] -666  POISON!
+	  [ 981] -666  POISON!
+	  [ 982] -666  POISON!
+	  [ 983] -666  POISON!
+	  [ 984] -666  POISON!
+	  [ 985] -666  POISON!
+	  [ 986] -666  POISON!
+	  [ 987] -666  POISON!
+	  [ 988] -666  POISON!
+	  [ 989] -666  POISON!
+	  [ 990] -666  POISON!
+	  [ 991] -666  POISON!
+	  [ 992] -666  POISON!
+	  [ 993] -666  POISON!
+	  [ 994] -666  POISON!
+	  [ 995] -666  POISON!
+	  [ 996] -666  POISON!
+	  [ 997] -666  POISON!
+	  [ 998] -666  POISON!
+	  [ 999] -666  POISON!
+	  [1000] -666  POISON!
+	  [1001] -666  POISON!
+	  [1002] -666  POISON!
+	  [1003] -666  POISON!
+	  [1004] -666  POISON!
+	  [1005] -666  POISON!
+	  [1006] -666  POISON!
+	  [1007] -666  POISON!
+	  [1008] -666  POISON!
+	  [1009] -666  POISON!
+	  [1010] -666  POISON!
+	  [1011] -666  POISON!
+	  [1012] -666  POISON!
+	  [1013] -666  POISON!
+	  [1014] -666  POISON!
+	  [1015] -666  POISON!
+	  [1016] -666  POISON!
+	  [1017] -666  POISON!
+	  [1018] -666  POISON!
+	  [1019] -666  POISON!
+	  [1020] -666  POISON!
+	  [1021] -666  POISON!
+	  [1022] -666  POISON!
+	  [1023] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd39bd8140]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd9288d680]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffc20ad17d0]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff4c5646f0]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffc731a4920]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffc42137310]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffcc0b1d810]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd37fdafb0]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff28ba3810]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd82d8f4d0]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff665b5ee0]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd5ad2cb80]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffd8dca2a40]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffe971af700]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff96d914d0]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff61eb4d80]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 14
+    r[0] = 0
+    r[1] = 0
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7ffc8c961940]
+	{
+	  [ 0] -666  POISON!
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff1a0c6040]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
+CPU
+    {
+    cmdQt_ = 9
+    r[0] = 0
+    r[1] = 10
+    r[2] = 0
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 64
+    size_ = 0
+    data_[0x7fff860edb20]
+	{
+	  [ 0] 30
+	  [ 1] 10
+	  [ 2] 10
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	  [16] -666  POISON!
+	  [17] -666  POISON!
+	  [18] -666  POISON!
+	  [19] -666  POISON!
+	  [20] -666  POISON!
+	  [21] -666  POISON!
+	  [22] -666  POISON!
+	  [23] -666  POISON!
+	  [24] -666  POISON!
+	  [25] -666  POISON!
+	  [26] -666  POISON!
+	  [27] -666  POISON!
+	  [28] -666  POISON!
+	  [29] -666  POISON!
+	  [30] -666  POISON!
+	  [31] -666  POISON!
+	  [32] -666  POISON!
+	  [33] -666  POISON!
+	  [34] -666  POISON!
+	  [35] -666  POISON!
+	  [36] -666  POISON!
+	  [37] -666  POISON!
+	  [38] -666  POISON!
+	  [39] -666  POISON!
+	  [40] -666  POISON!
+	  [41] -666  POISON!
+	  [42] -666  POISON!
+	  [43] -666  POISON!
+	  [44] -666  POISON!
+	  [45] -666  POISON!
+	  [46] -666  POISON!
+	  [47] -666  POISON!
+	  [48] -666  POISON!
+	  [49] -666  POISON!
+	  [50] -666  POISON!
+	  [51] -666  POISON!
+	  [52] -666  POISON!
+	  [53] -666  POISON!
+	  [54] -666  POISON!
+	  [55] -666  POISON!
+	  [56] -666  POISON!
+	  [57] -666  POISON!
+	  [58] -666  POISON!
+	  [59] -666  POISON!
+	  [60] -666  POISON!
+	  [61] -666  POISON!
+	  [62] -666  POISON!
+	  [63] -666  POISON!
+	}
+    }
+}
