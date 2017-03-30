@@ -16,7 +16,8 @@ public:
 	void                    push(double value);
 #define FUNC(func, oper);	StackData_t func() {            \
 	if (size_ == 0) {										\
-		printf("Error: stack underflow\n");  		\
+		printf("Error: stack underflow\n");          		\
+        assert(size_ > 0);                                  \
     }                                                       \
 	else return data_[oper];								\
 } 
@@ -30,8 +31,8 @@ public:
 	int                     capacity() const;
 	void                    clear();
 private:
-    static const size_t     init_size = 64;
-	StackData_t             data_[init_size] = {};
+    static const size_t     init_size = 16;
+	StackData_t             data_[init_size];
 	int			            capacity_;
 	int			            size_;
 };

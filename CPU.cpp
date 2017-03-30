@@ -11,13 +11,15 @@ enum POISON {
 };
 
 CPU::CPU() :
-    binFile_        (NULL),
- //   slider_         (NULL),
-    scannedString_  ((char*)calloc(MAX_ALLOW_SCAN_STRING, sizeof(char))),
-    binFileSize_    (0),
-    cmdLenght_      (0),
-    cmdQt_          (0),
-    ip_             (0)
+    binFile_                (NULL),
+    slider_                 (NULL),
+    firstProgramStrPointer_ (NULL),
+    scannedString_          ((char*)calloc(MAX_ALLOW_SCAN_STRING, sizeof(char))),
+    binFileSize_            (0),
+    cmdLength_              (0),
+    cmdQt_                  (0),
+    ip_                     (0),
+    stack_                  ({})
 {
     for (int i = 0; i < REGISTERS_QUANTITY; i++) {
         registers_[i] = 0;        
@@ -33,7 +35,7 @@ CPU::~CPU() {
 	free(scannedString_);
     binFile_ = NULL;
 	binFileSize_ = POISON;
-	cmdLenght_ = POISON;
+	cmdLength_ = POISON;
 	cmdQt_ = POISON;
 	ip_ = POISON;	
 	for (int i = 0; i < REGISTERS_QUANTITY; i++) {
@@ -47,7 +49,8 @@ CPU::~CPU() {
   
 #define SCANF(func, arg, code) {                            				\
 	assert(MAX_ALLOW_SCAN_STRING == 11);                                    \
-    func(arg, "%10[0-9$%] %n", scannedString_, &cmdLenght_);                \
+    int count = func(arg, "%10[0-9$%.-] %n", scannedString_, &cmdLength_);    \
+    assert(count < 11);                                                     \
 	code						                                            \
 }
 
@@ -55,10 +58,12 @@ void CPU::readProgram() {
 	getFileSize();
 	char* programString = (char *)calloc(binFileSize_, sizeof(char));
     slider_ = programString;
+    firstProgramStrPointer_ = programString;
 	countCmd();
-    fread(slider_, sizeof(char), binFileSize_, binFile_);
+    size_t size = fread(slider_, sizeof(char), binFileSize_, binFile_);
+    assert(size <= binFileSize_);
     for (ip_ = 0; ip_ < cmdQt_; ip_++) {				//while
-		SCANF(sscanf, slider_, slider_ += cmdLenght_;)
+		SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		CPU_CMDS cmdCode = getCmdNum();
 		assert(cmdCode != CPU_DEFAULT);
 		int argQt = getCmdArgQt(cmdCode);
@@ -68,7 +73,8 @@ void CPU::readProgram() {
 		}
 		executeCmd(cmdCode);
 	}
-    free(programString); slider_ = NULL;
+    free(programString);
+    slider_ = NULL;
 }
 
 void CPU::getFileSize() {
@@ -93,11 +99,12 @@ void CPU::countCmd() {
 }
 
 CPU_CMDS CPU::getCmdNum() {
+double tmp = atof(scannedString_);
 #define CPUCMDS
-#define CPUCMD(cmdname, args, code)										\
-    if (CPU_##cmdname == atof(scannedString_))                          \
+#define CPUCMD(cmdname, args, code)									    	\
+    if ((CPU_##cmdname - tmp) <= 0.0001 && (tmp - CPU_##cmdname)<= 0.0001)  \
 		return CPU_##cmdname;
-#include "CPU_CMD.txt"
+#include "./ASM/CPU_CMD.txt"
 #undef CPUCMD
 #undef CPUCMDS
 	else return CPU_DEFAULT;
@@ -108,16 +115,16 @@ int CPU::getCmdArgQt(CPU_CMDS cmdCode) {
 #define CPUCMD(cmdname, args, code)									    \
     if (cmdCode == CPU_##cmdname)									    \
 		return args;
-#include "CPU_CMD.txt"
+#include "./ASM/CPU_CMD.txt"
 #undef CPUCMD
 #undef CPUCMDS
 	else return -1;
 }
 
 void CPU::analysisArg(int numArg) {
-	SCANF(sscanf, slider_, slider_ += cmdLenght_;)
+	SCANF(sscanf, slider_, slider_ += cmdLength_;)
 	if (scannedString_[0] == '$') {
-	masRegOrNum_[numArg] = false;
+	    masRegOrNum_[numArg] = false;
 		deleteSymbol();
 	}
 	if (scannedString_[0] == '%') {
@@ -142,6 +149,7 @@ void CPU::deleteSymbol() {
 
 void CPU::executeCmd(CPU_CMDS cmdCode) {
 	Data_t arg = 0;
+    Data_t secondArg = 0;
 	switch (cmdCode)
 	{
 #define CPUCMDS
@@ -149,7 +157,7 @@ void CPU::executeCmd(CPU_CMDS cmdCode) {
 	case CPU_##cmdname:									\
 		code											\
 		break;											
-#include "CPU_CMD.txt"
+#include "./ASM/CPU_CMD.txt"
 #undef CPUCMD
 #undef CPUCMDS
 	default:
@@ -158,13 +166,28 @@ void CPU::executeCmd(CPU_CMDS cmdCode) {
 	}
 }
 
+void CPU::moveIp(double newAddress) {
+    slider_ = firstProgramStrPointer_;
+    for(ip_ = 0; ip_ < newAddress; ip_++) {
+        SCANF(sscanf, slider_, slider_ += cmdLength_;)
+		CPU_CMDS cmdCode = getCmdNum();
+		int argQt = getCmdArgQt(cmdCode);
+		for (int i = 0; i < argQt; i++) {
+			SCANF(sscanf, slider_, slider_ += cmdLength_;)
+		}
+    }
+}
+
 void CPU::cpuDump(FILE* stream) const {
 	fprintf(stream, "CPU\n    {\n");
 	fprintf(stream, "    cmdQt_ = %i\n", cmdQt_);
 	for (int i = 0; i < REGISTERS_QUANTITY; i++) {
 		fprintf(stream, "    r[%i] = %lg\n", i, registers_[i]);
 	}
-	stack_.dump(stream, "cpuStack");
+    char nameStack[9] = "cpuStack";
+    char *pointerNameStack = nameStack;
+    assert(pointerNameStack != NULL);
+	stack_.dump(stream, nameStack);
 	fprintf(stream, "}\n");
 }
 #undef SCANF

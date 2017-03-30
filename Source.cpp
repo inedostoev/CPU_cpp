@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "CPU.h"
-#include "Stack.h"
+#include "./Stack/Stack.h"
 
 int main()
 {
@@ -13,9 +13,9 @@ int main()
 	cpu.readProgram();
 
 	cpu.cpuDump(stdout);
-	FILE*  stream = fopen("dump.txt", "a");
-	cpu.cpuDump(stream);
-	fclose(stream);
+	//FILE*  stream = fopen("dump.txt", "a");
+	//cpu.cpuDump(stream);
+	//fclose(stream);
 
 	return 0;
 }
