@@ -49,7 +49,7 @@ CPU::~CPU() {
   
 #define SCANF(func, arg, code) {                            				\
 	assert(MAX_ALLOW_SCAN_STRING == 11);                                    \
-    int count = func(arg, "%10[0-9$%.-] %n", scannedString_, &cmdLength_);    \
+    int count = func(arg, "%10[0-9$%.-] %n", scannedString_, &cmdLength_);  \
     assert(count < 11);                                                     \
 	code						                                            \
 }
@@ -101,8 +101,8 @@ void CPU::countCmd() {
 CPU_CMDS CPU::getCmdNum() {
 double tmp = atof(scannedString_);
 #define CPUCMDS
-#define CPUCMD(cmdname, args, code)									    	\
-    if ((CPU_##cmdname - tmp) <= 0.0001 && (tmp - CPU_##cmdname)<= 0.0001)  \
+#define CPUCMD(cmdname, args, code)									            \
+    if ((CPU_##cmdname - tmp) < ACCURACY && (tmp - CPU_##cmdname) < ACCURACY)   \
 		return CPU_##cmdname;
 #include "./ASM/CPU_CMD.txt"
 #undef CPUCMD
@@ -112,9 +112,9 @@ double tmp = atof(scannedString_);
 
 int CPU::getCmdArgQt(CPU_CMDS cmdCode) {
 #define CPUCMDS
-#define CPUCMD(cmdname, args, code)									    \
-    if (cmdCode == CPU_##cmdname)									    \
-		return args;
+#define CPUCMD(cmdname, args, code)									            \
+    if (cmdCode == CPU_##cmdname)									            \
+        return args;
 #include "./ASM/CPU_CMD.txt"
 #undef CPUCMD
 #undef CPUCMDS
@@ -131,7 +131,7 @@ void CPU::analysisArg(int numArg) {
 		masRegOrNum_[numArg] = true;
 		deleteSymbol();
 	}
-	else {										//label
+	else {										
 		masRegOrNum_[numArg] = false;
 	}
 	masArgs_[numArg] = atof(scannedString_);

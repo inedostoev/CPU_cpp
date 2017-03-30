@@ -80,7 +80,7 @@ CPUCMD(JE,		3,		if(masRegOrNum_[0] == true)
                         if(masRegOrNum_[1] == true) 
                             secondArg = registers_[(int)masArgs_[1]]; 
                         else secondArg = masArgs_[1]; 
-                        if(arg - secondArg < 0.001 && secondArg - arg < 0.001) {
+                        if((arg - secondArg) < ACCURACY && secondArg - arg < ACCURACY) {
                             arg = (int)masArgs_[2];                                           
                             moveIp(arg);                                                      
                         })
@@ -91,7 +91,7 @@ CPUCMD(JNE,		3,		if(masRegOrNum_[0] == true)
                         if(masRegOrNum_[1] == true) 
                             secondArg = registers_[(int)masArgs_[1]]; 
                         else secondArg = masArgs_[1]; 
-                        if(arg - secondArg >= 0.001 || secondArg - arg >= 0.001) {
+                        if(arg - secondArg >= ACCURACY || secondArg - arg >= ACCURACY) {
                             arg = (int)masArgs_[2];                                           
                             moveIp(arg);                                                      
                         })

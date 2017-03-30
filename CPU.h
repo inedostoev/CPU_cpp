@@ -10,7 +10,7 @@ enum PROCESSOR_PROPERIES
 	MAX_ALLOW_SCAN_STRING = 11,
 	MAX_ALLOW_FUNC_ARGS = 3,
 };
-
+const double ACCURACY = 0.0001;
 enum CPU_CMDS{
 #define CPUCMDS
 #define CPUCMD(cmdname, args, code)									\

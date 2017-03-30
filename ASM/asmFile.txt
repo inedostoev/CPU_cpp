@@ -1,6 +1,16 @@
-MOV $-10.3 %1
-MOV %1 %2
-ADD %1 $90
-PUSH %1
+PUSH $1
+POP %1 ;регистор 
+PUSH $1
+POP %0 ;результат
+IN
+POP %2	;reg для введенного числа
+:1
+JE %1 %2 4
+ADD %1 $1
+MUL %0 %1
+JMP 1
+:4
+PUSH %0
 OUT
 HLT
+
