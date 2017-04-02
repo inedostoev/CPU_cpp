@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
+#define NDEBUG
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,7 +60,7 @@ ASM::ASM():
 	cmdLength_			(0),
     cmdQt_              (0)
 {
-	for (int i = 0; i < LABELS_QUANTITY; i++) {
+    for (int i = 0; i < LABELS_QUANTITY; i++) {
 		labelAddress_[i] = -1;
 	}
 }
@@ -74,6 +75,9 @@ ASM::~ASM() {
 #undef FCLOSE
     free(scannedString_);
     numberLines_  = INT_POISON;
+    fileSize_ = INT_POISON;
+    cmdLength_ = INT_POISON;
+    cmdQt_ = INT_POISON;
 	for (int i = 0; i < LABELS_QUANTITY; i++) {
 		labelAddress_[i] = -666; 
 	}
@@ -117,7 +121,7 @@ void ASM::checkFiles() {
 
 void ASM::getFileSize() {
     fseek(asmFile_, 0, SEEK_END);
-    fileSize_ = ftell(asmFile_) + 1;
+    fileSize_ = (size_t)ftell(asmFile_) + 1;
     assert(fileSize_ > 1);
     rewind(asmFile_);
 }
@@ -125,14 +129,14 @@ void ASM::getFileSize() {
 void ASM::gerCmdQt() {
 	char *strPointer = slider_;
 	while (strPointer != slider_ + fileSize_ - 1) {
-		sscanf(strPointer, "%9[A-Z0-9$%.-] %n", scannedString_, &cmdLength_);
+		sscanf(strPointer, "%10[A-Z0-9$%.-] %n", scannedString_, &cmdLength_);
 		strPointer += cmdLength_;
 		ASM_CMDS cmdCode = getCmdNum();
 		assert(cmdCode != ASM_DEFAULT);
 		cmdQt_++;
 		int argQt = getCmdArgQt(cmdCode);
 		for (int i = 0; i < argQt; i++) {
-			sscanf(strPointer, "%[0-9%$.-] %n", scannedString_, &cmdLength_);
+			sscanf(strPointer, "%10[0-9%$.-] %n", scannedString_, &cmdLength_);
 			strPointer += cmdLength_;
 		}
 	}
@@ -142,7 +146,7 @@ void ASM::gerCmdQt() {
 ASM_CMDS ASM::getCmdNum() {
 #define CPUCMDS
 #define CPUCMD(cmdname, arg, code)						\
-	if (!strcmp(#cmdname, scannedString_))			    \
+	if (!strcasecmp(#cmdname, scannedString_))  	    \
 		return ASM_##cmdname;
 #include "CPU_CMD.txt"
 #undef CPUCMD

@@ -1,10 +1,17 @@
 #define _CRT_SECURE_NO_WARNINGS
+#define NDEBUG
 
 #include "CPU.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <string.h>
+
+#define MYASSERT(condition, error)      \
+    if(!(condition)) {                  \
+        cpuDumpErr(stdout, error);      \
+        assert(condition);              \
+    }
 
 enum POISON {
 	POISON = -666
@@ -55,19 +62,21 @@ CPU::~CPU() {
 }
 
 void CPU::readProgram() {
-	getFileSize();
-	char* programString = (char *)calloc(binFileSize_, sizeof(char));
+	MYASSERT(binFile_, ERROR_FOPEN_FILE);
+    getFileSize();
+	char *programString = (char *)calloc(binFileSize_, sizeof(char));
+    assert(programString != NULL);
     slider_ = programString;
     firstProgramStrPointer_ = programString;
 	countCmd();
     size_t size = fread(slider_, sizeof(char), binFileSize_, binFile_);
     assert(size <= binFileSize_);
-    for (ip_ = 0; ip_ < cmdQt_; ip_++) {				//while
+    for (ip_ = 0; ip_ < cmdQt_; ip_++) {				
 		SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		CPU_CMDS cmdCode = getCmdNum();
-		assert(cmdCode != CPU_DEFAULT);
-		int argQt = getCmdArgQt(cmdCode);
-		assert(argQt != -1);
+        assert(cmdCode != CPU_DEFAULT);
+        int argQt = getCmdArgQt(cmdCode);
+		assert(argQt != -1 && argQt <= MAX_ALLOW_FUNC_ARGS);
 		for (int i = 0; i < argQt; i++) {
 			analysisArg(i);
 		}
@@ -75,12 +84,13 @@ void CPU::readProgram() {
 	}
     free(programString);
     slider_ = NULL;
+    firstProgramStrPointer_ = NULL;
 }
 
 void CPU::getFileSize() {
 	fseek(binFile_, 0, SEEK_END);
 	binFileSize_ = ftell(binFile_) + 1;
-	assert(binFileSize_ > 1);
+    MYASSERT(binFileSize_ > 1, ERROR_EMPTY_FILE);
 	rewind(binFile_);
 }
 
@@ -88,9 +98,10 @@ void CPU::countCmd() {
 	while (!feof(binFile_)) {
 		SCANF(fscanf, binFile_, {});
 		CPU_CMDS cmdCode = getCmdNum();
-		assert(cmdCode != CPU_DEFAULT);
+        assert(cmdCode != CPU_DEFAULT);
 		cmdQt_++;
 		int argQt = getCmdArgQt(cmdCode);
+        assert(argQt != -1 && argQt <= MAX_ALLOW_FUNC_ARGS);
 		for (int i = 0; i < argQt; i++) {
 			SCANF(fscanf, binFile_, {});
 		}
@@ -161,17 +172,19 @@ void CPU::executeCmd(CPU_CMDS cmdCode) {
 #undef CPUCMD
 #undef CPUCMDS
 	default:
-		printf("Error\n");
+		printf("Error, unknown cmd\n");
 		break;
 	}
 }
 
-void CPU::moveIp(double newAddress) {
+void CPU::moveIp(Data_t newAddress) {
     slider_ = firstProgramStrPointer_;
     for(ip_ = 0; ip_ < newAddress; ip_++) {
         SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		CPU_CMDS cmdCode = getCmdNum();
+        assert(cmdCode != CPU_DEFAULT);
 		int argQt = getCmdArgQt(cmdCode);
+        assert(argQt != -1 && argQt <= MAX_ALLOW_FUNC_ARGS);
 		for (int i = 0; i < argQt; i++) {
 			SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		}
@@ -190,4 +203,15 @@ void CPU::cpuDump(FILE* stream) const {
 	stack_.dump(stream, nameStack);
 	fprintf(stream, "}\n");
 }
+
+void CPU::cpuDumpErr(FILE *stream, CPU_ERRORS error) {
+#define CPUERRORS
+#define CPUERROR(nameError, message)                                \
+    if(nameError == error)                                          \
+        fprintf(stream, message);
+#include "CPU_ERROR.txt"
+#undef CPUERROR
+#undef CPUERRORS    
+}
 #undef SCANF
+#undef MYASSERT

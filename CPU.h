@@ -11,6 +11,7 @@ enum PROCESSOR_PROPERIES
 	MAX_ALLOW_FUNC_ARGS = 3,
 };
 const double ACCURACY = 0.0001;
+
 enum CPU_CMDS{
 #define CPUCMDS
 #define CPUCMD(cmdname, args, code)									\
@@ -19,6 +20,15 @@ enum CPU_CMDS{
 #undef CPUCMD
 #undef CPUCMDS
 	CPU_DEFAULT
+};
+
+enum CPU_ERRORS {
+#define CPUERRORS
+#define CPUERROR(errorName, message)                                \
+    errorName,
+#include "CPU_ERROR.txt"
+#undef CPUERROR
+#undef CPUERRORS
 };
 
 class CPU
@@ -37,7 +47,7 @@ private:
 	int			cmdLength_;
 	int			cmdQt_;
 	int			ip_;
-	Stack       stack_;  
+	Stack       stack_;    
 
 	Data_t		registers_[REGISTERS_QUANTITY];
 	Data_t		masArgs_[MAX_ALLOW_FUNC_ARGS];	
@@ -51,5 +61,7 @@ private:
 	void		deleteSymbol();
 	void		executeCmd(CPU_CMDS cmdCode);
     void        moveIp(double newAddress);
+    void        getErrorMessage(CPU_ERRORS error);
+    void        cpuDumpErr(FILE *stream, CPU_ERRORS error);
 };
 #endif

@@ -5,7 +5,7 @@ CPUCMD(NOP,		0,		{})
 CPUCMD(MOV,		2,		if(masRegOrNum_[0] == true) 
                             arg = registers_[(int)masArgs_[0]]; 
                         else arg = masArgs_[0];                                     
-                        assert(masRegOrNum_[1] == true); 
+                        MYASSERT(masRegOrNum_[1] == true, ERROR_MOV); 
                         registers_[(int)masArgs_[1]] = arg;)
 
 CPUCMD(ADDS,	0,		stack_.push(stack_.pop() + stack_.pop());)
@@ -15,11 +15,11 @@ CPUCMD(SUBS,	0,		arg = stack_.pop();
 
 CPUCMD(MULS,	0,		stack_.push(stack_.pop() * stack_.pop());)
 
-CPUCMD(DIVS,	0,		arg = stack_.pop();
+CPUCMD(DIVS,	0,		arg = stack_.pop();                        
 						stack_.push(arg / stack_.pop());)
 
 #define ARITH_OPERATIONS(oper);                                         \
-assert(masRegOrNum_[0] == true);                                        \
+MYASSERT(masRegOrNum_[0] == true, ERROR_ARITH_OPERATIONS);              \
 arg = registers_[(int)masArgs_[0]];                                     \
 if(masRegOrNum_[1] == true) secondArg = registers_[(int)masArgs_[1]];   \
     else secondArg = masArgs_[1];                                       \
@@ -38,7 +38,7 @@ CPUCMD(DIV,		2,		ARITH_OPERATIONS(/))
 
 CPUCMD(IN,		0,		{printf("#Print number\n");
 						int count = scanf("%9lg", &arg);
-                        assert(count <= 10);
+                        assert(count > 0);
 						stack_.push(arg);})
 
 CPUCMD(OUT,		0,		printf("%lg\n", stack_.pop());)
@@ -56,23 +56,25 @@ CPUCMD(HLT,		0,		ip_ = cmdQt_;)
 CPUCMD(JMP,		1,		arg = (int)masArgs_[0];
                         moveIp(arg);)	
 
-#define IFJMP(condition);                                               \
-if(masRegOrNum_[0] == true) arg = registers_[(int)masArgs_[0]];         \
-    else arg = masArgs_[0];                                             \
-if(masRegOrNum_[1] == true) secondArg = registers_[(int)masArgs_[1]];   \
-    else secondArg = masArgs_[1];                                       \
-if(arg condition secondArg) {                                           \
-    arg = (int)masArgs_[2];                                             \
-    moveIp(arg);                                                        \
-    }                                                           
+#define IFJMP(condition)                                                    \
+do {                                                                        \
+    if(masRegOrNum_[0] == true) arg = registers_[(int)masArgs_[0]];         \
+        else arg = masArgs_[0];                                             \
+    if(masRegOrNum_[1] == true) secondArg = registers_[(int)masArgs_[1]];   \
+        else secondArg = masArgs_[1];                                       \
+    if(arg condition secondArg) {                                           \
+        arg = (int)masArgs_[2];                                             \
+        moveIp(arg);                                                        \
+        }                                                                   \
+} while(0)
 
-CPUCMD(JA,		3,		IFJMP(>))
+CPUCMD(JA,		3,		IFJMP(>);)
 
-CPUCMD(JAE,		3,		IFJMP(>=))
+CPUCMD(JAE,		3,		IFJMP(>=);)
 
-CPUCMD(JB,		3,	    IFJMP(<))
+CPUCMD(JB,		3,	    IFJMP(<);)
 
-CPUCMD(JBE,		3,		IFJMP(<=))
+CPUCMD(JBE,		3,		IFJMP(<=);)
 
 CPUCMD(JE,		3,		if(masRegOrNum_[0] == true) 
                             arg = registers_[(int)masArgs_[0]];
@@ -83,7 +85,7 @@ CPUCMD(JE,		3,		if(masRegOrNum_[0] == true)
                         if((arg - secondArg) < ACCURACY && secondArg - arg < ACCURACY) {
                             arg = (int)masArgs_[2];                                           
                             moveIp(arg);                                                      
-                        })
+                        }) //fabs
 
 CPUCMD(JNE,		3,		if(masRegOrNum_[0] == true) 
                             arg = registers_[(int)masArgs_[0]];
