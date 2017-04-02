@@ -178,6 +178,7 @@ void ASM::preCompilation() {
 			}
         }
     }
+   // numberLines_++;
 	gerCmdQt();
 	strPointer = NULL;
 }

@@ -72,7 +72,9 @@ void CPU::readProgram() {
 	countCmd();
     size_t size = fread(slider_, sizeof(char), binFileSize_, binFile_);
     assert(size <= binFileSize_);
-    for (ip_ = 0; ip_ < cmdQt_; ip_++) {				
+    //for (ip_ = 0; ip_ < cmdQt_; ip_++) {		
+    ip_ = 0;
+    while(ip_ <= cmdQt_) {
 		SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		CPU_CMDS cmdCode = getCmdNum();
         assert(cmdCode != CPU_DEFAULT);
@@ -82,6 +84,7 @@ void CPU::readProgram() {
 			analysisArg(i);
 		}
 		executeCmd(cmdCode);
+        ip_++;
 	}
     free(programString);
     slider_ = NULL;
@@ -202,6 +205,10 @@ void CPU::cpuDump(FILE* stream) const {
     char *pointerNameStack = nameStack;
     assert(pointerNameStack != NULL);
 	stack_.dump(stream, nameStack);
+
+    char nameCallStack[10] = "callStack";
+    char *pointerCallStack = nameCallStack;
+    callStack_.dump(stream, nameCallStack);
 	fprintf(stream, "}\n");
 }
 

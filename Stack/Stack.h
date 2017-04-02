@@ -31,7 +31,7 @@ public:
 	int                     capacity() const;
 	void                    clear();
 private:
-    static const size_t     init_size = 16;
+    static const size_t     init_size = 64;
 	StackData_t             data_[init_size];
 	int			            capacity_;
 	int			            size_;
