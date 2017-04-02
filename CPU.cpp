@@ -26,7 +26,8 @@ CPU::CPU() :
     cmdLength_              (0),
     cmdQt_                  (0),
     ip_                     (0),
-    stack_                  ({})
+    stack_                  ({}),
+    callStack_              ({})
 {
     for (int i = 0; i < REGISTERS_QUANTITY; i++) {
         registers_[i] = 0;        

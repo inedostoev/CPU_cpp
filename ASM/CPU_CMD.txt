@@ -98,6 +98,14 @@ CPUCMD(JNE,		3,		if(masRegOrNum_[0] == true)
                             moveIp(arg);                                                      
                         })
 
+CPUCMD(CALL,    1,      arg = ip_;
+                        callStack_.push(arg);
+                        arg = masArgs_[0];
+                        moveIp(arg);)
+
+CPUCMD(RET,    0,       arg = callStack_.pop();
+                        moveIp(arg);)
+
 #undef IFJMP
 
 #endif

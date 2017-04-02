@@ -48,11 +48,12 @@ private:
 	int			cmdQt_;
 	int			ip_;
 	Stack       stack_;    
+    Stack       callStack_;   
 
 	Data_t		registers_[REGISTERS_QUANTITY];
 	Data_t		masArgs_[MAX_ALLOW_FUNC_ARGS];	
     bool        masRegOrNum_[MAX_ALLOW_FUNC_ARGS];
-
+    
 	void		getFileSize();
 	void		countCmd();
 	CPU_CMDS	getCmdNum();
