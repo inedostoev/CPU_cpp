@@ -62,7 +62,7 @@ void CPU::readProgram() {
 	countCmd();
     size_t size = fread(slider_, sizeof(char), binFileSize_, binFile_);
     assert(size <= binFileSize_);
-    for (ip_ = 0; ip_ < cmdQt_; ip_++) {				//while
+    for (ip_ = 0; ip_ < cmdQt_; ip_++) {				
 		SCANF(sscanf, slider_, slider_ += cmdLength_;)
 		CPU_CMDS cmdCode = getCmdNum();
 		assert(cmdCode != CPU_DEFAULT);
