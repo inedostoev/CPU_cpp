@@ -1,0 +1,14 @@
+IN
+POP %1 ;fact(%1)
+MOV %1 %2	
+CALL 2
+PUSH %2 ;reg for rez
+OUT
+HLT
+:2
+JE %1 $1 3
+SUB %1 $1
+MUL %2 %1
+CALL 2
+:3
+RET 

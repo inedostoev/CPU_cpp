@@ -1,0 +1,7 @@
+MOV $101 %1
+MOV %1 %2
+ADD %1 $90
+MUL %1 $2
+PUSH %1
+OUT
+HLT

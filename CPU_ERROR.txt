@@ -1,0 +1,13 @@
+#ifdef CPUERRORS
+
+CPUERROR(ERROR_MOV, "Second arg in func 'MOV' should be reg\n")
+
+CPUERROR(ERROR_ARITH_OPERATIONS, "First arg in arith func should be reg\n")
+
+CPUERROR(ERROR_FOPEN_FILE, "inFile don't open\n")
+
+CPUERROR(ERROR_MEMORY, "Unable to allocаte memory\n")
+
+CPUERROR(ERROR_EMPTY_FILE, "File is empty\n")
+
+#endif

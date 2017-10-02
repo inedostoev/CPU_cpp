@@ -1,0 +1,16 @@
+PUSH $1
+POP %1 ;регистор 
+PUSH $1
+POP %0 ;результат
+IN
+POP %2	;reg для введенного числа
+:1
+JE %1 %2 4
+ADD %1 $1
+MAL %0 %1
+JMP 1
+:4
+PUSH %0
+OUT
+HLT
+

@@ -1,0 +1,32 @@
+CPU
+    {
+    cmdQt_ = 7
+    r[0] = 0
+    r[1] = 386
+    r[2] = 103
+    r[3] = 0
+Stack 'cpuStack' (Ok)
+    {
+    capacity_ = 16
+    size_ = 0
+    data_[0x7fffceed5658]
+	{
+	  [ 0] 386
+	  [ 1] -666  POISON!
+	  [ 2] -666  POISON!
+	  [ 3] -666  POISON!
+	  [ 4] -666  POISON!
+	  [ 5] -666  POISON!
+	  [ 6] -666  POISON!
+	  [ 7] -666  POISON!
+	  [ 8] -666  POISON!
+	  [ 9] -666  POISON!
+	  [10] -666  POISON!
+	  [11] -666  POISON!
+	  [12] -666  POISON!
+	  [13] -666  POISON!
+	  [14] -666  POISON!
+	  [15] -666  POISON!
+	}
+    }
+}

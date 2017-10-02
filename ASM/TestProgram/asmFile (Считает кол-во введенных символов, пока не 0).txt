@@ -1,0 +1,12 @@
+PUSH $0
+POP %2
+:1
+IN
+POP %1
+JE %1 $0 2
+ADD %2 $1
+JMP 1
+:2
+PUSH %2
+OUT
+HLT
